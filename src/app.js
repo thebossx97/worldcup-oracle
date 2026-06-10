@@ -9,6 +9,22 @@ const pct = (x) => (x >= 0.1 ? Math.round(x * 100) : (x * 100).toFixed(1)) + '%'
 const byName = Object.fromEntries(TEAMS.map((t) => [t.name, t]));
 const N_SIMS = 5000;
 
+// Mapping deutsche Teamnamen → englische Markt-Namen (the-odds-api).
+const EN = {
+  'Mexiko': 'Mexico', 'Südafrika': 'South Africa', 'Südkorea': 'South Korea', 'Tschechien': 'Czech Republic',
+  'Kanada': 'Canada', 'Bosnien-H.': 'Bosnia & Herzegovina', 'Katar': 'Qatar', 'Schweiz': 'Switzerland',
+  'Brasilien': 'Brazil', 'Marokko': 'Morocco', 'Haiti': 'Haiti', 'Schottland': 'Scotland',
+  'USA': 'USA', 'Paraguay': 'Paraguay', 'Australien': 'Australia', 'Türkei': 'Turkey',
+  'Deutschland': 'Germany', 'Curaçao': 'Curaçao', 'Elfenbeinküste': 'Ivory Coast', 'Ecuador': 'Ecuador',
+  'Niederlande': 'Netherlands', 'Japan': 'Japan', 'Schweden': 'Sweden', 'Tunesien': 'Tunisia',
+  'Belgien': 'Belgium', 'Ägypten': 'Egypt', 'Iran': 'Iran', 'Neuseeland': 'New Zealand',
+  'Spanien': 'Spain', 'Kap Verde': 'Cape Verde', 'Saudi-Arabien': 'Saudi Arabia', 'Uruguay': 'Uruguay',
+  'Frankreich': 'France', 'Senegal': 'Senegal', 'Irak': 'Iraq', 'Norwegen': 'Norway',
+  'Argentinien': 'Argentina', 'Algerien': 'Algeria', 'Österreich': 'Austria', 'Jordanien': 'Jordan',
+  'Portugal': 'Portugal', 'DR Kongo': 'DR Congo', 'Usbekistan': 'Uzbekistan', 'Kolumbien': 'Colombia',
+  'England': 'England', 'Kroatien': 'Croatia', 'Ghana': 'Ghana', 'Panama': 'Panama',
+};
+
 function Bar({ value, color }) {
   return html`<div class="h-1.5 rounded-full bg-slate-200 overflow-hidden">
     <div class="h-full rounded-full" style=${{ width: `${Math.max(2, value * 100)}%`, background: color }}></div>
@@ -25,6 +41,12 @@ function TournamentTab() {
     setTimeout(() => setState({ kind: 'done', rows: runMonteCarlo(N_SIMS) }), 30);
   };
   useEffect(() => { run(); }, []);
+
+  const [market, setMarket] = useState(null);
+  useEffect(() => {
+    fetch('./src/market.json').then((r) => r.json()).then(setMarket).catch(() => {});
+  }, []);
+  const mkTitle = (name) => market?.title?.[EN[name]];
 
   if (state.kind !== 'done')
     return html`<div class="text-center py-20">
@@ -54,7 +76,7 @@ function TournamentTab() {
     </div>
 
     <div class="flex items-center justify-between mb-2">
-      <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Titelchancen</div>
+      <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Titelchancen · <span class="text-slate-600">Modell</span> vs <span class="text-sky-600">Markt</span></div>
       <button onClick=${run} class="text-xs font-bold text-emerald-600 hover:underline">↻ neu simulieren</button>
     </div>
     <div class="bg-white rounded-2xl border border-slate-100 divide-y divide-slate-100">
@@ -67,16 +89,23 @@ function TournamentTab() {
             <span class="font-bold text-sm text-slate-800 truncate">${r.name}</span>
             <${Bar} value=${r.title} color="#10b981" />
           </span>
-          <span class="text-right">
+          <span class="text-right w-11">
             <span class="block font-extrabold text-sm tabular-nums text-slate-800">${pct(r.title)}</span>
-            <span class="block text-[10px] text-slate-400">Achtelf. ${pct(r.r16)}</span>
+            <span class="block text-[9px] text-slate-400 uppercase tracking-wide">Modell</span>
           </span>
+          ${market && html`<span class="text-right w-11">
+            <span class="block font-bold text-sm tabular-nums text-sky-600">${mkTitle(r.name) != null ? pct(mkTitle(r.name)) : '–'}</span>
+            <span class="block text-[9px] text-slate-400 uppercase tracking-wide">Markt</span>
+          </span>`}
         </div>`;
       })}
     </div>
     <p class="text-[11px] text-slate-400 mt-3 leading-snug">
-      ${N_SIMS.toLocaleString('de-DE')} Monte-Carlo-Simulationen. Wahrscheinlichkeiten, keine Garantie — ein
-      Außenseiter kann immer gewinnen. Modell: Elo-Ratings → Poisson-Tore. Aufstellung & Ratings kuratiert.
+      <b class="text-slate-600">Modell</b> = ${N_SIMS.toLocaleString('de-DE')} Monte-Carlo-Sims (Elo→Poisson).
+      <b class="text-sky-600">Markt</b> = echte Buchmacher-Quoten (the-odds-api, entviggt) — die kalibrierte
+      Referenz. Wo das Modell deutlich höher liegt (z.B. Spanien/Argentinien), ist es <i>überkonfident</i>:
+      der Markt verteilt breiter, weil im 48-Team-K.o. selbst der Favorit weit von sicher ist. Wahrscheinlichkeiten,
+      keine Garantie.
     </p>
   </div>`;
 }
