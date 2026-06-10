@@ -2,7 +2,7 @@ import { h, render } from 'https://esm.sh/preact@10.23.2';
 import { useState, useMemo, useEffect } from 'https://esm.sh/preact@10.23.2/hooks';
 import htm from 'https://esm.sh/htm@3.1.1';
 import { TEAMS, GROUPS } from './data.js';
-import { matchProbabilities, runMonteCarlo, playFullTournament } from './engine.js';
+import { matchProbabilities, runMonteCarlo, playFullTournament, setMl } from './engine.js';
 
 const html = htm.bind(h);
 const pct = (x) => (x >= 0.1 ? Math.round(x * 100) : (x * 100).toFixed(1)) + '%';
@@ -43,19 +43,16 @@ function TournamentTab() {
   useEffect(() => { run(); }, []);
 
   const [market, setMarket] = useState(null);
-  const [ml, setMl] = useState(null);
   useEffect(() => {
     fetch('./src/market.json').then((r) => r.json()).then(setMarket).catch(() => {});
-    fetch('./src/ml.json').then((r) => r.json()).then(setMl).catch(() => {});
   }, []);
   const mkTitle = (name) => market?.title?.[EN[name]];
-  const mlTitle = (name) => ml?.title?.[name];
 
   if (state.kind !== 'done')
     return html`<div class="text-center py-20">
-      <div class="text-4xl mb-3 animate-pulse">🎲</div>
+      <div class="text-4xl mb-3 animate-pulse">🤖</div>
       <div class="font-bold text-slate-700">Simuliere ${N_SIMS.toLocaleString('de-DE')} Turniere …</div>
-      <div class="text-xs text-slate-400 mt-1">Elo → erwartete Tore (Poisson) → ${N_SIMS.toLocaleString('de-DE')}× komplettes Turnier</div>
+      <div class="text-xs text-slate-400 mt-1">ML-Modell → ${N_SIMS.toLocaleString('de-DE')}× komplettes Turnier (Monte-Carlo)</div>
     </div>`;
 
   const rows = state.rows;
@@ -64,14 +61,13 @@ function TournamentTab() {
   // Dark Horse: bestes Verhältnis Titelchance zu Elo (Überperformer)
   const dark = [...rows].filter((r) => byName[r.name].elo < 1850 && r.advance > 0.4).sort((a, b) => b.semi - a.semi)[0];
 
-  // Beste Schätzung = Ensemble aus Modell + Markt — markt-gewichtet (Markt ist nachweislich kalibriert,
-  // unser Elo-Modell überkonfident). Das ist die zuverlässigste Antwort auf "wer gewinnt + wie sicher".
+  // Beste Schätzung = Ensemble aus ML-Modell (Live-MC) + Markt — beide kalibriert, markt-gewichtet.
+  // Zuverlässigste Antwort auf "wer gewinnt + wie sicher".
   let ensRows = null, champ = null;
   if (market) {
     const raw = rows.map((r) => {
-      const model = mlTitle(r.name) ?? r.title; // ML-Modell wenn geladen, sonst Elo-MC
-      const mk = mkTitle(r.name) ?? model;
-      return 0.45 * model + 0.55 * mk; // beste Schätzung = ML + Markt (beide kalibriert)
+      const mk = mkTitle(r.name) ?? r.title;
+      return 0.45 * r.title + 0.55 * mk; // beste Schätzung = ML + Markt
     });
     const sum = raw.reduce((a, b) => a + b, 0) || 1;
     ensRows = rows.map((r, i) => ({ name: r.name, ens: raw[i] / sum })).sort((a, b) => b.ens - a.ens);
@@ -82,7 +78,7 @@ function TournamentTab() {
     ${champ && html`<div class="bg-gradient-to-br from-slate-900 to-slate-700 text-white rounded-2xl p-5 mb-4 text-center">
       <div class="text-[10px] font-bold uppercase tracking-widest text-emerald-300">Wahrscheinlichster Weltmeister</div>
       <div class="text-3xl font-extrabold mt-1">${byName[champ.name].flag} ${champ.name}</div>
-      <div class="text-sm text-white/75 mt-0.5">${pct(champ.ens)} — beste Schätzung (Modell + Markt)</div>
+      <div class="text-sm text-white/75 mt-0.5">${pct(champ.ens)} — beste Schätzung (ML + Markt)</div>
       <div class="flex justify-center flex-wrap gap-x-3 gap-y-1 mt-3 text-xs">
         ${ensRows.slice(1, 5).map((r) => html`<span class="text-white/60">${byName[r.name].flag} ${r.name} ${pct(r.ens)}</span>`)}
       </div>
@@ -102,8 +98,8 @@ function TournamentTab() {
     </div>
 
     <div class="flex items-center justify-between mb-2">
-      <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Titel · <span class="text-slate-500">Elo</span> · <span class="text-violet-600">ML</span> · <span class="text-sky-600">Markt</span></div>
-      <button onClick=${run} class="text-xs font-bold text-emerald-600 hover:underline">↻</button>
+      <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Titelchancen · <span class="text-violet-600">ML</span> vs <span class="text-sky-600">Markt</span></div>
+      <button onClick=${run} class="text-xs font-bold text-emerald-600 hover:underline">↻ neu</button>
     </div>
     <div class="bg-white rounded-2xl border border-slate-100 divide-y divide-slate-100">
       ${rows.slice(0, 20).map((r, i) => {
@@ -113,17 +109,13 @@ function TournamentTab() {
           <span class="text-lg w-6 text-center">${t.flag}</span>
           <span class="flex-1 min-w-0">
             <span class="font-bold text-sm text-slate-800 truncate">${r.name}</span>
-            <${Bar} value=${r.title} color="#10b981" />
+            <${Bar} value=${r.title} color="#7c3aed" />
           </span>
-          <span class="text-right w-10">
-            <span class="block font-bold text-sm tabular-nums text-slate-500">${pct(r.title)}</span>
-            <span class="block text-[9px] text-slate-400 uppercase tracking-wide">Elo</span>
-          </span>
-          ${ml && html`<span class="text-right w-10">
-            <span class="block font-extrabold text-sm tabular-nums text-violet-600">${mlTitle(r.name) != null ? pct(mlTitle(r.name)) : '–'}</span>
+          <span class="text-right w-12">
+            <span class="block font-extrabold text-sm tabular-nums text-violet-600">${pct(r.title)}</span>
             <span class="block text-[9px] text-slate-400 uppercase tracking-wide">ML</span>
-          </span>`}
-          ${market && html`<span class="text-right w-10">
+          </span>
+          ${market && html`<span class="text-right w-12">
             <span class="block font-bold text-sm tabular-nums text-sky-600">${mkTitle(r.name) != null ? pct(mkTitle(r.name)) : '–'}</span>
             <span class="block text-[9px] text-slate-400 uppercase tracking-wide">Markt</span>
           </span>`}
@@ -131,10 +123,10 @@ function TournamentTab() {
       })}
     </div>
     <p class="text-[11px] text-slate-400 mt-3 leading-snug">
-      <b class="text-slate-500">Elo</b> = Heuristik (überkonfident). <b class="text-violet-600">ML</b> =
-      HistGradientBoosting auf 10 Features (Elo, Form, Tor-Raten, Ruhe …), schlägt Elo im Backtest →
-      besser kalibriert. <b class="text-sky-600">Markt</b> = echte Buchmacher-Quoten (entviggt), die schärfste
-      Referenz. „Wahrscheinlichster Weltmeister" oben = beste Schätzung (ML + Markt). Keine Garantie.
+      <b class="text-violet-600">ML</b> = HistGradientBoosting auf 10 Features (Elo, Form, Tor-Raten, Ruhe …),
+      schlägt die alte Elo-Heuristik im Backtest → besser kalibriert. Treibt jetzt <i>alle</i> Prognosen
+      (Turnier, Durchlauf, Einzelspiel, Gruppen). <b class="text-sky-600">Markt</b> = echte Buchmacher-Quoten
+      (entviggt), die schärfste Referenz. „Wahrscheinlichster Weltmeister" oben = ML + Markt. Keine Garantie.
     </p>
   </div>`;
 }
@@ -181,7 +173,7 @@ function MatchTab() {
         <div class="text-2xl font-extrabold text-slate-800 mt-1">${p.la.toFixed(1)} : ${p.lb.toFixed(1)}</div>
       </div>
     </div>
-    <p class="text-[11px] text-slate-400 mt-3">Elo ${a.elo} vs ${b.elo}. Wahrscheinlichkeiten, keine Garantie.</p>
+    <p class="text-[11px] text-slate-400 mt-3">ML-Prognose (HistGradientBoosting). Elo ${a.elo} vs ${b.elo} ist nur eines von 10 Features. Keine Garantie.</p>
   </div>`;
 }
 
@@ -225,9 +217,9 @@ function GroupsTab() {
       })}
     </div>
     <p class="text-[11px] text-slate-400 mt-4 leading-snug">
-      <b>Methodik:</b> Modell = Elo-Ratings (ergebnis-basierte Mannschaftsstärke) → erwartete Tore (Poisson) →
-      Spielausgang. Elo bildet die Teamstärke aus realen Ergebnissen ab — aber kein Modell kennt Verletzungen,
-      Aufstellung oder Tagesform. Wahrscheinlichkeiten, keine Garantie.
+      <b>Methodik:</b> ML-Modell (HistGradientBoosting) auf 10 Features — Elo-Stärke, Form, Tor-Raten, Ruhe,
+      Wettbewerb u.a. Trainiert auf 49k Länderspielen, schlägt die alte Elo-Heuristik im Backtest. Aber kein
+      Modell kennt Verletzungen, Aufstellung oder Tagesform. Wahrscheinlichkeiten, keine Garantie.
     </p>
   </div>`;
 }
@@ -281,6 +273,13 @@ function PlaythroughTab() {
 
 function App() {
   const [tab, setTab] = useState('tournament');
+  const [ready, setReady] = useState(false);
+  // ML-Paarungstabelle zuerst laden → in die Engine setzen → DANN erst Tabs rendern (alle Sims laufen auf ML).
+  useEffect(() => {
+    fetch('./src/ml.json').then((r) => r.json())
+      .then((d) => { setMl(d.pairs); setReady(true); })
+      .catch(() => setReady(true)); // Fallback: Engine läuft auf Elo, falls ML nicht lädt
+  }, []);
   const tabs = [['tournament', '🏆 Turnier'], ['play', '🎬 Durchlauf'], ['match', '⚔️ Spiel'], ['groups', '📋 Gruppen']];
   return html`<div class="min-h-screen bg-slate-50 text-slate-900 pb-20">
     <header class="bg-slate-900 text-white">
@@ -291,10 +290,11 @@ function App() {
       </div>
     </header>
     <main class="max-w-2xl mx-auto px-5 py-6">
+      ${!ready ? html`<div class="text-center py-24"><div class="text-4xl mb-3 animate-pulse">🤖</div><div class="font-bold text-slate-700">ML-Modell lädt …</div></div>` : html`
       ${tab === 'tournament' && html`<${TournamentTab} />`}
       ${tab === 'play' && html`<${PlaythroughTab} />`}
       ${tab === 'match' && html`<${MatchTab} />`}
-      ${tab === 'groups' && html`<${GroupsTab} />`}
+      ${tab === 'groups' && html`<${GroupsTab} />`}`}
     </main>
     <nav class="fixed bottom-0 inset-x-0 bg-white border-t border-slate-200">
       <div class="max-w-2xl mx-auto grid grid-cols-4">

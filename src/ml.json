@@ -615,5 +615,11287 @@
    "l": 0.454
   }
  ],
+ "pairs": {
+  "Mexiko|Südafrika": [
+   0.7403,
+   0.1757,
+   0.084
+  ],
+  "Mexiko|Südkorea": [
+   0.5021,
+   0.2472,
+   0.2507
+  ],
+  "Mexiko|Tschechien": [
+   0.5269,
+   0.2599,
+   0.2133
+  ],
+  "Mexiko|Kanada": [
+   0.461,
+   0.2719,
+   0.267
+  ],
+  "Mexiko|Bosnien-H.": [
+   0.7496,
+   0.1647,
+   0.0857
+  ],
+  "Mexiko|Katar": [
+   0.7944,
+   0.1601,
+   0.0455
+  ],
+  "Mexiko|Schweiz": [
+   0.3745,
+   0.282,
+   0.3435
+  ],
+  "Mexiko|Brasilien": [
+   0.2417,
+   0.2487,
+   0.5096
+  ],
+  "Mexiko|Marokko": [
+   0.3586,
+   0.2755,
+   0.3659
+  ],
+  "Mexiko|Haiti": [
+   0.6967,
+   0.1978,
+   0.1055
+  ],
+  "Mexiko|Schottland": [
+   0.5514,
+   0.2527,
+   0.1959
+  ],
+  "Mexiko|USA": [
+   0.5572,
+   0.2573,
+   0.1855
+  ],
+  "Mexiko|Paraguay": [
+   0.4515,
+   0.2802,
+   0.2683
+  ],
+  "Mexiko|Australien": [
+   0.4434,
+   0.2831,
+   0.2734
+  ],
+  "Mexiko|Türkei": [
+   0.4663,
+   0.2438,
+   0.29
+  ],
+  "Mexiko|Deutschland": [
+   0.3365,
+   0.2521,
+   0.4114
+  ],
+  "Mexiko|Curaçao": [
+   0.8269,
+   0.1292,
+   0.0439
+  ],
+  "Mexiko|Elfenbeinküste": [
+   0.5268,
+   0.2808,
+   0.1924
+  ],
+  "Mexiko|Ecuador": [
+   0.3528,
+   0.281,
+   0.3662
+  ],
+  "Mexiko|Niederlande": [
+   0.3041,
+   0.2624,
+   0.4335
+  ],
+  "Mexiko|Japan": [
+   0.3385,
+   0.2903,
+   0.3712
+  ],
+  "Mexiko|Schweden": [
+   0.6064,
+   0.2584,
+   0.1351
+  ],
+  "Mexiko|Tunesien": [
+   0.5939,
+   0.262,
+   0.1442
+  ],
+  "Mexiko|Belgien": [
+   0.3388,
+   0.2302,
+   0.431
+  ],
+  "Mexiko|Ägypten": [
+   0.5768,
+   0.2584,
+   0.1649
+  ],
+  "Mexiko|Iran": [
+   0.434,
+   0.2856,
+   0.2803
+  ],
+  "Mexiko|Neuseeland": [
+   0.7166,
+   0.1869,
+   0.0965
+  ],
+  "Mexiko|Spanien": [
+   0.1677,
+   0.2516,
+   0.5807
+  ],
+  "Mexiko|Kap Verde": [
+   0.7766,
+   0.155,
+   0.0683
+  ],
+  "Mexiko|Saudi-Arabien": [
+   0.7057,
+   0.1933,
+   0.101
+  ],
+  "Mexiko|Uruguay": [
+   0.3707,
+   0.2872,
+   0.3421
+  ],
+  "Mexiko|Frankreich": [
+   0.2595,
+   0.26,
+   0.4805
+  ],
+  "Mexiko|Senegal": [
+   0.4547,
+   0.2752,
+   0.2701
+  ],
+  "Mexiko|Irak": [
+   0.6947,
+   0.2073,
+   0.098
+  ],
+  "Mexiko|Norwegen": [
+   0.4224,
+   0.265,
+   0.3126
+  ],
+  "Mexiko|Argentinien": [
+   0.1537,
+   0.2322,
+   0.6141
+  ],
+  "Mexiko|Algerien": [
+   0.4548,
+   0.2767,
+   0.2685
+  ],
+  "Mexiko|Österreich": [
+   0.4321,
+   0.2658,
+   0.3021
+  ],
+  "Mexiko|Jordanien": [
+   0.7109,
+   0.2035,
+   0.0856
+  ],
+  "Mexiko|Portugal": [
+   0.2638,
+   0.2593,
+   0.4769
+  ],
+  "Mexiko|DR Kongo": [
+   0.6925,
+   0.2088,
+   0.0987
+  ],
+  "Mexiko|Usbekistan": [
+   0.5486,
+   0.275,
+   0.1764
+  ],
+  "Mexiko|Kolumbien": [
+   0.2565,
+   0.2592,
+   0.4842
+  ],
+  "Mexiko|England": [
+   0.2766,
+   0.2633,
+   0.4601
+  ],
+  "Mexiko|Kroatien": [
+   0.3616,
+   0.2828,
+   0.3556
+  ],
+  "Mexiko|Ghana": [
+   0.7421,
+   0.1878,
+   0.0702
+  ],
+  "Mexiko|Panama": [
+   0.643,
+   0.2148,
+   0.1422
+  ],
+  "Südafrika|Mexiko": [
+   0.1047,
+   0.1761,
+   0.7192
+  ],
+  "Südafrika|Südkorea": [
+   0.1641,
+   0.2685,
+   0.5674
+  ],
+  "Südafrika|Tschechien": [
+   0.2526,
+   0.2767,
+   0.4707
+  ],
+  "Südafrika|Kanada": [
+   0.1368,
+   0.2321,
+   0.6311
+  ],
+  "Südafrika|Bosnien-H.": [
+   0.4081,
+   0.2798,
+   0.3121
+  ],
+  "Südafrika|Katar": [
+   0.4564,
+   0.274,
+   0.2696
+  ],
+  "Südafrika|Schweiz": [
+   0.1081,
+   0.1965,
+   0.6953
+  ],
+  "Südafrika|Brasilien": [
+   0.0457,
+   0.1354,
+   0.8189
+  ],
+  "Südafrika|Marokko": [
+   0.0847,
+   0.1677,
+   0.7475
+  ],
+  "Südafrika|Haiti": [
+   0.3622,
+   0.2811,
+   0.3567
+  ],
+  "Südafrika|Schottland": [
+   0.2454,
+   0.2791,
+   0.4755
+  ],
+  "Südafrika|USA": [
+   0.1931,
+   0.2655,
+   0.5414
+  ],
+  "Südafrika|Paraguay": [
+   0.1697,
+   0.2591,
+   0.5712
+  ],
+  "Südafrika|Australien": [
+   0.1705,
+   0.2555,
+   0.574
+  ],
+  "Südafrika|Türkei": [
+   0.1221,
+   0.2272,
+   0.6507
+  ],
+  "Südafrika|Deutschland": [
+   0.0812,
+   0.1978,
+   0.721
+  ],
+  "Südafrika|Curaçao": [
+   0.5108,
+   0.2789,
+   0.2103
+  ],
+  "Südafrika|Elfenbeinküste": [
+   0.2629,
+   0.2797,
+   0.4574
+  ],
+  "Südafrika|Ecuador": [
+   0.0826,
+   0.1558,
+   0.7616
+  ],
+  "Südafrika|Niederlande": [
+   0.0838,
+   0.184,
+   0.7322
+  ],
+  "Südafrika|Japan": [
+   0.0884,
+   0.1672,
+   0.7444
+  ],
+  "Südafrika|Schweden": [
+   0.2482,
+   0.2755,
+   0.4763
+  ],
+  "Südafrika|Tunesien": [
+   0.289,
+   0.2619,
+   0.4491
+  ],
+  "Südafrika|Belgien": [
+   0.0973,
+   0.1576,
+   0.745
+  ],
+  "Südafrika|Ägypten": [
+   0.2366,
+   0.2698,
+   0.4936
+  ],
+  "Südafrika|Iran": [
+   0.1102,
+   0.1972,
+   0.6927
+  ],
+  "Südafrika|Neuseeland": [
+   0.3358,
+   0.2822,
+   0.382
+  ],
+  "Südafrika|Spanien": [
+   0.0309,
+   0.0761,
+   0.893
+  ],
+  "Südafrika|Kap Verde": [
+   0.4259,
+   0.2861,
+   0.288
+  ],
+  "Südafrika|Saudi-Arabien": [
+   0.3611,
+   0.2759,
+   0.363
+  ],
+  "Südafrika|Uruguay": [
+   0.0983,
+   0.1888,
+   0.7129
+  ],
+  "Südafrika|Frankreich": [
+   0.0505,
+   0.1502,
+   0.7993
+  ],
+  "Südafrika|Senegal": [
+   0.1435,
+   0.2216,
+   0.6349
+  ],
+  "Südafrika|Irak": [
+   0.3161,
+   0.2643,
+   0.4196
+  ],
+  "Südafrika|Norwegen": [
+   0.1378,
+   0.1971,
+   0.665
+  ],
+  "Südafrika|Argentinien": [
+   0.0287,
+   0.0736,
+   0.8977
+  ],
+  "Südafrika|Algerien": [
+   0.1549,
+   0.2358,
+   0.6093
+  ],
+  "Südafrika|Österreich": [
+   0.1324,
+   0.2101,
+   0.6575
+  ],
+  "Südafrika|Jordanien": [
+   0.3075,
+   0.2693,
+   0.4232
+  ],
+  "Südafrika|Portugal": [
+   0.0603,
+   0.1573,
+   0.7824
+  ],
+  "Südafrika|DR Kongo": [
+   0.2931,
+   0.2539,
+   0.453
+  ],
+  "Südafrika|Usbekistan": [
+   0.2504,
+   0.2715,
+   0.4781
+  ],
+  "Südafrika|Kolumbien": [
+   0.0583,
+   0.1557,
+   0.786
+  ],
+  "Südafrika|England": [
+   0.0583,
+   0.1423,
+   0.7994
+  ],
+  "Südafrika|Kroatien": [
+   0.0994,
+   0.1917,
+   0.7089
+  ],
+  "Südafrika|Ghana": [
+   0.4071,
+   0.2977,
+   0.2951
+  ],
+  "Südafrika|Panama": [
+   0.2438,
+   0.2751,
+   0.481
+  ],
+  "Südkorea|Mexiko": [
+   0.3013,
+   0.2507,
+   0.448
+  ],
+  "Südkorea|Südafrika": [
+   0.6587,
+   0.239,
+   0.1023
+  ],
+  "Südkorea|Tschechien": [
+   0.4354,
+   0.274,
+   0.2906
+  ],
+  "Südkorea|Kanada": [
+   0.3389,
+   0.2694,
+   0.3917
+  ],
+  "Südkorea|Bosnien-H.": [
+   0.645,
+   0.204,
+   0.151
+  ],
+  "Südkorea|Katar": [
+   0.7449,
+   0.1789,
+   0.0762
+  ],
+  "Südkorea|Schweiz": [
+   0.2918,
+   0.2607,
+   0.4474
+  ],
+  "Südkorea|Brasilien": [
+   0.1636,
+   0.2461,
+   0.5903
+  ],
+  "Südkorea|Marokko": [
+   0.2724,
+   0.2522,
+   0.4755
+  ],
+  "Südkorea|Haiti": [
+   0.6293,
+   0.2596,
+   0.1112
+  ],
+  "Südkorea|Schottland": [
+   0.4414,
+   0.2692,
+   0.2894
+  ],
+  "Südkorea|USA": [
+   0.4049,
+   0.2722,
+   0.3228
+  ],
+  "Südkorea|Paraguay": [
+   0.4247,
+   0.2853,
+   0.29
+  ],
+  "Südkorea|Australien": [
+   0.4044,
+   0.2926,
+   0.3031
+  ],
+  "Südkorea|Türkei": [
+   0.3616,
+   0.2686,
+   0.3698
+  ],
+  "Südkorea|Deutschland": [
+   0.2411,
+   0.2765,
+   0.4824
+  ],
+  "Südkorea|Curaçao": [
+   0.7518,
+   0.1623,
+   0.0859
+  ],
+  "Südkorea|Elfenbeinküste": [
+   0.4399,
+   0.2704,
+   0.2897
+  ],
+  "Südkorea|Ecuador": [
+   0.2322,
+   0.2632,
+   0.5046
+  ],
+  "Südkorea|Niederlande": [
+   0.2385,
+   0.2702,
+   0.4913
+  ],
+  "Südkorea|Japan": [
+   0.2487,
+   0.2655,
+   0.4859
+  ],
+  "Südkorea|Schweden": [
+   0.503,
+   0.2914,
+   0.2056
+  ],
+  "Südkorea|Tunesien": [
+   0.5354,
+   0.2714,
+   0.1932
+  ],
+  "Südkorea|Belgien": [
+   0.2664,
+   0.2339,
+   0.4997
+  ],
+  "Südkorea|Ägypten": [
+   0.447,
+   0.2632,
+   0.2898
+  ],
+  "Südkorea|Iran": [
+   0.3158,
+   0.2632,
+   0.421
+  ],
+  "Südkorea|Neuseeland": [
+   0.5867,
+   0.2621,
+   0.1512
+  ],
+  "Südkorea|Spanien": [
+   0.0972,
+   0.1608,
+   0.742
+  ],
+  "Südkorea|Kap Verde": [
+   0.6891,
+   0.2112,
+   0.0997
+  ],
+  "Südkorea|Saudi-Arabien": [
+   0.5936,
+   0.2587,
+   0.1477
+  ],
+  "Südkorea|Uruguay": [
+   0.2933,
+   0.2659,
+   0.4408
+  ],
+  "Südkorea|Frankreich": [
+   0.1809,
+   0.2524,
+   0.5667
+  ],
+  "Südkorea|Senegal": [
+   0.3507,
+   0.282,
+   0.3673
+  ],
+  "Südkorea|Irak": [
+   0.5739,
+   0.2684,
+   0.1577
+  ],
+  "Südkorea|Norwegen": [
+   0.346,
+   0.2429,
+   0.411
+  ],
+  "Südkorea|Argentinien": [
+   0.0849,
+   0.1547,
+   0.7604
+  ],
+  "Südkorea|Algerien": [
+   0.332,
+   0.2602,
+   0.4078
+  ],
+  "Südkorea|Österreich": [
+   0.3352,
+   0.252,
+   0.4127
+  ],
+  "Südkorea|Jordanien": [
+   0.5665,
+   0.2656,
+   0.1678
+  ],
+  "Südkorea|Portugal": [
+   0.2545,
+   0.2637,
+   0.4818
+  ],
+  "Südkorea|DR Kongo": [
+   0.5614,
+   0.272,
+   0.1666
+  ],
+  "Südkorea|Usbekistan": [
+   0.4584,
+   0.2698,
+   0.2717
+  ],
+  "Südkorea|Kolumbien": [
+   0.1868,
+   0.2589,
+   0.5543
+  ],
+  "Südkorea|England": [
+   0.2235,
+   0.2635,
+   0.5131
+  ],
+  "Südkorea|Kroatien": [
+   0.3066,
+   0.2608,
+   0.4326
+  ],
+  "Südkorea|Ghana": [
+   0.6968,
+   0.2005,
+   0.1026
+  ],
+  "Südkorea|Panama": [
+   0.4447,
+   0.2545,
+   0.3008
+  ],
+  "Tschechien|Mexiko": [
+   0.2336,
+   0.2484,
+   0.5181
+  ],
+  "Tschechien|Südafrika": [
+   0.5889,
+   0.2444,
+   0.1667
+  ],
+  "Tschechien|Südkorea": [
+   0.3302,
+   0.2379,
+   0.4318
+  ],
+  "Tschechien|Kanada": [
+   0.3006,
+   0.2287,
+   0.4707
+  ],
+  "Tschechien|Bosnien-H.": [
+   0.6066,
+   0.2473,
+   0.1461
+  ],
+  "Tschechien|Katar": [
+   0.7002,
+   0.2001,
+   0.0997
+  ],
+  "Tschechien|Schweiz": [
+   0.2479,
+   0.2788,
+   0.4733
+  ],
+  "Tschechien|Brasilien": [
+   0.0967,
+   0.1972,
+   0.7061
+  ],
+  "Tschechien|Marokko": [
+   0.2407,
+   0.2733,
+   0.4859
+  ],
+  "Tschechien|Haiti": [
+   0.5839,
+   0.2294,
+   0.1867
+  ],
+  "Tschechien|Schottland": [
+   0.428,
+   0.2809,
+   0.2911
+  ],
+  "Tschechien|USA": [
+   0.393,
+   0.2586,
+   0.3484
+  ],
+  "Tschechien|Paraguay": [
+   0.3317,
+   0.2661,
+   0.4022
+  ],
+  "Tschechien|Australien": [
+   0.3209,
+   0.2572,
+   0.4219
+  ],
+  "Tschechien|Türkei": [
+   0.283,
+   0.2753,
+   0.4417
+  ],
+  "Tschechien|Deutschland": [
+   0.189,
+   0.2645,
+   0.5465
+  ],
+  "Tschechien|Curaçao": [
+   0.7139,
+   0.1878,
+   0.0982
+  ],
+  "Tschechien|Elfenbeinküste": [
+   0.3694,
+   0.2851,
+   0.3455
+  ],
+  "Tschechien|Ecuador": [
+   0.2362,
+   0.2229,
+   0.5409
+  ],
+  "Tschechien|Niederlande": [
+   0.1721,
+   0.266,
+   0.5619
+  ],
+  "Tschechien|Japan": [
+   0.1982,
+   0.2737,
+   0.5281
+  ],
+  "Tschechien|Schweden": [
+   0.4268,
+   0.2847,
+   0.2885
+  ],
+  "Tschechien|Tunesien": [
+   0.4396,
+   0.2762,
+   0.2842
+  ],
+  "Tschechien|Belgien": [
+   0.2021,
+   0.268,
+   0.5299
+  ],
+  "Tschechien|Ägypten": [
+   0.4232,
+   0.2831,
+   0.2937
+  ],
+  "Tschechien|Iran": [
+   0.2817,
+   0.2693,
+   0.449
+  ],
+  "Tschechien|Neuseeland": [
+   0.5137,
+   0.2652,
+   0.2211
+  ],
+  "Tschechien|Spanien": [
+   0.0722,
+   0.1588,
+   0.7691
+  ],
+  "Tschechien|Kap Verde": [
+   0.6068,
+   0.25,
+   0.1432
+  ],
+  "Tschechien|Saudi-Arabien": [
+   0.5552,
+   0.2515,
+   0.1933
+  ],
+  "Tschechien|Uruguay": [
+   0.263,
+   0.2266,
+   0.5104
+  ],
+  "Tschechien|Frankreich": [
+   0.1162,
+   0.1997,
+   0.6841
+  ],
+  "Tschechien|Senegal": [
+   0.2856,
+   0.2679,
+   0.4464
+  ],
+  "Tschechien|Irak": [
+   0.5408,
+   0.2628,
+   0.1964
+  ],
+  "Tschechien|Norwegen": [
+   0.2569,
+   0.2627,
+   0.4804
+  ],
+  "Tschechien|Argentinien": [
+   0.074,
+   0.1624,
+   0.7636
+  ],
+  "Tschechien|Algerien": [
+   0.2895,
+   0.2546,
+   0.4559
+  ],
+  "Tschechien|Österreich": [
+   0.2804,
+   0.2564,
+   0.4633
+  ],
+  "Tschechien|Jordanien": [
+   0.4803,
+   0.2626,
+   0.2571
+  ],
+  "Tschechien|Portugal": [
+   0.1407,
+   0.2492,
+   0.6101
+  ],
+  "Tschechien|DR Kongo": [
+   0.5254,
+   0.2656,
+   0.209
+  ],
+  "Tschechien|Usbekistan": [
+   0.4334,
+   0.2763,
+   0.2903
+  ],
+  "Tschechien|Kolumbien": [
+   0.1209,
+   0.2213,
+   0.6578
+  ],
+  "Tschechien|England": [
+   0.1422,
+   0.2456,
+   0.6122
+  ],
+  "Tschechien|Kroatien": [
+   0.2467,
+   0.2792,
+   0.4741
+  ],
+  "Tschechien|Ghana": [
+   0.6183,
+   0.2297,
+   0.152
+  ],
+  "Tschechien|Panama": [
+   0.4484,
+   0.2748,
+   0.2768
+  ],
+  "Kanada|Mexiko": [
+   0.3248,
+   0.2609,
+   0.4143
+  ],
+  "Kanada|Südafrika": [
+   0.6729,
+   0.2077,
+   0.1194
+  ],
+  "Kanada|Südkorea": [
+   0.4458,
+   0.2606,
+   0.2936
+  ],
+  "Kanada|Tschechien": [
+   0.4621,
+   0.2528,
+   0.2851
+  ],
+  "Kanada|Bosnien-H.": [
+   0.6875,
+   0.172,
+   0.1405
+  ],
+  "Kanada|Katar": [
+   0.7452,
+   0.187,
+   0.0678
+  ],
+  "Kanada|Schweiz": [
+   0.3103,
+   0.2533,
+   0.4364
+  ],
+  "Kanada|Brasilien": [
+   0.1721,
+   0.2467,
+   0.5812
+  ],
+  "Kanada|Marokko": [
+   0.3159,
+   0.2527,
+   0.4313
+  ],
+  "Kanada|Haiti": [
+   0.6522,
+   0.2286,
+   0.1192
+  ],
+  "Kanada|Schottland": [
+   0.4657,
+   0.2494,
+   0.2849
+  ],
+  "Kanada|USA": [
+   0.5465,
+   0.2105,
+   0.243
+  ],
+  "Kanada|Paraguay": [
+   0.4348,
+   0.2837,
+   0.2815
+  ],
+  "Kanada|Australien": [
+   0.4192,
+   0.2894,
+   0.2914
+  ],
+  "Kanada|Türkei": [
+   0.4142,
+   0.2341,
+   0.3517
+  ],
+  "Kanada|Deutschland": [
+   0.2636,
+   0.2669,
+   0.4695
+  ],
+  "Kanada|Curaçao": [
+   0.7837,
+   0.1382,
+   0.0782
+  ],
+  "Kanada|Elfenbeinküste": [
+   0.4624,
+   0.2672,
+   0.2705
+  ],
+  "Kanada|Ecuador": [
+   0.2638,
+   0.2761,
+   0.4601
+  ],
+  "Kanada|Niederlande": [
+   0.2625,
+   0.2637,
+   0.4738
+  ],
+  "Kanada|Japan": [
+   0.2801,
+   0.2766,
+   0.4433
+  ],
+  "Kanada|Schweden": [
+   0.5596,
+   0.2589,
+   0.1815
+  ],
+  "Kanada|Tunesien": [
+   0.5737,
+   0.2535,
+   0.1728
+  ],
+  "Kanada|Belgien": [
+   0.2923,
+   0.2523,
+   0.4554
+  ],
+  "Kanada|Ägypten": [
+   0.4654,
+   0.2702,
+   0.2643
+  ],
+  "Kanada|Iran": [
+   0.3355,
+   0.2629,
+   0.4016
+  ],
+  "Kanada|Neuseeland": [
+   0.6407,
+   0.2581,
+   0.1012
+  ],
+  "Kanada|Spanien": [
+   0.116,
+   0.1785,
+   0.7055
+  ],
+  "Kanada|Kap Verde": [
+   0.716,
+   0.1758,
+   0.1082
+  ],
+  "Kanada|Saudi-Arabien": [
+   0.6317,
+   0.256,
+   0.1123
+  ],
+  "Kanada|Uruguay": [
+   0.3176,
+   0.2606,
+   0.4217
+  ],
+  "Kanada|Frankreich": [
+   0.1846,
+   0.2536,
+   0.5618
+  ],
+  "Kanada|Senegal": [
+   0.3509,
+   0.2767,
+   0.3724
+  ],
+  "Kanada|Irak": [
+   0.6075,
+   0.2481,
+   0.1443
+  ],
+  "Kanada|Norwegen": [
+   0.3772,
+   0.2437,
+   0.3792
+  ],
+  "Kanada|Argentinien": [
+   0.1098,
+   0.1846,
+   0.7056
+  ],
+  "Kanada|Algerien": [
+   0.3794,
+   0.2832,
+   0.3374
+  ],
+  "Kanada|Österreich": [
+   0.3807,
+   0.2468,
+   0.3725
+  ],
+  "Kanada|Jordanien": [
+   0.6103,
+   0.235,
+   0.1547
+  ],
+  "Kanada|Portugal": [
+   0.2625,
+   0.2651,
+   0.4724
+  ],
+  "Kanada|DR Kongo": [
+   0.5812,
+   0.2648,
+   0.154
+  ],
+  "Kanada|Usbekistan": [
+   0.4648,
+   0.266,
+   0.2692
+  ],
+  "Kanada|Kolumbien": [
+   0.2592,
+   0.2618,
+   0.479
+  ],
+  "Kanada|England": [
+   0.2575,
+   0.2627,
+   0.4799
+  ],
+  "Kanada|Kroatien": [
+   0.3259,
+   0.2615,
+   0.4126
+  ],
+  "Kanada|Ghana": [
+   0.7077,
+   0.1917,
+   0.1006
+  ],
+  "Kanada|Panama": [
+   0.5902,
+   0.2163,
+   0.1934
+  ],
+  "Bosnien-H.|Mexiko": [
+   0.0884,
+   0.1656,
+   0.746
+  ],
+  "Bosnien-H.|Südafrika": [
+   0.3624,
+   0.2768,
+   0.3608
+  ],
+  "Bosnien-H.|Südkorea": [
+   0.1316,
+   0.2195,
+   0.6489
+  ],
+  "Bosnien-H.|Tschechien": [
+   0.2528,
+   0.2747,
+   0.4725
+  ],
+  "Bosnien-H.|Kanada": [
+   0.1125,
+   0.1712,
+   0.7162
+  ],
+  "Bosnien-H.|Katar": [
+   0.4666,
+   0.2672,
+   0.2662
+  ],
+  "Bosnien-H.|Schweiz": [
+   0.0927,
+   0.1876,
+   0.7197
+  ],
+  "Bosnien-H.|Brasilien": [
+   0.0438,
+   0.1478,
+   0.8084
+  ],
+  "Bosnien-H.|Marokko": [
+   0.0844,
+   0.164,
+   0.7516
+  ],
+  "Bosnien-H.|Haiti": [
+   0.3528,
+   0.281,
+   0.3662
+  ],
+  "Bosnien-H.|Schottland": [
+   0.2475,
+   0.2816,
+   0.4709
+  ],
+  "Bosnien-H.|USA": [
+   0.1811,
+   0.2522,
+   0.5666
+  ],
+  "Bosnien-H.|Paraguay": [
+   0.1671,
+   0.2428,
+   0.5901
+  ],
+  "Bosnien-H.|Australien": [
+   0.1485,
+   0.2388,
+   0.6126
+  ],
+  "Bosnien-H.|Türkei": [
+   0.1149,
+   0.208,
+   0.6771
+  ],
+  "Bosnien-H.|Deutschland": [
+   0.0832,
+   0.1989,
+   0.7178
+  ],
+  "Bosnien-H.|Curaçao": [
+   0.478,
+   0.2601,
+   0.2619
+  ],
+  "Bosnien-H.|Elfenbeinküste": [
+   0.193,
+   0.2573,
+   0.5498
+  ],
+  "Bosnien-H.|Ecuador": [
+   0.0768,
+   0.1554,
+   0.7678
+  ],
+  "Bosnien-H.|Niederlande": [
+   0.0839,
+   0.185,
+   0.7311
+  ],
+  "Bosnien-H.|Japan": [
+   0.0928,
+   0.1832,
+   0.7239
+  ],
+  "Bosnien-H.|Schweden": [
+   0.2446,
+   0.2811,
+   0.4743
+  ],
+  "Bosnien-H.|Tunesien": [
+   0.26,
+   0.2746,
+   0.4654
+  ],
+  "Bosnien-H.|Belgien": [
+   0.0822,
+   0.1671,
+   0.7506
+  ],
+  "Bosnien-H.|Ägypten": [
+   0.2288,
+   0.2709,
+   0.5003
+  ],
+  "Bosnien-H.|Iran": [
+   0.092,
+   0.1738,
+   0.7342
+  ],
+  "Bosnien-H.|Neuseeland": [
+   0.3223,
+   0.292,
+   0.3857
+  ],
+  "Bosnien-H.|Spanien": [
+   0.0301,
+   0.0791,
+   0.8908
+  ],
+  "Bosnien-H.|Kap Verde": [
+   0.4034,
+   0.2958,
+   0.3008
+  ],
+  "Bosnien-H.|Saudi-Arabien": [
+   0.3471,
+   0.2767,
+   0.3762
+  ],
+  "Bosnien-H.|Uruguay": [
+   0.0858,
+   0.166,
+   0.7482
+  ],
+  "Bosnien-H.|Frankreich": [
+   0.0465,
+   0.1596,
+   0.7939
+  ],
+  "Bosnien-H.|Senegal": [
+   0.1317,
+   0.218,
+   0.6503
+  ],
+  "Bosnien-H.|Irak": [
+   0.3222,
+   0.2541,
+   0.4237
+  ],
+  "Bosnien-H.|Norwegen": [
+   0.1128,
+   0.1912,
+   0.696
+  ],
+  "Bosnien-H.|Argentinien": [
+   0.0299,
+   0.0752,
+   0.8949
+  ],
+  "Bosnien-H.|Algerien": [
+   0.1442,
+   0.2143,
+   0.6415
+  ],
+  "Bosnien-H.|Österreich": [
+   0.1094,
+   0.1911,
+   0.6994
+  ],
+  "Bosnien-H.|Jordanien": [
+   0.2856,
+   0.2637,
+   0.4507
+  ],
+  "Bosnien-H.|Portugal": [
+   0.06,
+   0.1658,
+   0.7743
+  ],
+  "Bosnien-H.|DR Kongo": [
+   0.2956,
+   0.2486,
+   0.4558
+  ],
+  "Bosnien-H.|Usbekistan": [
+   0.2506,
+   0.2603,
+   0.489
+  ],
+  "Bosnien-H.|Kolumbien": [
+   0.0644,
+   0.165,
+   0.7706
+  ],
+  "Bosnien-H.|England": [
+   0.053,
+   0.1349,
+   0.8121
+  ],
+  "Bosnien-H.|Kroatien": [
+   0.1001,
+   0.1793,
+   0.7207
+  ],
+  "Bosnien-H.|Ghana": [
+   0.4066,
+   0.2894,
+   0.304
+  ],
+  "Bosnien-H.|Panama": [
+   0.2473,
+   0.2709,
+   0.4818
+  ],
+  "Katar|Mexiko": [
+   0.0693,
+   0.1674,
+   0.7633
+  ],
+  "Katar|Südafrika": [
+   0.2847,
+   0.2569,
+   0.4584
+  ],
+  "Katar|Südkorea": [
+   0.1168,
+   0.2,
+   0.6832
+  ],
+  "Katar|Tschechien": [
+   0.1393,
+   0.2058,
+   0.655
+  ],
+  "Katar|Kanada": [
+   0.0852,
+   0.1421,
+   0.7727
+  ],
+  "Katar|Bosnien-H.": [
+   0.3044,
+   0.2597,
+   0.4358
+  ],
+  "Katar|Schweiz": [
+   0.0631,
+   0.1415,
+   0.7954
+  ],
+  "Katar|Brasilien": [
+   0.0399,
+   0.0803,
+   0.8798
+  ],
+  "Katar|Marokko": [
+   0.0577,
+   0.135,
+   0.8074
+  ],
+  "Katar|Haiti": [
+   0.2508,
+   0.2668,
+   0.4824
+  ],
+  "Katar|Schottland": [
+   0.1786,
+   0.2549,
+   0.5665
+  ],
+  "Katar|USA": [
+   0.1054,
+   0.2054,
+   0.6891
+  ],
+  "Katar|Paraguay": [
+   0.1046,
+   0.1774,
+   0.718
+  ],
+  "Katar|Australien": [
+   0.0914,
+   0.181,
+   0.7276
+  ],
+  "Katar|Türkei": [
+   0.1279,
+   0.2488,
+   0.6233
+  ],
+  "Katar|Deutschland": [
+   0.061,
+   0.1597,
+   0.7793
+  ],
+  "Katar|Curaçao": [
+   0.4293,
+   0.2793,
+   0.2914
+  ],
+  "Katar|Elfenbeinküste": [
+   0.1403,
+   0.2579,
+   0.6018
+  ],
+  "Katar|Ecuador": [
+   0.0508,
+   0.1473,
+   0.8018
+  ],
+  "Katar|Niederlande": [
+   0.0535,
+   0.1377,
+   0.8088
+  ],
+  "Katar|Japan": [
+   0.0563,
+   0.1649,
+   0.7788
+  ],
+  "Katar|Schweden": [
+   0.1661,
+   0.2638,
+   0.5701
+  ],
+  "Katar|Tunesien": [
+   0.1878,
+   0.2649,
+   0.5473
+  ],
+  "Katar|Belgien": [
+   0.0602,
+   0.1458,
+   0.7939
+  ],
+  "Katar|Ägypten": [
+   0.17,
+   0.245,
+   0.585
+  ],
+  "Katar|Iran": [
+   0.0788,
+   0.1525,
+   0.7687
+  ],
+  "Katar|Neuseeland": [
+   0.257,
+   0.2759,
+   0.4671
+  ],
+  "Katar|Spanien": [
+   0.0077,
+   0.0388,
+   0.9535
+  ],
+  "Katar|Kap Verde": [
+   0.3259,
+   0.2655,
+   0.4086
+  ],
+  "Katar|Saudi-Arabien": [
+   0.277,
+   0.2765,
+   0.4465
+  ],
+  "Katar|Uruguay": [
+   0.0599,
+   0.1556,
+   0.7845
+  ],
+  "Katar|Frankreich": [
+   0.0416,
+   0.0949,
+   0.8635
+  ],
+  "Katar|Senegal": [
+   0.0894,
+   0.1802,
+   0.7304
+  ],
+  "Katar|Irak": [
+   0.24,
+   0.2776,
+   0.4824
+  ],
+  "Katar|Norwegen": [
+   0.1022,
+   0.1905,
+   0.7074
+  ],
+  "Katar|Argentinien": [
+   0.0077,
+   0.0384,
+   0.9539
+  ],
+  "Katar|Algerien": [
+   0.0994,
+   0.1893,
+   0.7113
+  ],
+  "Katar|Österreich": [
+   0.1012,
+   0.171,
+   0.7279
+  ],
+  "Katar|Jordanien": [
+   0.2556,
+   0.2829,
+   0.4615
+  ],
+  "Katar|Portugal": [
+   0.0439,
+   0.1442,
+   0.8119
+  ],
+  "Katar|DR Kongo": [
+   0.2515,
+   0.2862,
+   0.4622
+  ],
+  "Katar|Usbekistan": [
+   0.1559,
+   0.2445,
+   0.5996
+  ],
+  "Katar|Kolumbien": [
+   0.044,
+   0.1429,
+   0.8131
+  ],
+  "Katar|England": [
+   0.0383,
+   0.1313,
+   0.8304
+  ],
+  "Katar|Kroatien": [
+   0.0684,
+   0.1961,
+   0.7355
+  ],
+  "Katar|Ghana": [
+   0.3275,
+   0.2576,
+   0.415
+  ],
+  "Katar|Panama": [
+   0.1635,
+   0.2768,
+   0.5598
+  ],
+  "Schweiz|Mexiko": [
+   0.3709,
+   0.2984,
+   0.3307
+  ],
+  "Schweiz|Südafrika": [
+   0.7305,
+   0.1777,
+   0.0918
+  ],
+  "Schweiz|Südkorea": [
+   0.4936,
+   0.2401,
+   0.2664
+  ],
+  "Schweiz|Tschechien": [
+   0.5298,
+   0.278,
+   0.1922
+  ],
+  "Schweiz|Kanada": [
+   0.4656,
+   0.2499,
+   0.2845
+  ],
+  "Schweiz|Bosnien-H.": [
+   0.761,
+   0.1666,
+   0.0724
+  ],
+  "Schweiz|Katar": [
+   0.7904,
+   0.1624,
+   0.0472
+  ],
+  "Schweiz|Brasilien": [
+   0.2401,
+   0.281,
+   0.4789
+  ],
+  "Schweiz|Marokko": [
+   0.3517,
+   0.2703,
+   0.378
+  ],
+  "Schweiz|Haiti": [
+   0.7331,
+   0.1644,
+   0.1025
+  ],
+  "Schweiz|Schottland": [
+   0.567,
+   0.2646,
+   0.1684
+  ],
+  "Schweiz|USA": [
+   0.5595,
+   0.2594,
+   0.1811
+  ],
+  "Schweiz|Paraguay": [
+   0.4719,
+   0.2422,
+   0.2859
+  ],
+  "Schweiz|Australien": [
+   0.4813,
+   0.259,
+   0.2597
+  ],
+  "Schweiz|Türkei": [
+   0.4495,
+   0.2786,
+   0.2719
+  ],
+  "Schweiz|Deutschland": [
+   0.3353,
+   0.2623,
+   0.4023
+  ],
+  "Schweiz|Curaçao": [
+   0.7966,
+   0.1573,
+   0.0461
+  ],
+  "Schweiz|Elfenbeinküste": [
+   0.5314,
+   0.276,
+   0.1926
+  ],
+  "Schweiz|Ecuador": [
+   0.3514,
+   0.2519,
+   0.3967
+  ],
+  "Schweiz|Niederlande": [
+   0.3173,
+   0.2695,
+   0.4131
+  ],
+  "Schweiz|Japan": [
+   0.2843,
+   0.2808,
+   0.4349
+  ],
+  "Schweiz|Schweden": [
+   0.5778,
+   0.2592,
+   0.163
+  ],
+  "Schweiz|Tunesien": [
+   0.5912,
+   0.2567,
+   0.1521
+  ],
+  "Schweiz|Belgien": [
+   0.2907,
+   0.2715,
+   0.4378
+  ],
+  "Schweiz|Ägypten": [
+   0.5008,
+   0.3043,
+   0.1949
+  ],
+  "Schweiz|Iran": [
+   0.3782,
+   0.3137,
+   0.3081
+  ],
+  "Schweiz|Neuseeland": [
+   0.7315,
+   0.1739,
+   0.0946
+  ],
+  "Schweiz|Spanien": [
+   0.1624,
+   0.2489,
+   0.5888
+  ],
+  "Schweiz|Kap Verde": [
+   0.7598,
+   0.1691,
+   0.0712
+  ],
+  "Schweiz|Saudi-Arabien": [
+   0.7158,
+   0.1764,
+   0.1078
+  ],
+  "Schweiz|Uruguay": [
+   0.3737,
+   0.2627,
+   0.3635
+  ],
+  "Schweiz|Frankreich": [
+   0.2665,
+   0.277,
+   0.4565
+  ],
+  "Schweiz|Senegal": [
+   0.4552,
+   0.2771,
+   0.2677
+  ],
+  "Schweiz|Irak": [
+   0.7118,
+   0.184,
+   0.1041
+  ],
+  "Schweiz|Norwegen": [
+   0.4254,
+   0.2689,
+   0.3057
+  ],
+  "Schweiz|Argentinien": [
+   0.1283,
+   0.1967,
+   0.6751
+  ],
+  "Schweiz|Algerien": [
+   0.4492,
+   0.278,
+   0.2728
+  ],
+  "Schweiz|Österreich": [
+   0.4183,
+   0.2809,
+   0.3008
+  ],
+  "Schweiz|Jordanien": [
+   0.6848,
+   0.2207,
+   0.0946
+  ],
+  "Schweiz|Portugal": [
+   0.2563,
+   0.2768,
+   0.4669
+  ],
+  "Schweiz|DR Kongo": [
+   0.683,
+   0.2057,
+   0.1113
+  ],
+  "Schweiz|Usbekistan": [
+   0.5722,
+   0.2595,
+   0.1683
+  ],
+  "Schweiz|Kolumbien": [
+   0.2559,
+   0.2789,
+   0.4652
+  ],
+  "Schweiz|England": [
+   0.2604,
+   0.2825,
+   0.4572
+  ],
+  "Schweiz|Kroatien": [
+   0.3621,
+   0.2768,
+   0.3611
+  ],
+  "Schweiz|Ghana": [
+   0.7577,
+   0.1646,
+   0.0777
+  ],
+  "Schweiz|Panama": [
+   0.6028,
+   0.2402,
+   0.1569
+  ],
+  "Brasilien|Mexiko": [
+   0.5656,
+   0.2629,
+   0.1715
+  ],
+  "Brasilien|Südafrika": [
+   0.8637,
+   0.1096,
+   0.0267
+  ],
+  "Brasilien|Südkorea": [
+   0.6884,
+   0.2073,
+   0.1043
+  ],
+  "Brasilien|Tschechien": [
+   0.6863,
+   0.2134,
+   0.1003
+  ],
+  "Brasilien|Kanada": [
+   0.6343,
+   0.2517,
+   0.114
+  ],
+  "Brasilien|Bosnien-H.": [
+   0.8489,
+   0.1243,
+   0.0267
+  ],
+  "Brasilien|Katar": [
+   0.909,
+   0.0691,
+   0.0219
+  ],
+  "Brasilien|Schweiz": [
+   0.5575,
+   0.2701,
+   0.1724
+  ],
+  "Brasilien|Marokko": [
+   0.563,
+   0.2576,
+   0.1794
+  ],
+  "Brasilien|Haiti": [
+   0.8429,
+   0.1192,
+   0.038
+  ],
+  "Brasilien|Schottland": [
+   0.7482,
+   0.1771,
+   0.0747
+  ],
+  "Brasilien|USA": [
+   0.7089,
+   0.192,
+   0.0992
+  ],
+  "Brasilien|Paraguay": [
+   0.6998,
+   0.195,
+   0.1052
+  ],
+  "Brasilien|Australien": [
+   0.6828,
+   0.2118,
+   0.1054
+  ],
+  "Brasilien|Türkei": [
+   0.6633,
+   0.2157,
+   0.1211
+  ],
+  "Brasilien|Deutschland": [
+   0.4844,
+   0.2658,
+   0.2498
+  ],
+  "Brasilien|Curaçao": [
+   0.8953,
+   0.0837,
+   0.0211
+  ],
+  "Brasilien|Elfenbeinküste": [
+   0.7072,
+   0.1956,
+   0.0973
+  ],
+  "Brasilien|Ecuador": [
+   0.5165,
+   0.2784,
+   0.2051
+  ],
+  "Brasilien|Niederlande": [
+   0.4646,
+   0.2739,
+   0.2615
+  ],
+  "Brasilien|Japan": [
+   0.5095,
+   0.2938,
+   0.1967
+  ],
+  "Brasilien|Schweden": [
+   0.7554,
+   0.17,
+   0.0745
+  ],
+  "Brasilien|Tunesien": [
+   0.7719,
+   0.153,
+   0.075
+  ],
+  "Brasilien|Belgien": [
+   0.5077,
+   0.2771,
+   0.2152
+  ],
+  "Brasilien|Ägypten": [
+   0.7484,
+   0.1707,
+   0.0808
+  ],
+  "Brasilien|Iran": [
+   0.5835,
+   0.2472,
+   0.1693
+  ],
+  "Brasilien|Neuseeland": [
+   0.8211,
+   0.1406,
+   0.0384
+  ],
+  "Brasilien|Spanien": [
+   0.3009,
+   0.2515,
+   0.4475
+  ],
+  "Brasilien|Kap Verde": [
+   0.8686,
+   0.1094,
+   0.022
+  ],
+  "Brasilien|Saudi-Arabien": [
+   0.8388,
+   0.1239,
+   0.0373
+  ],
+  "Brasilien|Uruguay": [
+   0.5086,
+   0.2878,
+   0.2037
+  ],
+  "Brasilien|Frankreich": [
+   0.3379,
+   0.3047,
+   0.3574
+  ],
+  "Brasilien|Senegal": [
+   0.5767,
+   0.267,
+   0.1562
+  ],
+  "Brasilien|Irak": [
+   0.7983,
+   0.1516,
+   0.0501
+  ],
+  "Brasilien|Norwegen": [
+   0.6097,
+   0.2444,
+   0.1459
+  ],
+  "Brasilien|Argentinien": [
+   0.2864,
+   0.2546,
+   0.459
+  ],
+  "Brasilien|Algerien": [
+   0.6157,
+   0.2479,
+   0.1363
+  ],
+  "Brasilien|Österreich": [
+   0.6366,
+   0.2322,
+   0.1312
+  ],
+  "Brasilien|Jordanien": [
+   0.7953,
+   0.1465,
+   0.0582
+  ],
+  "Brasilien|Portugal": [
+   0.4609,
+   0.2739,
+   0.2652
+  ],
+  "Brasilien|DR Kongo": [
+   0.7765,
+   0.1704,
+   0.0531
+  ],
+  "Brasilien|Usbekistan": [
+   0.7411,
+   0.1736,
+   0.0853
+  ],
+  "Brasilien|Kolumbien": [
+   0.4388,
+   0.2836,
+   0.2776
+  ],
+  "Brasilien|England": [
+   0.4495,
+   0.2748,
+   0.2758
+  ],
+  "Brasilien|Kroatien": [
+   0.5547,
+   0.2666,
+   0.1787
+  ],
+  "Brasilien|Ghana": [
+   0.8872,
+   0.0941,
+   0.0188
+  ],
+  "Brasilien|Panama": [
+   0.7577,
+   0.1691,
+   0.0733
+  ],
+  "Marokko|Mexiko": [
+   0.4314,
+   0.2856,
+   0.283
+  ],
+  "Marokko|Südafrika": [
+   0.7513,
+   0.1716,
+   0.0771
+  ],
+  "Marokko|Südkorea": [
+   0.4833,
+   0.2283,
+   0.2884
+  ],
+  "Marokko|Tschechien": [
+   0.5771,
+   0.2593,
+   0.1636
+  ],
+  "Marokko|Kanada": [
+   0.461,
+   0.261,
+   0.278
+  ],
+  "Marokko|Bosnien-H.": [
+   0.7494,
+   0.1759,
+   0.0747
+  ],
+  "Marokko|Katar": [
+   0.8342,
+   0.1295,
+   0.0363
+  ],
+  "Marokko|Schweiz": [
+   0.4327,
+   0.2848,
+   0.2825
+  ],
+  "Marokko|Brasilien": [
+   0.231,
+   0.2683,
+   0.5007
+  ],
+  "Marokko|Haiti": [
+   0.7482,
+   0.1751,
+   0.0767
+  ],
+  "Marokko|Schottland": [
+   0.5815,
+   0.2618,
+   0.1567
+  ],
+  "Marokko|USA": [
+   0.5843,
+   0.249,
+   0.1666
+  ],
+  "Marokko|Paraguay": [
+   0.5314,
+   0.2552,
+   0.2134
+  ],
+  "Marokko|Australien": [
+   0.5057,
+   0.2944,
+   0.1999
+  ],
+  "Marokko|Türkei": [
+   0.5065,
+   0.2484,
+   0.2451
+  ],
+  "Marokko|Deutschland": [
+   0.3325,
+   0.2869,
+   0.3806
+  ],
+  "Marokko|Curaçao": [
+   0.8319,
+   0.1365,
+   0.0315
+  ],
+  "Marokko|Elfenbeinküste": [
+   0.5641,
+   0.2683,
+   0.1676
+  ],
+  "Marokko|Ecuador": [
+   0.3842,
+   0.244,
+   0.3718
+  ],
+  "Marokko|Niederlande": [
+   0.3505,
+   0.2821,
+   0.3674
+  ],
+  "Marokko|Japan": [
+   0.3611,
+   0.2759,
+   0.363
+  ],
+  "Marokko|Schweden": [
+   0.6728,
+   0.2098,
+   0.1173
+  ],
+  "Marokko|Tunesien": [
+   0.6625,
+   0.2379,
+   0.0997
+  ],
+  "Marokko|Belgien": [
+   0.3549,
+   0.2611,
+   0.384
+  ],
+  "Marokko|Ägypten": [
+   0.5886,
+   0.2556,
+   0.1559
+  ],
+  "Marokko|Iran": [
+   0.4486,
+   0.2848,
+   0.2666
+  ],
+  "Marokko|Neuseeland": [
+   0.7888,
+   0.1381,
+   0.0731
+  ],
+  "Marokko|Spanien": [
+   0.1626,
+   0.2565,
+   0.5809
+  ],
+  "Marokko|Kap Verde": [
+   0.7511,
+   0.1763,
+   0.0726
+  ],
+  "Marokko|Saudi-Arabien": [
+   0.7717,
+   0.1551,
+   0.0732
+  ],
+  "Marokko|Uruguay": [
+   0.4204,
+   0.2836,
+   0.296
+  ],
+  "Marokko|Frankreich": [
+   0.2468,
+   0.2785,
+   0.4747
+  ],
+  "Marokko|Senegal": [
+   0.4745,
+   0.2707,
+   0.2548
+  ],
+  "Marokko|Irak": [
+   0.7092,
+   0.1841,
+   0.1068
+  ],
+  "Marokko|Norwegen": [
+   0.4354,
+   0.2495,
+   0.3151
+  ],
+  "Marokko|Argentinien": [
+   0.1658,
+   0.2616,
+   0.5726
+  ],
+  "Marokko|Algerien": [
+   0.4714,
+   0.2689,
+   0.2597
+  ],
+  "Marokko|Österreich": [
+   0.4517,
+   0.2642,
+   0.284
+  ],
+  "Marokko|Jordanien": [
+   0.7074,
+   0.1992,
+   0.0934
+  ],
+  "Marokko|Portugal": [
+   0.3056,
+   0.2495,
+   0.4449
+  ],
+  "Marokko|DR Kongo": [
+   0.7047,
+   0.1865,
+   0.1088
+  ],
+  "Marokko|Usbekistan": [
+   0.5884,
+   0.2597,
+   0.1519
+  ],
+  "Marokko|Kolumbien": [
+   0.2874,
+   0.259,
+   0.4535
+  ],
+  "Marokko|England": [
+   0.3152,
+   0.2663,
+   0.4185
+  ],
+  "Marokko|Kroatien": [
+   0.4407,
+   0.2773,
+   0.282
+  ],
+  "Marokko|Ghana": [
+   0.7954,
+   0.15,
+   0.0546
+  ],
+  "Marokko|Panama": [
+   0.6286,
+   0.2346,
+   0.1368
+  ],
+  "Haiti|Mexiko": [
+   0.1144,
+   0.189,
+   0.6966
+  ],
+  "Haiti|Südafrika": [
+   0.4245,
+   0.2868,
+   0.2887
+  ],
+  "Haiti|Südkorea": [
+   0.1793,
+   0.2658,
+   0.555
+  ],
+  "Haiti|Tschechien": [
+   0.2652,
+   0.2787,
+   0.4561
+  ],
+  "Haiti|Kanada": [
+   0.1715,
+   0.2481,
+   0.5804
+  ],
+  "Haiti|Bosnien-H.": [
+   0.4131,
+   0.2775,
+   0.3095
+  ],
+  "Haiti|Katar": [
+   0.5098,
+   0.2919,
+   0.1983
+  ],
+  "Haiti|Schweiz": [
+   0.1142,
+   0.1996,
+   0.6862
+  ],
+  "Haiti|Brasilien": [
+   0.0517,
+   0.1513,
+   0.797
+  ],
+  "Haiti|Marokko": [
+   0.1019,
+   0.178,
+   0.7201
+  ],
+  "Haiti|Schottland": [
+   0.2597,
+   0.2758,
+   0.4645
+  ],
+  "Haiti|USA": [
+   0.2485,
+   0.2717,
+   0.4798
+  ],
+  "Haiti|Paraguay": [
+   0.1731,
+   0.258,
+   0.5689
+  ],
+  "Haiti|Australien": [
+   0.1705,
+   0.2555,
+   0.574
+  ],
+  "Haiti|Türkei": [
+   0.1375,
+   0.2308,
+   0.6317
+  ],
+  "Haiti|Deutschland": [
+   0.1023,
+   0.1773,
+   0.7204
+  ],
+  "Haiti|Curaçao": [
+   0.5142,
+   0.2741,
+   0.2117
+  ],
+  "Haiti|Elfenbeinküste": [
+   0.2626,
+   0.2798,
+   0.4576
+  ],
+  "Haiti|Ecuador": [
+   0.085,
+   0.1592,
+   0.7558
+  ],
+  "Haiti|Niederlande": [
+   0.0936,
+   0.1833,
+   0.7232
+  ],
+  "Haiti|Japan": [
+   0.0902,
+   0.1752,
+   0.7346
+  ],
+  "Haiti|Schweden": [
+   0.256,
+   0.2719,
+   0.4721
+  ],
+  "Haiti|Tunesien": [
+   0.3008,
+   0.2584,
+   0.4407
+  ],
+  "Haiti|Belgien": [
+   0.0981,
+   0.1589,
+   0.743
+  ],
+  "Haiti|Ägypten": [
+   0.25,
+   0.2671,
+   0.4829
+  ],
+  "Haiti|Iran": [
+   0.136,
+   0.2434,
+   0.6206
+  ],
+  "Haiti|Neuseeland": [
+   0.3565,
+   0.286,
+   0.3575
+  ],
+  "Haiti|Spanien": [
+   0.0366,
+   0.1293,
+   0.8341
+  ],
+  "Haiti|Kap Verde": [
+   0.4327,
+   0.2848,
+   0.2825
+  ],
+  "Haiti|Saudi-Arabien": [
+   0.3714,
+   0.2838,
+   0.3448
+  ],
+  "Haiti|Uruguay": [
+   0.1018,
+   0.1955,
+   0.7027
+  ],
+  "Haiti|Frankreich": [
+   0.0557,
+   0.1701,
+   0.7742
+  ],
+  "Haiti|Senegal": [
+   0.1687,
+   0.2505,
+   0.5808
+  ],
+  "Haiti|Irak": [
+   0.3406,
+   0.2848,
+   0.3746
+  ],
+  "Haiti|Norwegen": [
+   0.1529,
+   0.1972,
+   0.6499
+  ],
+  "Haiti|Argentinien": [
+   0.0288,
+   0.074,
+   0.8971
+  ],
+  "Haiti|Algerien": [
+   0.1695,
+   0.256,
+   0.5744
+  ],
+  "Haiti|Österreich": [
+   0.1534,
+   0.2435,
+   0.6031
+  ],
+  "Haiti|Jordanien": [
+   0.3075,
+   0.2693,
+   0.4232
+  ],
+  "Haiti|Portugal": [
+   0.083,
+   0.1811,
+   0.7359
+  ],
+  "Haiti|DR Kongo": [
+   0.3357,
+   0.2753,
+   0.3889
+  ],
+  "Haiti|Usbekistan": [
+   0.2504,
+   0.2715,
+   0.4781
+  ],
+  "Haiti|Kolumbien": [
+   0.0587,
+   0.1568,
+   0.7846
+  ],
+  "Haiti|England": [
+   0.0744,
+   0.1706,
+   0.755
+  ],
+  "Haiti|Kroatien": [
+   0.1174,
+   0.2019,
+   0.6807
+  ],
+  "Haiti|Ghana": [
+   0.4604,
+   0.271,
+   0.2686
+  ],
+  "Haiti|Panama": [
+   0.251,
+   0.273,
+   0.476
+  ],
+  "Schottland|Mexiko": [
+   0.2415,
+   0.2703,
+   0.4882
+  ],
+  "Schottland|Südafrika": [
+   0.5539,
+   0.269,
+   0.1771
+  ],
+  "Schottland|Südkorea": [
+   0.3005,
+   0.2658,
+   0.4336
+  ],
+  "Schottland|Tschechien": [
+   0.3612,
+   0.2815,
+   0.3572
+  ],
+  "Schottland|Kanada": [
+   0.2667,
+   0.2489,
+   0.4844
+  ],
+  "Schottland|Bosnien-H.": [
+   0.578,
+   0.2558,
+   0.1661
+  ],
+  "Schottland|Katar": [
+   0.7002,
+   0.2001,
+   0.0997
+  ],
+  "Schottland|Schweiz": [
+   0.2427,
+   0.2807,
+   0.4766
+  ],
+  "Schottland|Brasilien": [
+   0.0912,
+   0.1848,
+   0.7239
+  ],
+  "Schottland|Marokko": [
+   0.2402,
+   0.2679,
+   0.4919
+  ],
+  "Schottland|Haiti": [
+   0.5313,
+   0.2789,
+   0.1898
+  ],
+  "Schottland|USA": [
+   0.3531,
+   0.2794,
+   0.3675
+  ],
+  "Schottland|Paraguay": [
+   0.3201,
+   0.2575,
+   0.4224
+  ],
+  "Schottland|Australien": [
+   0.3222,
+   0.2541,
+   0.4237
+  ],
+  "Schottland|Türkei": [
+   0.283,
+   0.2753,
+   0.4417
+  ],
+  "Schottland|Deutschland": [
+   0.1864,
+   0.2706,
+   0.5431
+  ],
+  "Schottland|Curaçao": [
+   0.7092,
+   0.1932,
+   0.0976
+  ],
+  "Schottland|Elfenbeinküste": [
+   0.3698,
+   0.2733,
+   0.3569
+  ],
+  "Schottland|Ecuador": [
+   0.1599,
+   0.2217,
+   0.6184
+  ],
+  "Schottland|Niederlande": [
+   0.1828,
+   0.2646,
+   0.5526
+  ],
+  "Schottland|Japan": [
+   0.18,
+   0.2489,
+   0.5712
+  ],
+  "Schottland|Schweden": [
+   0.4212,
+   0.2863,
+   0.2925
+  ],
+  "Schottland|Tunesien": [
+   0.463,
+   0.2653,
+   0.2717
+  ],
+  "Schottland|Belgien": [
+   0.1805,
+   0.2172,
+   0.6023
+  ],
+  "Schottland|Ägypten": [
+   0.3943,
+   0.2925,
+   0.3132
+  ],
+  "Schottland|Iran": [
+   0.2345,
+   0.2631,
+   0.5024
+  ],
+  "Schottland|Neuseeland": [
+   0.5104,
+   0.2699,
+   0.2197
+  ],
+  "Schottland|Spanien": [
+   0.0744,
+   0.1706,
+   0.755
+  ],
+  "Schottland|Kap Verde": [
+   0.5863,
+   0.2615,
+   0.1522
+  ],
+  "Schottland|Saudi-Arabien": [
+   0.5194,
+   0.2786,
+   0.202
+  ],
+  "Schottland|Uruguay": [
+   0.2511,
+   0.2434,
+   0.5055
+  ],
+  "Schottland|Frankreich": [
+   0.0998,
+   0.1929,
+   0.7073
+  ],
+  "Schottland|Senegal": [
+   0.2607,
+   0.2757,
+   0.4636
+  ],
+  "Schottland|Irak": [
+   0.4926,
+   0.2401,
+   0.2673
+  ],
+  "Schottland|Norwegen": [
+   0.2694,
+   0.2581,
+   0.4725
+  ],
+  "Schottland|Argentinien": [
+   0.0628,
+   0.1464,
+   0.7908
+  ],
+  "Schottland|Algerien": [
+   0.2897,
+   0.257,
+   0.4533
+  ],
+  "Schottland|Österreich": [
+   0.2481,
+   0.2669,
+   0.4849
+  ],
+  "Schottland|Jordanien": [
+   0.4753,
+   0.2681,
+   0.2565
+  ],
+  "Schottland|Portugal": [
+   0.1333,
+   0.217,
+   0.6497
+  ],
+  "Schottland|DR Kongo": [
+   0.4552,
+   0.2531,
+   0.2917
+  ],
+  "Schottland|Usbekistan": [
+   0.4189,
+   0.2687,
+   0.3124
+  ],
+  "Schottland|Kolumbien": [
+   0.1253,
+   0.219,
+   0.6557
+  ],
+  "Schottland|England": [
+   0.1274,
+   0.2001,
+   0.6726
+  ],
+  "Schottland|Kroatien": [
+   0.2642,
+   0.2721,
+   0.4638
+  ],
+  "Schottland|Ghana": [
+   0.5944,
+   0.2522,
+   0.1535
+  ],
+  "Schottland|Panama": [
+   0.4065,
+   0.2943,
+   0.2992
+  ],
+  "USA|Mexiko": [
+   0.2594,
+   0.2513,
+   0.4893
+  ],
+  "USA|Südafrika": [
+   0.5942,
+   0.2633,
+   0.1426
+  ],
+  "USA|Südkorea": [
+   0.3357,
+   0.2753,
+   0.3889
+  ],
+  "USA|Tschechien": [
+   0.4036,
+   0.2722,
+   0.3242
+  ],
+  "USA|Kanada": [
+   0.2998,
+   0.2592,
+   0.441
+  ],
+  "USA|Bosnien-H.": [
+   0.5863,
+   0.269,
+   0.1447
+  ],
+  "USA|Katar": [
+   0.6915,
+   0.2004,
+   0.1081
+  ],
+  "USA|Schweiz": [
+   0.2365,
+   0.2535,
+   0.51
+  ],
+  "USA|Brasilien": [
+   0.1119,
+   0.1929,
+   0.6951
+  ],
+  "USA|Marokko": [
+   0.2424,
+   0.248,
+   0.5096
+  ],
+  "USA|Haiti": [
+   0.5599,
+   0.273,
+   0.1671
+  ],
+  "USA|Schottland": [
+   0.4069,
+   0.2773,
+   0.3158
+  ],
+  "USA|Paraguay": [
+   0.3209,
+   0.2593,
+   0.4198
+  ],
+  "USA|Australien": [
+   0.3225,
+   0.2673,
+   0.4103
+  ],
+  "USA|Türkei": [
+   0.2973,
+   0.2623,
+   0.4404
+  ],
+  "USA|Deutschland": [
+   0.1977,
+   0.2694,
+   0.5329
+  ],
+  "USA|Curaçao": [
+   0.7139,
+   0.1954,
+   0.0907
+  ],
+  "USA|Elfenbeinküste": [
+   0.4198,
+   0.2797,
+   0.3005
+  ],
+  "USA|Ecuador": [
+   0.2258,
+   0.2593,
+   0.5149
+  ],
+  "USA|Niederlande": [
+   0.2267,
+   0.2613,
+   0.512
+  ],
+  "USA|Japan": [
+   0.2546,
+   0.2545,
+   0.4909
+  ],
+  "USA|Schweden": [
+   0.4386,
+   0.2833,
+   0.2782
+  ],
+  "USA|Tunesien": [
+   0.4587,
+   0.2736,
+   0.2678
+  ],
+  "USA|Belgien": [
+   0.2399,
+   0.2315,
+   0.5286
+  ],
+  "USA|Ägypten": [
+   0.4548,
+   0.2601,
+   0.285
+  ],
+  "USA|Iran": [
+   0.2962,
+   0.2191,
+   0.4847
+  ],
+  "USA|Neuseeland": [
+   0.564,
+   0.2565,
+   0.1795
+  ],
+  "USA|Spanien": [
+   0.08,
+   0.1403,
+   0.7797
+  ],
+  "USA|Kap Verde": [
+   0.5955,
+   0.255,
+   0.1495
+  ],
+  "USA|Saudi-Arabien": [
+   0.5557,
+   0.2725,
+   0.1718
+  ],
+  "USA|Uruguay": [
+   0.2256,
+   0.2479,
+   0.5265
+  ],
+  "USA|Frankreich": [
+   0.1076,
+   0.1878,
+   0.7046
+  ],
+  "USA|Senegal": [
+   0.3001,
+   0.2401,
+   0.4597
+  ],
+  "USA|Irak": [
+   0.5093,
+   0.2827,
+   0.2081
+  ],
+  "USA|Norwegen": [
+   0.2838,
+   0.2412,
+   0.475
+  ],
+  "USA|Argentinien": [
+   0.0701,
+   0.1414,
+   0.7885
+  ],
+  "USA|Algerien": [
+   0.3254,
+   0.24,
+   0.4346
+  ],
+  "USA|Österreich": [
+   0.3086,
+   0.2346,
+   0.4568
+  ],
+  "USA|Jordanien": [
+   0.5201,
+   0.2831,
+   0.1968
+  ],
+  "USA|Portugal": [
+   0.1697,
+   0.229,
+   0.6012
+  ],
+  "USA|DR Kongo": [
+   0.5045,
+   0.3006,
+   0.1949
+  ],
+  "USA|Usbekistan": [
+   0.434,
+   0.2705,
+   0.2955
+  ],
+  "USA|Kolumbien": [
+   0.162,
+   0.2439,
+   0.5941
+  ],
+  "USA|England": [
+   0.1724,
+   0.2179,
+   0.6097
+  ],
+  "USA|Kroatien": [
+   0.2494,
+   0.2686,
+   0.482
+  ],
+  "USA|Ghana": [
+   0.653,
+   0.2402,
+   0.1068
+  ],
+  "USA|Panama": [
+   0.4523,
+   0.2764,
+   0.2713
+  ],
+  "Paraguay|Mexiko": [
+   0.2833,
+   0.263,
+   0.4537
+  ],
+  "Paraguay|Südafrika": [
+   0.6291,
+   0.2313,
+   0.1397
+  ],
+  "Paraguay|Südkorea": [
+   0.3764,
+   0.2732,
+   0.3504
+  ],
+  "Paraguay|Tschechien": [
+   0.4623,
+   0.259,
+   0.2786
+  ],
+  "Paraguay|Kanada": [
+   0.3517,
+   0.2703,
+   0.378
+  ],
+  "Paraguay|Bosnien-H.": [
+   0.6926,
+   0.2036,
+   0.1037
+  ],
+  "Paraguay|Katar": [
+   0.7458,
+   0.1801,
+   0.0741
+  ],
+  "Paraguay|Schweiz": [
+   0.3159,
+   0.2527,
+   0.4313
+  ],
+  "Paraguay|Brasilien": [
+   0.1592,
+   0.2433,
+   0.5976
+  ],
+  "Paraguay|Marokko": [
+   0.2554,
+   0.2605,
+   0.4841
+  ],
+  "Paraguay|Haiti": [
+   0.596,
+   0.2505,
+   0.1535
+  ],
+  "Paraguay|Schottland": [
+   0.4682,
+   0.2572,
+   0.2746
+  ],
+  "Paraguay|USA": [
+   0.4334,
+   0.2756,
+   0.291
+  ],
+  "Paraguay|Australien": [
+   0.3642,
+   0.2827,
+   0.353
+  ],
+  "Paraguay|Türkei": [
+   0.3395,
+   0.2603,
+   0.4002
+  ],
+  "Paraguay|Deutschland": [
+   0.3048,
+   0.3009,
+   0.3943
+  ],
+  "Paraguay|Curaçao": [
+   0.7595,
+   0.1637,
+   0.0768
+  ],
+  "Paraguay|Elfenbeinküste": [
+   0.4426,
+   0.2777,
+   0.2797
+  ],
+  "Paraguay|Ecuador": [
+   0.2535,
+   0.2717,
+   0.4748
+  ],
+  "Paraguay|Niederlande": [
+   0.255,
+   0.2854,
+   0.4597
+  ],
+  "Paraguay|Japan": [
+   0.244,
+   0.2766,
+   0.4794
+  ],
+  "Paraguay|Schweden": [
+   0.5182,
+   0.2451,
+   0.2367
+  ],
+  "Paraguay|Tunesien": [
+   0.5276,
+   0.282,
+   0.1904
+  ],
+  "Paraguay|Belgien": [
+   0.253,
+   0.2505,
+   0.4965
+  ],
+  "Paraguay|Ägypten": [
+   0.4704,
+   0.272,
+   0.2576
+  ],
+  "Paraguay|Iran": [
+   0.3031,
+   0.2549,
+   0.442
+  ],
+  "Paraguay|Neuseeland": [
+   0.5597,
+   0.288,
+   0.1523
+  ],
+  "Paraguay|Spanien": [
+   0.0945,
+   0.1586,
+   0.7468
+  ],
+  "Paraguay|Kap Verde": [
+   0.6915,
+   0.2116,
+   0.0968
+  ],
+  "Paraguay|Saudi-Arabien": [
+   0.6055,
+   0.2494,
+   0.1451
+  ],
+  "Paraguay|Uruguay": [
+   0.2828,
+   0.2691,
+   0.4481
+  ],
+  "Paraguay|Frankreich": [
+   0.1742,
+   0.2125,
+   0.6132
+  ],
+  "Paraguay|Senegal": [
+   0.3558,
+   0.2822,
+   0.362
+  ],
+  "Paraguay|Irak": [
+   0.5941,
+   0.2537,
+   0.1523
+  ],
+  "Paraguay|Norwegen": [
+   0.3348,
+   0.2529,
+   0.4124
+  ],
+  "Paraguay|Argentinien": [
+   0.0864,
+   0.1579,
+   0.7557
+  ],
+  "Paraguay|Algerien": [
+   0.3436,
+   0.2748,
+   0.3817
+  ],
+  "Paraguay|Österreich": [
+   0.3145,
+   0.2342,
+   0.4513
+  ],
+  "Paraguay|Jordanien": [
+   0.5746,
+   0.2507,
+   0.1746
+  ],
+  "Paraguay|Portugal": [
+   0.1781,
+   0.277,
+   0.5449
+  ],
+  "Paraguay|DR Kongo": [
+   0.598,
+   0.2495,
+   0.1526
+  ],
+  "Paraguay|Usbekistan": [
+   0.4519,
+   0.2814,
+   0.2668
+  ],
+  "Paraguay|Kolumbien": [
+   0.1721,
+   0.2735,
+   0.5545
+  ],
+  "Paraguay|England": [
+   0.1812,
+   0.2641,
+   0.5547
+  ],
+  "Paraguay|Kroatien": [
+   0.2664,
+   0.2869,
+   0.4467
+  ],
+  "Paraguay|Ghana": [
+   0.6903,
+   0.2104,
+   0.0994
+  ],
+  "Paraguay|Panama": [
+   0.4644,
+   0.2661,
+   0.2694
+  ],
+  "Australien|Mexiko": [
+   0.3038,
+   0.2528,
+   0.4434
+  ],
+  "Australien|Südafrika": [
+   0.66,
+   0.238,
+   0.1019
+  ],
+  "Australien|Südkorea": [
+   0.3909,
+   0.2968,
+   0.3123
+  ],
+  "Australien|Tschechien": [
+   0.4629,
+   0.2589,
+   0.2782
+  ],
+  "Australien|Kanada": [
+   0.3539,
+   0.2671,
+   0.379
+  ],
+  "Australien|Bosnien-H.": [
+   0.6791,
+   0.2112,
+   0.1097
+  ],
+  "Australien|Katar": [
+   0.7439,
+   0.1822,
+   0.0739
+  ],
+  "Australien|Schweiz": [
+   0.3322,
+   0.249,
+   0.4188
+  ],
+  "Australien|Brasilien": [
+   0.1651,
+   0.2524,
+   0.5825
+  ],
+  "Australien|Marokko": [
+   0.2613,
+   0.2633,
+   0.4754
+  ],
+  "Australien|Haiti": [
+   0.6008,
+   0.2551,
+   0.1441
+  ],
+  "Australien|Schottland": [
+   0.4668,
+   0.254,
+   0.2792
+  ],
+  "Australien|USA": [
+   0.4309,
+   0.274,
+   0.2951
+  ],
+  "Australien|Paraguay": [
+   0.428,
+   0.2809,
+   0.2911
+  ],
+  "Australien|Türkei": [
+   0.3461,
+   0.2903,
+   0.3636
+  ],
+  "Australien|Deutschland": [
+   0.2886,
+   0.2752,
+   0.4361
+  ],
+  "Australien|Curaçao": [
+   0.7542,
+   0.1666,
+   0.0792
+  ],
+  "Australien|Elfenbeinküste": [
+   0.4583,
+   0.2719,
+   0.2698
+  ],
+  "Australien|Ecuador": [
+   0.2573,
+   0.2628,
+   0.4799
+  ],
+  "Australien|Niederlande": [
+   0.271,
+   0.2637,
+   0.4653
+  ],
+  "Australien|Japan": [
+   0.2446,
+   0.275,
+   0.4804
+  ],
+  "Australien|Schweden": [
+   0.472,
+   0.2656,
+   0.2624
+  ],
+  "Australien|Tunesien": [
+   0.5312,
+   0.2772,
+   0.1917
+  ],
+  "Australien|Belgien": [
+   0.2505,
+   0.2532,
+   0.4963
+  ],
+  "Australien|Ägypten": [
+   0.4574,
+   0.2787,
+   0.2639
+  ],
+  "Australien|Iran": [
+   0.3223,
+   0.2742,
+   0.4035
+  ],
+  "Australien|Neuseeland": [
+   0.5649,
+   0.2937,
+   0.1413
+  ],
+  "Australien|Spanien": [
+   0.11,
+   0.189,
+   0.7011
+  ],
+  "Australien|Kap Verde": [
+   0.6804,
+   0.2105,
+   0.1091
+  ],
+  "Australien|Saudi-Arabien": [
+   0.615,
+   0.2434,
+   0.1416
+  ],
+  "Australien|Uruguay": [
+   0.2836,
+   0.2644,
+   0.452
+  ],
+  "Australien|Frankreich": [
+   0.1596,
+   0.2584,
+   0.5819
+  ],
+  "Australien|Senegal": [
+   0.3666,
+   0.2765,
+   0.3569
+  ],
+  "Australien|Irak": [
+   0.5855,
+   0.2593,
+   0.1552
+  ],
+  "Australien|Norwegen": [
+   0.3786,
+   0.2514,
+   0.3699
+  ],
+  "Australien|Argentinien": [
+   0.0889,
+   0.1745,
+   0.7367
+  ],
+  "Australien|Algerien": [
+   0.3516,
+   0.2652,
+   0.3832
+  ],
+  "Australien|Österreich": [
+   0.3496,
+   0.2734,
+   0.377
+  ],
+  "Australien|Jordanien": [
+   0.5466,
+   0.2682,
+   0.1852
+  ],
+  "Australien|Portugal": [
+   0.2655,
+   0.2693,
+   0.4651
+  ],
+  "Australien|DR Kongo": [
+   0.5906,
+   0.2493,
+   0.1601
+  ],
+  "Australien|Usbekistan": [
+   0.4597,
+   0.2762,
+   0.2641
+  ],
+  "Australien|Kolumbien": [
+   0.1843,
+   0.2539,
+   0.5617
+  ],
+  "Australien|England": [
+   0.2335,
+   0.2516,
+   0.5149
+  ],
+  "Australien|Kroatien": [
+   0.3092,
+   0.2663,
+   0.4245
+  ],
+  "Australien|Ghana": [
+   0.711,
+   0.1911,
+   0.0978
+  ],
+  "Australien|Panama": [
+   0.4594,
+   0.2607,
+   0.2799
+  ],
+  "Türkei|Mexiko": [
+   0.3215,
+   0.2517,
+   0.4268
+  ],
+  "Türkei|Südafrika": [
+   0.6797,
+   0.2077,
+   0.1126
+  ],
+  "Türkei|Südkorea": [
+   0.4208,
+   0.2788,
+   0.3004
+  ],
+  "Türkei|Tschechien": [
+   0.4882,
+   0.2794,
+   0.2324
+  ],
+  "Türkei|Kanada": [
+   0.3864,
+   0.2407,
+   0.373
+  ],
+  "Türkei|Bosnien-H.": [
+   0.6855,
+   0.217,
+   0.0974
+  ],
+  "Türkei|Katar": [
+   0.7559,
+   0.1816,
+   0.0625
+  ],
+  "Türkei|Schweiz": [
+   0.3111,
+   0.2477,
+   0.4412
+  ],
+  "Türkei|Brasilien": [
+   0.1836,
+   0.2984,
+   0.518
+  ],
+  "Türkei|Marokko": [
+   0.2842,
+   0.2472,
+   0.4686
+  ],
+  "Türkei|Haiti": [
+   0.6623,
+   0.2256,
+   0.1121
+  ],
+  "Türkei|Schottland": [
+   0.4866,
+   0.3023,
+   0.2111
+  ],
+  "Türkei|USA": [
+   0.4507,
+   0.283,
+   0.2663
+  ],
+  "Türkei|Paraguay": [
+   0.4433,
+   0.2726,
+   0.2842
+  ],
+  "Türkei|Australien": [
+   0.4419,
+   0.2762,
+   0.2819
+  ],
+  "Türkei|Deutschland": [
+   0.2604,
+   0.2568,
+   0.4828
+  ],
+  "Türkei|Curaçao": [
+   0.7732,
+   0.1695,
+   0.0573
+  ],
+  "Türkei|Elfenbeinküste": [
+   0.4361,
+   0.2644,
+   0.2996
+  ],
+  "Türkei|Ecuador": [
+   0.2725,
+   0.2068,
+   0.5207
+  ],
+  "Türkei|Niederlande": [
+   0.2543,
+   0.2446,
+   0.5011
+  ],
+  "Türkei|Japan": [
+   0.283,
+   0.2503,
+   0.4668
+  ],
+  "Türkei|Schweden": [
+   0.5252,
+   0.2646,
+   0.2103
+  ],
+  "Türkei|Tunesien": [
+   0.5747,
+   0.2632,
+   0.1621
+  ],
+  "Türkei|Belgien": [
+   0.2641,
+   0.2384,
+   0.4974
+  ],
+  "Türkei|Ägypten": [
+   0.4735,
+   0.2703,
+   0.2563
+  ],
+  "Türkei|Iran": [
+   0.3583,
+   0.272,
+   0.3697
+  ],
+  "Türkei|Neuseeland": [
+   0.6844,
+   0.2075,
+   0.1081
+  ],
+  "Türkei|Spanien": [
+   0.0964,
+   0.1851,
+   0.7184
+  ],
+  "Türkei|Kap Verde": [
+   0.6997,
+   0.2034,
+   0.0969
+  ],
+  "Türkei|Saudi-Arabien": [
+   0.6873,
+   0.2087,
+   0.104
+  ],
+  "Türkei|Uruguay": [
+   0.2985,
+   0.2689,
+   0.4326
+  ],
+  "Türkei|Frankreich": [
+   0.1726,
+   0.2648,
+   0.5626
+  ],
+  "Türkei|Senegal": [
+   0.3967,
+   0.2663,
+   0.337
+  ],
+  "Türkei|Irak": [
+   0.6229,
+   0.2579,
+   0.1191
+  ],
+  "Türkei|Norwegen": [
+   0.3138,
+   0.2473,
+   0.4389
+  ],
+  "Türkei|Argentinien": [
+   0.0806,
+   0.1614,
+   0.7581
+  ],
+  "Türkei|Algerien": [
+   0.403,
+   0.2817,
+   0.3153
+  ],
+  "Türkei|Österreich": [
+   0.3864,
+   0.2797,
+   0.3338
+  ],
+  "Türkei|Jordanien": [
+   0.5909,
+   0.2608,
+   0.1483
+  ],
+  "Türkei|Portugal": [
+   0.2434,
+   0.2805,
+   0.4761
+  ],
+  "Türkei|DR Kongo": [
+   0.6253,
+   0.2339,
+   0.1408
+  ],
+  "Türkei|Usbekistan": [
+   0.4856,
+   0.2675,
+   0.2469
+  ],
+  "Türkei|Kolumbien": [
+   0.2434,
+   0.2805,
+   0.4761
+  ],
+  "Türkei|England": [
+   0.2124,
+   0.2479,
+   0.5397
+  ],
+  "Türkei|Kroatien": [
+   0.3323,
+   0.2926,
+   0.3751
+  ],
+  "Türkei|Ghana": [
+   0.7476,
+   0.1762,
+   0.0761
+  ],
+  "Türkei|Panama": [
+   0.5101,
+   0.2915,
+   0.1984
+  ],
+  "Deutschland|Mexiko": [
+   0.4503,
+   0.2354,
+   0.3144
+  ],
+  "Deutschland|Südafrika": [
+   0.7802,
+   0.1614,
+   0.0584
+  ],
+  "Deutschland|Südkorea": [
+   0.5499,
+   0.2653,
+   0.1848
+  ],
+  "Deutschland|Tschechien": [
+   0.5961,
+   0.258,
+   0.1459
+  ],
+  "Deutschland|Kanada": [
+   0.4995,
+   0.2644,
+   0.2361
+  ],
+  "Deutschland|Bosnien-H.": [
+   0.7819,
+   0.1596,
+   0.0585
+  ],
+  "Deutschland|Katar": [
+   0.8105,
+   0.1316,
+   0.0578
+  ],
+  "Deutschland|Schweiz": [
+   0.4525,
+   0.2798,
+   0.2677
+  ],
+  "Deutschland|Brasilien": [
+   0.2826,
+   0.2669,
+   0.4506
+  ],
+  "Deutschland|Marokko": [
+   0.4278,
+   0.2655,
+   0.3068
+  ],
+  "Deutschland|Haiti": [
+   0.7529,
+   0.1708,
+   0.0762
+  ],
+  "Deutschland|Schottland": [
+   0.6508,
+   0.2433,
+   0.1058
+  ],
+  "Deutschland|USA": [
+   0.5896,
+   0.254,
+   0.1564
+  ],
+  "Deutschland|Paraguay": [
+   0.5752,
+   0.2547,
+   0.1701
+  ],
+  "Deutschland|Australien": [
+   0.5537,
+   0.2613,
+   0.185
+  ],
+  "Deutschland|Türkei": [
+   0.525,
+   0.2824,
+   0.1926
+  ],
+  "Deutschland|Curaçao": [
+   0.8573,
+   0.1227,
+   0.02
+  ],
+  "Deutschland|Elfenbeinküste": [
+   0.6167,
+   0.2407,
+   0.1426
+  ],
+  "Deutschland|Ecuador": [
+   0.4129,
+   0.282,
+   0.3051
+  ],
+  "Deutschland|Niederlande": [
+   0.4049,
+   0.2965,
+   0.2986
+  ],
+  "Deutschland|Japan": [
+   0.3738,
+   0.3074,
+   0.3189
+  ],
+  "Deutschland|Schweden": [
+   0.7224,
+   0.186,
+   0.0916
+  ],
+  "Deutschland|Tunesien": [
+   0.7218,
+   0.1802,
+   0.098
+  ],
+  "Deutschland|Belgien": [
+   0.312,
+   0.2545,
+   0.4335
+  ],
+  "Deutschland|Ägypten": [
+   0.6496,
+   0.2397,
+   0.1107
+  ],
+  "Deutschland|Iran": [
+   0.4541,
+   0.3118,
+   0.2341
+  ],
+  "Deutschland|Neuseeland": [
+   0.6502,
+   0.2655,
+   0.0843
+  ],
+  "Deutschland|Spanien": [
+   0.2154,
+   0.2639,
+   0.5207
+  ],
+  "Deutschland|Kap Verde": [
+   0.7841,
+   0.1572,
+   0.0587
+  ],
+  "Deutschland|Saudi-Arabien": [
+   0.752,
+   0.1717,
+   0.0764
+  ],
+  "Deutschland|Uruguay": [
+   0.4484,
+   0.2604,
+   0.2912
+  ],
+  "Deutschland|Frankreich": [
+   0.2845,
+   0.2641,
+   0.4514
+  ],
+  "Deutschland|Senegal": [
+   0.5246,
+   0.2792,
+   0.1962
+  ],
+  "Deutschland|Irak": [
+   0.7668,
+   0.1633,
+   0.0698
+  ],
+  "Deutschland|Norwegen": [
+   0.4744,
+   0.2631,
+   0.2625
+  ],
+  "Deutschland|Argentinien": [
+   0.2086,
+   0.2511,
+   0.5403
+  ],
+  "Deutschland|Algerien": [
+   0.5111,
+   0.2744,
+   0.2145
+  ],
+  "Deutschland|Österreich": [
+   0.499,
+   0.2885,
+   0.2126
+  ],
+  "Deutschland|Jordanien": [
+   0.7343,
+   0.1767,
+   0.0889
+  ],
+  "Deutschland|Portugal": [
+   0.36,
+   0.2734,
+   0.3665
+  ],
+  "Deutschland|DR Kongo": [
+   0.7475,
+   0.1757,
+   0.0768
+  ],
+  "Deutschland|Usbekistan": [
+   0.6663,
+   0.2298,
+   0.1039
+  ],
+  "Deutschland|Kolumbien": [
+   0.3405,
+   0.2848,
+   0.3747
+  ],
+  "Deutschland|England": [
+   0.3534,
+   0.2807,
+   0.3659
+  ],
+  "Deutschland|Kroatien": [
+   0.4668,
+   0.2634,
+   0.2698
+  ],
+  "Deutschland|Ghana": [
+   0.8113,
+   0.1443,
+   0.0444
+  ],
+  "Deutschland|Panama": [
+   0.6718,
+   0.2209,
+   0.1072
+  ],
+  "Curaçao|Mexiko": [
+   0.0547,
+   0.1346,
+   0.8107
+  ],
+  "Curaçao|Südafrika": [
+   0.2439,
+   0.2736,
+   0.4826
+  ],
+  "Curaçao|Südkorea": [
+   0.0931,
+   0.1785,
+   0.7284
+  ],
+  "Curaçao|Tschechien": [
+   0.1005,
+   0.1715,
+   0.728
+  ],
+  "Curaçao|Kanada": [
+   0.0735,
+   0.1386,
+   0.788
+  ],
+  "Curaçao|Bosnien-H.": [
+   0.2737,
+   0.2659,
+   0.4604
+  ],
+  "Curaçao|Katar": [
+   0.3492,
+   0.2853,
+   0.3655
+  ],
+  "Curaçao|Schweiz": [
+   0.0532,
+   0.1353,
+   0.8115
+  ],
+  "Curaçao|Brasilien": [
+   0.0383,
+   0.0823,
+   0.8794
+  ],
+  "Curaçao|Marokko": [
+   0.0519,
+   0.1273,
+   0.8208
+  ],
+  "Curaçao|Haiti": [
+   0.2364,
+   0.2732,
+   0.4904
+  ],
+  "Curaçao|Schottland": [
+   0.1209,
+   0.1928,
+   0.6863
+  ],
+  "Curaçao|USA": [
+   0.1008,
+   0.1969,
+   0.7022
+  ],
+  "Curaçao|Paraguay": [
+   0.077,
+   0.1637,
+   0.7592
+  ],
+  "Curaçao|Australien": [
+   0.0768,
+   0.1604,
+   0.7628
+  ],
+  "Curaçao|Türkei": [
+   0.0832,
+   0.1989,
+   0.7178
+  ],
+  "Curaçao|Deutschland": [
+   0.0375,
+   0.1318,
+   0.8306
+  ],
+  "Curaçao|Elfenbeinküste": [
+   0.1161,
+   0.1886,
+   0.6953
+  ],
+  "Curaçao|Ecuador": [
+   0.0445,
+   0.1081,
+   0.8474
+  ],
+  "Curaçao|Niederlande": [
+   0.044,
+   0.1354,
+   0.8206
+  ],
+  "Curaçao|Japan": [
+   0.056,
+   0.1398,
+   0.8041
+  ],
+  "Curaçao|Schweden": [
+   0.1392,
+   0.2489,
+   0.612
+  ],
+  "Curaçao|Tunesien": [
+   0.1714,
+   0.2602,
+   0.5684
+  ],
+  "Curaçao|Belgien": [
+   0.0487,
+   0.1206,
+   0.8307
+  ],
+  "Curaçao|Ägypten": [
+   0.1217,
+   0.1856,
+   0.6927
+  ],
+  "Curaçao|Iran": [
+   0.0588,
+   0.1441,
+   0.7971
+  ],
+  "Curaçao|Neuseeland": [
+   0.239,
+   0.2696,
+   0.4913
+  ],
+  "Curaçao|Spanien": [
+   0.0066,
+   0.0352,
+   0.9582
+  ],
+  "Curaçao|Kap Verde": [
+   0.2856,
+   0.2663,
+   0.4481
+  ],
+  "Curaçao|Saudi-Arabien": [
+   0.2513,
+   0.276,
+   0.4726
+  ],
+  "Curaçao|Uruguay": [
+   0.052,
+   0.1411,
+   0.8069
+  ],
+  "Curaçao|Frankreich": [
+   0.0341,
+   0.0649,
+   0.901
+  ],
+  "Curaçao|Senegal": [
+   0.0792,
+   0.1603,
+   0.7605
+  ],
+  "Curaçao|Irak": [
+   0.2351,
+   0.2527,
+   0.5121
+  ],
+  "Curaçao|Norwegen": [
+   0.0766,
+   0.1635,
+   0.7599
+  ],
+  "Curaçao|Argentinien": [
+   0.0066,
+   0.0298,
+   0.9636
+  ],
+  "Curaçao|Algerien": [
+   0.083,
+   0.1654,
+   0.7517
+  ],
+  "Curaçao|Österreich": [
+   0.0693,
+   0.158,
+   0.7727
+  ],
+  "Curaçao|Jordanien": [
+   0.2045,
+   0.2841,
+   0.5113
+  ],
+  "Curaçao|Portugal": [
+   0.0417,
+   0.1291,
+   0.8292
+  ],
+  "Curaçao|DR Kongo": [
+   0.2341,
+   0.2483,
+   0.5176
+  ],
+  "Curaçao|Usbekistan": [
+   0.1149,
+   0.1949,
+   0.6903
+  ],
+  "Curaçao|Kolumbien": [
+   0.0356,
+   0.077,
+   0.8874
+  ],
+  "Curaçao|England": [
+   0.0426,
+   0.1106,
+   0.8469
+  ],
+  "Curaçao|Kroatien": [
+   0.065,
+   0.1575,
+   0.7776
+  ],
+  "Curaçao|Ghana": [
+   0.3283,
+   0.2386,
+   0.4331
+  ],
+  "Curaçao|Panama": [
+   0.1291,
+   0.2192,
+   0.6517
+  ],
+  "Elfenbeinküste|Mexiko": [
+   0.2332,
+   0.271,
+   0.4959
+  ],
+  "Elfenbeinküste|Südafrika": [
+   0.5846,
+   0.2617,
+   0.1537
+  ],
+  "Elfenbeinküste|Südkorea": [
+   0.3173,
+   0.2638,
+   0.4189
+  ],
+  "Elfenbeinküste|Tschechien": [
+   0.3979,
+   0.2729,
+   0.3292
+  ],
+  "Elfenbeinküste|Kanada": [
+   0.3032,
+   0.2276,
+   0.4692
+  ],
+  "Elfenbeinküste|Bosnien-H.": [
+   0.6055,
+   0.2494,
+   0.1451
+  ],
+  "Elfenbeinküste|Katar": [
+   0.7028,
+   0.1927,
+   0.1046
+  ],
+  "Elfenbeinküste|Schweiz": [
+   0.2063,
+   0.226,
+   0.5677
+  ],
+  "Elfenbeinküste|Brasilien": [
+   0.0882,
+   0.1798,
+   0.732
+  ],
+  "Elfenbeinküste|Marokko": [
+   0.2332,
+   0.2696,
+   0.4972
+  ],
+  "Elfenbeinküste|Haiti": [
+   0.5484,
+   0.2757,
+   0.1759
+  ],
+  "Elfenbeinküste|Schottland": [
+   0.4188,
+   0.2797,
+   0.3015
+  ],
+  "Elfenbeinküste|USA": [
+   0.3482,
+   0.2803,
+   0.3715
+  ],
+  "Elfenbeinküste|Paraguay": [
+   0.3316,
+   0.2937,
+   0.3747
+  ],
+  "Elfenbeinküste|Australien": [
+   0.2945,
+   0.2742,
+   0.4313
+  ],
+  "Elfenbeinküste|Türkei": [
+   0.2972,
+   0.2654,
+   0.4374
+  ],
+  "Elfenbeinküste|Deutschland": [
+   0.1852,
+   0.2506,
+   0.5643
+  ],
+  "Elfenbeinküste|Curaçao": [
+   0.6927,
+   0.2025,
+   0.1049
+  ],
+  "Elfenbeinküste|Ecuador": [
+   0.2398,
+   0.2766,
+   0.4836
+  ],
+  "Elfenbeinküste|Niederlande": [
+   0.1651,
+   0.2541,
+   0.5808
+  ],
+  "Elfenbeinküste|Japan": [
+   0.2342,
+   0.2866,
+   0.4793
+  ],
+  "Elfenbeinküste|Schweden": [
+   0.4313,
+   0.29,
+   0.2787
+  ],
+  "Elfenbeinküste|Tunesien": [
+   0.4486,
+   0.2848,
+   0.2666
+  ],
+  "Elfenbeinküste|Belgien": [
+   0.2719,
+   0.2422,
+   0.4859
+  ],
+  "Elfenbeinküste|Ägypten": [
+   0.3769,
+   0.3127,
+   0.3104
+  ],
+  "Elfenbeinküste|Iran": [
+   0.2474,
+   0.2745,
+   0.4781
+  ],
+  "Elfenbeinküste|Neuseeland": [
+   0.5326,
+   0.2716,
+   0.1958
+  ],
+  "Elfenbeinküste|Spanien": [
+   0.0689,
+   0.1455,
+   0.7857
+  ],
+  "Elfenbeinküste|Kap Verde": [
+   0.6071,
+   0.2475,
+   0.1454
+  ],
+  "Elfenbeinküste|Saudi-Arabien": [
+   0.5416,
+   0.285,
+   0.1734
+  ],
+  "Elfenbeinküste|Uruguay": [
+   0.2522,
+   0.2589,
+   0.4889
+  ],
+  "Elfenbeinküste|Frankreich": [
+   0.1076,
+   0.1967,
+   0.6957
+  ],
+  "Elfenbeinküste|Senegal": [
+   0.3148,
+   0.2648,
+   0.4204
+  ],
+  "Elfenbeinküste|Irak": [
+   0.5585,
+   0.2424,
+   0.1991
+  ],
+  "Elfenbeinküste|Norwegen": [
+   0.28,
+   0.2573,
+   0.4627
+  ],
+  "Elfenbeinküste|Argentinien": [
+   0.0667,
+   0.159,
+   0.7743
+  ],
+  "Elfenbeinküste|Algerien": [
+   0.3014,
+   0.2653,
+   0.4333
+  ],
+  "Elfenbeinküste|Österreich": [
+   0.2877,
+   0.2391,
+   0.4732
+  ],
+  "Elfenbeinküste|Jordanien": [
+   0.5416,
+   0.2705,
+   0.1879
+  ],
+  "Elfenbeinküste|Portugal": [
+   0.154,
+   0.2615,
+   0.5845
+  ],
+  "Elfenbeinküste|DR Kongo": [
+   0.5399,
+   0.2526,
+   0.2075
+  ],
+  "Elfenbeinküste|Usbekistan": [
+   0.408,
+   0.2971,
+   0.2949
+  ],
+  "Elfenbeinküste|Kolumbien": [
+   0.1379,
+   0.2428,
+   0.6193
+  ],
+  "Elfenbeinküste|England": [
+   0.1613,
+   0.2553,
+   0.5835
+  ],
+  "Elfenbeinküste|Kroatien": [
+   0.2497,
+   0.2782,
+   0.4722
+  ],
+  "Elfenbeinküste|Ghana": [
+   0.6388,
+   0.2435,
+   0.1177
+  ],
+  "Elfenbeinküste|Panama": [
+   0.4654,
+   0.2625,
+   0.2721
+  ],
+  "Ecuador|Mexiko": [
+   0.4196,
+   0.283,
+   0.2974
+  ],
+  "Ecuador|Südafrika": [
+   0.752,
+   0.1633,
+   0.0846
+  ],
+  "Ecuador|Südkorea": [
+   0.5282,
+   0.2728,
+   0.199
+  ],
+  "Ecuador|Tschechien": [
+   0.6014,
+   0.2364,
+   0.1622
+  ],
+  "Ecuador|Kanada": [
+   0.5117,
+   0.2915,
+   0.1968
+  ],
+  "Ecuador|Bosnien-H.": [
+   0.7477,
+   0.1468,
+   0.1055
+  ],
+  "Ecuador|Katar": [
+   0.8241,
+   0.1438,
+   0.0321
+  ],
+  "Ecuador|Schweiz": [
+   0.4452,
+   0.2571,
+   0.2977
+  ],
+  "Ecuador|Brasilien": [
+   0.2546,
+   0.2673,
+   0.4781
+  ],
+  "Ecuador|Marokko": [
+   0.3844,
+   0.2949,
+   0.3207
+  ],
+  "Ecuador|Haiti": [
+   0.749,
+   0.1659,
+   0.085
+  ],
+  "Ecuador|Schottland": [
+   0.6016,
+   0.2382,
+   0.1603
+  ],
+  "Ecuador|USA": [
+   0.6096,
+   0.2285,
+   0.1619
+  ],
+  "Ecuador|Paraguay": [
+   0.5017,
+   0.2946,
+   0.2037
+  ],
+  "Ecuador|Australien": [
+   0.5276,
+   0.282,
+   0.1904
+  ],
+  "Ecuador|Türkei": [
+   0.5167,
+   0.2292,
+   0.2541
+  ],
+  "Ecuador|Deutschland": [
+   0.3756,
+   0.2498,
+   0.3746
+  ],
+  "Ecuador|Curaçao": [
+   0.8643,
+   0.1075,
+   0.0282
+  ],
+  "Ecuador|Elfenbeinküste": [
+   0.5732,
+   0.2653,
+   0.1615
+  ],
+  "Ecuador|Niederlande": [
+   0.3584,
+   0.264,
+   0.3776
+  ],
+  "Ecuador|Japan": [
+   0.3737,
+   0.2829,
+   0.3434
+  ],
+  "Ecuador|Schweden": [
+   0.635,
+   0.2431,
+   0.1219
+  ],
+  "Ecuador|Tunesien": [
+   0.6781,
+   0.2162,
+   0.1056
+  ],
+  "Ecuador|Belgien": [
+   0.3972,
+   0.2551,
+   0.3477
+  ],
+  "Ecuador|Ägypten": [
+   0.6067,
+   0.2513,
+   0.142
+  ],
+  "Ecuador|Iran": [
+   0.4394,
+   0.257,
+   0.3036
+  ],
+  "Ecuador|Neuseeland": [
+   0.7409,
+   0.1885,
+   0.0706
+  ],
+  "Ecuador|Spanien": [
+   0.2046,
+   0.2475,
+   0.5479
+  ],
+  "Ecuador|Kap Verde": [
+   0.7639,
+   0.155,
+   0.0811
+  ],
+  "Ecuador|Saudi-Arabien": [
+   0.7517,
+   0.1727,
+   0.0756
+  ],
+  "Ecuador|Uruguay": [
+   0.4362,
+   0.2789,
+   0.2848
+  ],
+  "Ecuador|Frankreich": [
+   0.2783,
+   0.2678,
+   0.4538
+  ],
+  "Ecuador|Senegal": [
+   0.4551,
+   0.2604,
+   0.2845
+  ],
+  "Ecuador|Irak": [
+   0.7126,
+   0.1894,
+   0.0981
+  ],
+  "Ecuador|Norwegen": [
+   0.4778,
+   0.2363,
+   0.2859
+  ],
+  "Ecuador|Argentinien": [
+   0.1927,
+   0.2537,
+   0.5536
+  ],
+  "Ecuador|Algerien": [
+   0.4668,
+   0.2656,
+   0.2676
+  ],
+  "Ecuador|Österreich": [
+   0.4976,
+   0.235,
+   0.2674
+  ],
+  "Ecuador|Jordanien": [
+   0.7447,
+   0.1556,
+   0.0997
+  ],
+  "Ecuador|Portugal": [
+   0.3169,
+   0.2584,
+   0.4247
+  ],
+  "Ecuador|DR Kongo": [
+   0.7115,
+   0.1901,
+   0.0984
+  ],
+  "Ecuador|Usbekistan": [
+   0.5995,
+   0.2559,
+   0.1446
+  ],
+  "Ecuador|Kolumbien": [
+   0.3105,
+   0.2587,
+   0.4308
+  ],
+  "Ecuador|England": [
+   0.3123,
+   0.2548,
+   0.4329
+  ],
+  "Ecuador|Kroatien": [
+   0.4198,
+   0.2822,
+   0.298
+  ],
+  "Ecuador|Ghana": [
+   0.7783,
+   0.1646,
+   0.0571
+  ],
+  "Ecuador|Panama": [
+   0.6387,
+   0.2211,
+   0.1402
+  ],
+  "Niederlande|Mexiko": [
+   0.4515,
+   0.28,
+   0.2684
+  ],
+  "Niederlande|Südafrika": [
+   0.7958,
+   0.1457,
+   0.0585
+  ],
+  "Niederlande|Südkorea": [
+   0.5816,
+   0.2272,
+   0.1912
+  ],
+  "Niederlande|Tschechien": [
+   0.6093,
+   0.2496,
+   0.1411
+  ],
+  "Niederlande|Kanada": [
+   0.5249,
+   0.2548,
+   0.2203
+  ],
+  "Niederlande|Bosnien-H.": [
+   0.7885,
+   0.1548,
+   0.0568
+  ],
+  "Niederlande|Katar": [
+   0.8612,
+   0.1194,
+   0.0194
+  ],
+  "Niederlande|Schweiz": [
+   0.4701,
+   0.2709,
+   0.259
+  ],
+  "Niederlande|Brasilien": [
+   0.2854,
+   0.2598,
+   0.4548
+  ],
+  "Niederlande|Marokko": [
+   0.427,
+   0.2854,
+   0.2875
+  ],
+  "Niederlande|Haiti": [
+   0.7541,
+   0.1662,
+   0.0798
+  ],
+  "Niederlande|Schottland": [
+   0.6737,
+   0.2265,
+   0.0998
+  ],
+  "Niederlande|USA": [
+   0.5634,
+   0.2746,
+   0.162
+  ],
+  "Niederlande|Paraguay": [
+   0.5755,
+   0.2472,
+   0.1773
+  ],
+  "Niederlande|Australien": [
+   0.5359,
+   0.2728,
+   0.1913
+  ],
+  "Niederlande|Türkei": [
+   0.4804,
+   0.2655,
+   0.254
+  ],
+  "Niederlande|Deutschland": [
+   0.3956,
+   0.293,
+   0.3114
+  ],
+  "Niederlande|Curaçao": [
+   0.8408,
+   0.1337,
+   0.0255
+  ],
+  "Niederlande|Elfenbeinküste": [
+   0.6057,
+   0.2484,
+   0.1459
+  ],
+  "Niederlande|Ecuador": [
+   0.4468,
+   0.2495,
+   0.3037
+  ],
+  "Niederlande|Japan": [
+   0.368,
+   0.3135,
+   0.3185
+  ],
+  "Niederlande|Schweden": [
+   0.6932,
+   0.2098,
+   0.097
+  ],
+  "Niederlande|Tunesien": [
+   0.6934,
+   0.2022,
+   0.1044
+  ],
+  "Niederlande|Belgien": [
+   0.3783,
+   0.2921,
+   0.3296
+  ],
+  "Niederlande|Ägypten": [
+   0.6381,
+   0.2483,
+   0.1136
+  ],
+  "Niederlande|Iran": [
+   0.4595,
+   0.3226,
+   0.2179
+  ],
+  "Niederlande|Neuseeland": [
+   0.7613,
+   0.1697,
+   0.069
+  ],
+  "Niederlande|Spanien": [
+   0.2295,
+   0.2673,
+   0.5031
+  ],
+  "Niederlande|Kap Verde": [
+   0.7866,
+   0.1574,
+   0.056
+  ],
+  "Niederlande|Saudi-Arabien": [
+   0.7652,
+   0.157,
+   0.0778
+  ],
+  "Niederlande|Uruguay": [
+   0.4739,
+   0.2528,
+   0.2733
+  ],
+  "Niederlande|Frankreich": [
+   0.3024,
+   0.2681,
+   0.4294
+  ],
+  "Niederlande|Senegal": [
+   0.5277,
+   0.2837,
+   0.1886
+  ],
+  "Niederlande|Irak": [
+   0.7721,
+   0.153,
+   0.0749
+  ],
+  "Niederlande|Norwegen": [
+   0.4633,
+   0.2493,
+   0.2874
+  ],
+  "Niederlande|Argentinien": [
+   0.2304,
+   0.2684,
+   0.5012
+  ],
+  "Niederlande|Algerien": [
+   0.5114,
+   0.2927,
+   0.1959
+  ],
+  "Niederlande|Österreich": [
+   0.5006,
+   0.2887,
+   0.2106
+  ],
+  "Niederlande|Jordanien": [
+   0.7332,
+   0.182,
+   0.0848
+  ],
+  "Niederlande|Portugal": [
+   0.3387,
+   0.2767,
+   0.3846
+  ],
+  "Niederlande|DR Kongo": [
+   0.7529,
+   0.1657,
+   0.0814
+  ],
+  "Niederlande|Usbekistan": [
+   0.6561,
+   0.235,
+   0.1089
+  ],
+  "Niederlande|Kolumbien": [
+   0.3123,
+   0.2678,
+   0.4199
+  ],
+  "Niederlande|England": [
+   0.3413,
+   0.2861,
+   0.3726
+  ],
+  "Niederlande|Kroatien": [
+   0.456,
+   0.2732,
+   0.2708
+  ],
+  "Niederlande|Ghana": [
+   0.7923,
+   0.1592,
+   0.0485
+  ],
+  "Niederlande|Panama": [
+   0.6938,
+   0.2122,
+   0.094
+  ],
+  "Japan|Mexiko": [
+   0.4536,
+   0.2744,
+   0.272
+  ],
+  "Japan|Südafrika": [
+   0.7516,
+   0.1737,
+   0.0747
+  ],
+  "Japan|Südkorea": [
+   0.5318,
+   0.2784,
+   0.1898
+  ],
+  "Japan|Tschechien": [
+   0.5826,
+   0.2451,
+   0.1723
+  ],
+  "Japan|Kanada": [
+   0.5468,
+   0.2488,
+   0.2044
+  ],
+  "Japan|Bosnien-H.": [
+   0.776,
+   0.166,
+   0.058
+  ],
+  "Japan|Katar": [
+   0.8318,
+   0.133,
+   0.0352
+  ],
+  "Japan|Schweiz": [
+   0.429,
+   0.2612,
+   0.3098
+  ],
+  "Japan|Brasilien": [
+   0.2443,
+   0.2598,
+   0.4959
+  ],
+  "Japan|Marokko": [
+   0.4065,
+   0.2829,
+   0.3106
+  ],
+  "Japan|Haiti": [
+   0.7464,
+   0.1787,
+   0.0749
+  ],
+  "Japan|Schottland": [
+   0.6016,
+   0.2503,
+   0.1481
+  ],
+  "Japan|USA": [
+   0.5651,
+   0.2731,
+   0.1618
+  ],
+  "Japan|Paraguay": [
+   0.5311,
+   0.2809,
+   0.188
+  ],
+  "Japan|Australien": [
+   0.5078,
+   0.2935,
+   0.1987
+  ],
+  "Japan|Türkei": [
+   0.4684,
+   0.2594,
+   0.2722
+  ],
+  "Japan|Deutschland": [
+   0.3643,
+   0.2622,
+   0.3735
+  ],
+  "Japan|Curaçao": [
+   0.8454,
+   0.134,
+   0.0206
+  ],
+  "Japan|Elfenbeinküste": [
+   0.5825,
+   0.264,
+   0.1535
+  ],
+  "Japan|Ecuador": [
+   0.4274,
+   0.2852,
+   0.2874
+  ],
+  "Japan|Niederlande": [
+   0.335,
+   0.2641,
+   0.4009
+  ],
+  "Japan|Schweden": [
+   0.671,
+   0.2364,
+   0.0926
+  ],
+  "Japan|Tunesien": [
+   0.6767,
+   0.2217,
+   0.1016
+  ],
+  "Japan|Belgien": [
+   0.3921,
+   0.2533,
+   0.3546
+  ],
+  "Japan|Ägypten": [
+   0.6122,
+   0.2477,
+   0.1401
+  ],
+  "Japan|Iran": [
+   0.4559,
+   0.2711,
+   0.273
+  ],
+  "Japan|Neuseeland": [
+   0.7563,
+   0.1738,
+   0.0699
+  ],
+  "Japan|Spanien": [
+   0.2401,
+   0.2617,
+   0.4982
+  ],
+  "Japan|Kap Verde": [
+   0.7773,
+   0.1646,
+   0.0581
+  ],
+  "Japan|Saudi-Arabien": [
+   0.7288,
+   0.1966,
+   0.0745
+  ],
+  "Japan|Uruguay": [
+   0.4185,
+   0.2901,
+   0.2914
+  ],
+  "Japan|Frankreich": [
+   0.2493,
+   0.2734,
+   0.4773
+  ],
+  "Japan|Senegal": [
+   0.4756,
+   0.2638,
+   0.2606
+  ],
+  "Japan|Irak": [
+   0.7249,
+   0.1785,
+   0.0967
+  ],
+  "Japan|Norwegen": [
+   0.4463,
+   0.2491,
+   0.3046
+  ],
+  "Japan|Argentinien": [
+   0.168,
+   0.2548,
+   0.5772
+  ],
+  "Japan|Algerien": [
+   0.5117,
+   0.2915,
+   0.1968
+  ],
+  "Japan|Österreich": [
+   0.4529,
+   0.2541,
+   0.293
+  ],
+  "Japan|Jordanien": [
+   0.7126,
+   0.1842,
+   0.1032
+  ],
+  "Japan|Portugal": [
+   0.2934,
+   0.2532,
+   0.4534
+  ],
+  "Japan|DR Kongo": [
+   0.7309,
+   0.1725,
+   0.0967
+  ],
+  "Japan|Usbekistan": [
+   0.5916,
+   0.2629,
+   0.1455
+  ],
+  "Japan|Kolumbien": [
+   0.2916,
+   0.2516,
+   0.4567
+  ],
+  "Japan|England": [
+   0.2559,
+   0.2216,
+   0.5226
+  ],
+  "Japan|Kroatien": [
+   0.4327,
+   0.2848,
+   0.2825
+  ],
+  "Japan|Ghana": [
+   0.7781,
+   0.1627,
+   0.0592
+  ],
+  "Japan|Panama": [
+   0.6409,
+   0.2521,
+   0.107
+  ],
+  "Schweden|Mexiko": [
+   0.2089,
+   0.2177,
+   0.5734
+  ],
+  "Schweden|Südafrika": [
+   0.5522,
+   0.2645,
+   0.1834
+  ],
+  "Schweden|Südkorea": [
+   0.2879,
+   0.2702,
+   0.442
+  ],
+  "Schweden|Tschechien": [
+   0.358,
+   0.2403,
+   0.4017
+  ],
+  "Schweden|Kanada": [
+   0.2527,
+   0.2063,
+   0.541
+  ],
+  "Schweden|Bosnien-H.": [
+   0.5737,
+   0.2439,
+   0.1824
+  ],
+  "Schweden|Katar": [
+   0.651,
+   0.2438,
+   0.1051
+  ],
+  "Schweden|Schweiz": [
+   0.2414,
+   0.2453,
+   0.5133
+  ],
+  "Schweden|Brasilien": [
+   0.0874,
+   0.1716,
+   0.741
+  ],
+  "Schweden|Marokko": [
+   0.1538,
+   0.1921,
+   0.6542
+  ],
+  "Schweden|Haiti": [
+   0.5304,
+   0.2819,
+   0.1877
+  ],
+  "Schweden|Schottland": [
+   0.3497,
+   0.2596,
+   0.3907
+  ],
+  "Schweden|USA": [
+   0.3255,
+   0.2668,
+   0.4077
+  ],
+  "Schweden|Paraguay": [
+   0.3062,
+   0.2455,
+   0.4483
+  ],
+  "Schweden|Australien": [
+   0.3018,
+   0.2569,
+   0.4413
+  ],
+  "Schweden|Türkei": [
+   0.2567,
+   0.3129,
+   0.4304
+  ],
+  "Schweden|Deutschland": [
+   0.1726,
+   0.2599,
+   0.5674
+  ],
+  "Schweden|Curaçao": [
+   0.7213,
+   0.1861,
+   0.0926
+  ],
+  "Schweden|Elfenbeinküste": [
+   0.3473,
+   0.2859,
+   0.3669
+  ],
+  "Schweden|Ecuador": [
+   0.1799,
+   0.195,
+   0.625
+  ],
+  "Schweden|Niederlande": [
+   0.1769,
+   0.2665,
+   0.5567
+  ],
+  "Schweden|Japan": [
+   0.1865,
+   0.2675,
+   0.546
+  ],
+  "Schweden|Tunesien": [
+   0.4272,
+   0.2838,
+   0.289
+  ],
+  "Schweden|Belgien": [
+   0.1948,
+   0.2439,
+   0.5613
+  ],
+  "Schweden|Ägypten": [
+   0.3874,
+   0.2488,
+   0.3638
+  ],
+  "Schweden|Iran": [
+   0.241,
+   0.2466,
+   0.5124
+  ],
+  "Schweden|Neuseeland": [
+   0.4931,
+   0.3045,
+   0.2024
+  ],
+  "Schweden|Spanien": [
+   0.0686,
+   0.1447,
+   0.7867
+  ],
+  "Schweden|Kap Verde": [
+   0.591,
+   0.234,
+   0.175
+  ],
+  "Schweden|Saudi-Arabien": [
+   0.5211,
+   0.275,
+   0.2039
+  ],
+  "Schweden|Uruguay": [
+   0.2119,
+   0.259,
+   0.5292
+  ],
+  "Schweden|Frankreich": [
+   0.1004,
+   0.1911,
+   0.7085
+  ],
+  "Schweden|Senegal": [
+   0.2587,
+   0.2467,
+   0.4946
+  ],
+  "Schweden|Irak": [
+   0.4918,
+   0.2515,
+   0.2568
+  ],
+  "Schweden|Norwegen": [
+   0.2602,
+   0.2622,
+   0.4776
+  ],
+  "Schweden|Argentinien": [
+   0.0614,
+   0.1432,
+   0.7954
+  ],
+  "Schweden|Algerien": [
+   0.2345,
+   0.2185,
+   0.547
+  ],
+  "Schweden|Österreich": [
+   0.2273,
+   0.22,
+   0.5528
+  ],
+  "Schweden|Jordanien": [
+   0.454,
+   0.2636,
+   0.2825
+  ],
+  "Schweden|Portugal": [
+   0.125,
+   0.2299,
+   0.645
+  ],
+  "Schweden|DR Kongo": [
+   0.5074,
+   0.2078,
+   0.2848
+  ],
+  "Schweden|Usbekistan": [
+   0.3841,
+   0.2505,
+   0.3654
+  ],
+  "Schweden|Kolumbien": [
+   0.1092,
+   0.2043,
+   0.6865
+  ],
+  "Schweden|England": [
+   0.1204,
+   0.1687,
+   0.7109
+  ],
+  "Schweden|Kroatien": [
+   0.2026,
+   0.3155,
+   0.4819
+  ],
+  "Schweden|Ghana": [
+   0.5649,
+   0.2703,
+   0.1648
+  ],
+  "Schweden|Panama": [
+   0.3629,
+   0.2737,
+   0.3634
+  ],
+  "Tunesien|Mexiko": [
+   0.1708,
+   0.2492,
+   0.58
+  ],
+  "Tunesien|Südafrika": [
+   0.5007,
+   0.2997,
+   0.1996
+  ],
+  "Tunesien|Südkorea": [
+   0.2656,
+   0.2809,
+   0.4535
+  ],
+  "Tunesien|Tschechien": [
+   0.3069,
+   0.2399,
+   0.4533
+  ],
+  "Tunesien|Kanada": [
+   0.244,
+   0.2585,
+   0.4974
+  ],
+  "Tunesien|Bosnien-H.": [
+   0.4976,
+   0.2892,
+   0.2132
+  ],
+  "Tunesien|Katar": [
+   0.5876,
+   0.265,
+   0.1474
+  ],
+  "Tunesien|Schweiz": [
+   0.1713,
+   0.2312,
+   0.5976
+  ],
+  "Tunesien|Brasilien": [
+   0.0936,
+   0.1731,
+   0.7333
+  ],
+  "Tunesien|Marokko": [
+   0.1789,
+   0.2277,
+   0.5934
+  ],
+  "Tunesien|Haiti": [
+   0.447,
+   0.2807,
+   0.2723
+  ],
+  "Tunesien|Schottland": [
+   0.3319,
+   0.2628,
+   0.4053
+  ],
+  "Tunesien|USA": [
+   0.2824,
+   0.269,
+   0.4486
+  ],
+  "Tunesien|Paraguay": [
+   0.2441,
+   0.2702,
+   0.4858
+  ],
+  "Tunesien|Australien": [
+   0.2426,
+   0.2765,
+   0.4809
+  ],
+  "Tunesien|Türkei": [
+   0.2932,
+   0.2645,
+   0.4424
+  ],
+  "Tunesien|Deutschland": [
+   0.1369,
+   0.2382,
+   0.6249
+  ],
+  "Tunesien|Curaçao": [
+   0.6304,
+   0.2532,
+   0.1164
+  ],
+  "Tunesien|Elfenbeinküste": [
+   0.3068,
+   0.2592,
+   0.4339
+  ],
+  "Tunesien|Ecuador": [
+   0.1605,
+   0.2268,
+   0.6127
+  ],
+  "Tunesien|Niederlande": [
+   0.1261,
+   0.2066,
+   0.6673
+  ],
+  "Tunesien|Japan": [
+   0.1363,
+   0.2121,
+   0.6515
+  ],
+  "Tunesien|Schweden": [
+   0.362,
+   0.2771,
+   0.3609
+  ],
+  "Tunesien|Belgien": [
+   0.1392,
+   0.1841,
+   0.6768
+  ],
+  "Tunesien|Ägypten": [
+   0.3281,
+   0.2702,
+   0.4017
+  ],
+  "Tunesien|Iran": [
+   0.2219,
+   0.2596,
+   0.5185
+  ],
+  "Tunesien|Neuseeland": [
+   0.4238,
+   0.3176,
+   0.2585
+  ],
+  "Tunesien|Spanien": [
+   0.0505,
+   0.1297,
+   0.8198
+  ],
+  "Tunesien|Kap Verde": [
+   0.5105,
+   0.2847,
+   0.2048
+  ],
+  "Tunesien|Saudi-Arabien": [
+   0.4634,
+   0.2704,
+   0.2662
+  ],
+  "Tunesien|Uruguay": [
+   0.1735,
+   0.2509,
+   0.5756
+  ],
+  "Tunesien|Frankreich": [
+   0.084,
+   0.1632,
+   0.7528
+  ],
+  "Tunesien|Senegal": [
+   0.2367,
+   0.2697,
+   0.4936
+  ],
+  "Tunesien|Irak": [
+   0.4337,
+   0.2817,
+   0.2846
+  ],
+  "Tunesien|Norwegen": [
+   0.2414,
+   0.2573,
+   0.5013
+  ],
+  "Tunesien|Argentinien": [
+   0.0511,
+   0.1195,
+   0.8295
+  ],
+  "Tunesien|Algerien": [
+   0.2408,
+   0.2708,
+   0.4884
+  ],
+  "Tunesien|Österreich": [
+   0.2334,
+   0.267,
+   0.4996
+  ],
+  "Tunesien|Jordanien": [
+   0.4317,
+   0.2763,
+   0.2921
+  ],
+  "Tunesien|Portugal": [
+   0.1055,
+   0.1852,
+   0.7093
+  ],
+  "Tunesien|DR Kongo": [
+   0.4286,
+   0.2767,
+   0.2947
+  ],
+  "Tunesien|Usbekistan": [
+   0.3244,
+   0.2855,
+   0.3901
+  ],
+  "Tunesien|Kolumbien": [
+   0.0921,
+   0.1809,
+   0.727
+  ],
+  "Tunesien|England": [
+   0.107,
+   0.182,
+   0.7111
+  ],
+  "Tunesien|Kroatien": [
+   0.1759,
+   0.2566,
+   0.5675
+  ],
+  "Tunesien|Ghana": [
+   0.5567,
+   0.2626,
+   0.1807
+  ],
+  "Tunesien|Panama": [
+   0.3588,
+   0.2764,
+   0.3648
+  ],
+  "Belgien|Mexiko": [
+   0.4204,
+   0.2133,
+   0.3662
+  ],
+  "Belgien|Südafrika": [
+   0.7246,
+   0.1723,
+   0.1031
+  ],
+  "Belgien|Südkorea": [
+   0.5202,
+   0.2217,
+   0.2581
+  ],
+  "Belgien|Tschechien": [
+   0.6313,
+   0.2272,
+   0.1415
+  ],
+  "Belgien|Kanada": [
+   0.4979,
+   0.2286,
+   0.2735
+  ],
+  "Belgien|Bosnien-H.": [
+   0.7679,
+   0.1701,
+   0.062
+  ],
+  "Belgien|Katar": [
+   0.7388,
+   0.1821,
+   0.0791
+  ],
+  "Belgien|Schweiz": [
+   0.4767,
+   0.2558,
+   0.2675
+  ],
+  "Belgien|Brasilien": [
+   0.2785,
+   0.2632,
+   0.4583
+  ],
+  "Belgien|Marokko": [
+   0.4384,
+   0.2765,
+   0.2852
+  ],
+  "Belgien|Haiti": [
+   0.7247,
+   0.1713,
+   0.1041
+  ],
+  "Belgien|Schottland": [
+   0.6439,
+   0.2129,
+   0.1432
+  ],
+  "Belgien|USA": [
+   0.6072,
+   0.2326,
+   0.1602
+  ],
+  "Belgien|Paraguay": [
+   0.5231,
+   0.2211,
+   0.2558
+  ],
+  "Belgien|Australien": [
+   0.5054,
+   0.2272,
+   0.2674
+  ],
+  "Belgien|Türkei": [
+   0.5028,
+   0.2411,
+   0.2561
+  ],
+  "Belgien|Deutschland": [
+   0.3764,
+   0.2526,
+   0.371
+  ],
+  "Belgien|Curaçao": [
+   0.8626,
+   0.1123,
+   0.0251
+  ],
+  "Belgien|Elfenbeinküste": [
+   0.6603,
+   0.1922,
+   0.1475
+  ],
+  "Belgien|Ecuador": [
+   0.3957,
+   0.1994,
+   0.4049
+  ],
+  "Belgien|Niederlande": [
+   0.383,
+   0.275,
+   0.342
+  ],
+  "Belgien|Japan": [
+   0.432,
+   0.2356,
+   0.3324
+  ],
+  "Belgien|Schweden": [
+   0.7411,
+   0.1488,
+   0.1101
+  ],
+  "Belgien|Tunesien": [
+   0.6971,
+   0.1784,
+   0.1245
+  ],
+  "Belgien|Ägypten": [
+   0.6199,
+   0.1872,
+   0.1929
+  ],
+  "Belgien|Iran": [
+   0.4631,
+   0.256,
+   0.2809
+  ],
+  "Belgien|Neuseeland": [
+   0.6927,
+   0.2271,
+   0.0801
+  ],
+  "Belgien|Spanien": [
+   0.2488,
+   0.2505,
+   0.5007
+  ],
+  "Belgien|Kap Verde": [
+   0.7589,
+   0.1671,
+   0.074
+  ],
+  "Belgien|Saudi-Arabien": [
+   0.7403,
+   0.1603,
+   0.0994
+  ],
+  "Belgien|Uruguay": [
+   0.3745,
+   0.2372,
+   0.3882
+  ],
+  "Belgien|Frankreich": [
+   0.2778,
+   0.2248,
+   0.4974
+  ],
+  "Belgien|Senegal": [
+   0.5218,
+   0.2162,
+   0.262
+  ],
+  "Belgien|Irak": [
+   0.7166,
+   0.1691,
+   0.1143
+  ],
+  "Belgien|Norwegen": [
+   0.4733,
+   0.2713,
+   0.2554
+  ],
+  "Belgien|Argentinien": [
+   0.1873,
+   0.2105,
+   0.6021
+  ],
+  "Belgien|Algerien": [
+   0.5682,
+   0.2314,
+   0.2004
+  ],
+  "Belgien|Österreich": [
+   0.4751,
+   0.256,
+   0.2688
+  ],
+  "Belgien|Jordanien": [
+   0.7284,
+   0.1729,
+   0.0987
+  ],
+  "Belgien|Portugal": [
+   0.3315,
+   0.2351,
+   0.4334
+  ],
+  "Belgien|DR Kongo": [
+   0.7233,
+   0.1552,
+   0.1216
+  ],
+  "Belgien|Usbekistan": [
+   0.6057,
+   0.205,
+   0.1893
+  ],
+  "Belgien|Kolumbien": [
+   0.3287,
+   0.2515,
+   0.4199
+  ],
+  "Belgien|England": [
+   0.3489,
+   0.2769,
+   0.3741
+  ],
+  "Belgien|Kroatien": [
+   0.4677,
+   0.2241,
+   0.3082
+  ],
+  "Belgien|Ghana": [
+   0.7058,
+   0.2117,
+   0.0825
+  ],
+  "Belgien|Panama": [
+   0.6788,
+   0.2166,
+   0.1045
+  ],
+  "Ägypten|Mexiko": [
+   0.2538,
+   0.2762,
+   0.47
+  ],
+  "Ägypten|Südafrika": [
+   0.545,
+   0.2727,
+   0.1823
+  ],
+  "Ägypten|Südkorea": [
+   0.2885,
+   0.2643,
+   0.4472
+  ],
+  "Ägypten|Tschechien": [
+   0.355,
+   0.2634,
+   0.3816
+  ],
+  "Ägypten|Kanada": [
+   0.287,
+   0.2626,
+   0.4503
+  ],
+  "Ägypten|Bosnien-H.": [
+   0.5505,
+   0.2548,
+   0.1947
+  ],
+  "Ägypten|Katar": [
+   0.6604,
+   0.2408,
+   0.0988
+  ],
+  "Ägypten|Schweiz": [
+   0.2425,
+   0.2637,
+   0.4938
+  ],
+  "Ägypten|Brasilien": [
+   0.0916,
+   0.1795,
+   0.7289
+  ],
+  "Ägypten|Marokko": [
+   0.2151,
+   0.2806,
+   0.5043
+  ],
+  "Ägypten|Haiti": [
+   0.5223,
+   0.2824,
+   0.1953
+  ],
+  "Ägypten|Schottland": [
+   0.3826,
+   0.2756,
+   0.3418
+  ],
+  "Ägypten|USA": [
+   0.3715,
+   0.259,
+   0.3695
+  ],
+  "Ägypten|Paraguay": [
+   0.3176,
+   0.2606,
+   0.4217
+  ],
+  "Ägypten|Australien": [
+   0.2986,
+   0.264,
+   0.4374
+  ],
+  "Ägypten|Türkei": [
+   0.289,
+   0.2566,
+   0.4544
+  ],
+  "Ägypten|Deutschland": [
+   0.1751,
+   0.2792,
+   0.5458
+  ],
+  "Ägypten|Curaçao": [
+   0.7006,
+   0.1887,
+   0.1108
+  ],
+  "Ägypten|Elfenbeinküste": [
+   0.3655,
+   0.2735,
+   0.361
+  ],
+  "Ägypten|Ecuador": [
+   0.1748,
+   0.2541,
+   0.5711
+  ],
+  "Ägypten|Niederlande": [
+   0.1705,
+   0.2488,
+   0.5808
+  ],
+  "Ägypten|Japan": [
+   0.1889,
+   0.2646,
+   0.5466
+  ],
+  "Ägypten|Schweden": [
+   0.4587,
+   0.2716,
+   0.2697
+  ],
+  "Ägypten|Tunesien": [
+   0.486,
+   0.2556,
+   0.2584
+  ],
+  "Ägypten|Belgien": [
+   0.1919,
+   0.2435,
+   0.5645
+  ],
+  "Ägypten|Iran": [
+   0.2073,
+   0.2272,
+   0.5655
+  ],
+  "Ägypten|Neuseeland": [
+   0.4975,
+   0.2946,
+   0.2079
+  ],
+  "Ägypten|Spanien": [
+   0.0861,
+   0.1869,
+   0.7269
+  ],
+  "Ägypten|Kap Verde": [
+   0.5528,
+   0.2538,
+   0.1934
+  ],
+  "Ägypten|Saudi-Arabien": [
+   0.5088,
+   0.2898,
+   0.2014
+  ],
+  "Ägypten|Uruguay": [
+   0.2468,
+   0.2744,
+   0.4788
+  ],
+  "Ägypten|Frankreich": [
+   0.094,
+   0.1848,
+   0.7211
+  ],
+  "Ägypten|Senegal": [
+   0.2482,
+   0.2722,
+   0.4796
+  ],
+  "Ägypten|Irak": [
+   0.4779,
+   0.2602,
+   0.2619
+  ],
+  "Ägypten|Norwegen": [
+   0.2711,
+   0.2492,
+   0.4797
+  ],
+  "Ägypten|Argentinien": [
+   0.065,
+   0.1582,
+   0.7769
+  ],
+  "Ägypten|Algerien": [
+   0.2838,
+   0.2761,
+   0.4401
+  ],
+  "Ägypten|Österreich": [
+   0.2833,
+   0.27,
+   0.4467
+  ],
+  "Ägypten|Jordanien": [
+   0.4716,
+   0.2391,
+   0.2892
+  ],
+  "Ägypten|Portugal": [
+   0.1274,
+   0.2102,
+   0.6624
+  ],
+  "Ägypten|DR Kongo": [
+   0.4633,
+   0.2705,
+   0.2662
+  ],
+  "Ägypten|Usbekistan": [
+   0.4008,
+   0.2986,
+   0.3006
+  ],
+  "Ägypten|Kolumbien": [
+   0.1042,
+   0.1876,
+   0.7082
+  ],
+  "Ägypten|England": [
+   0.1304,
+   0.2035,
+   0.6661
+  ],
+  "Ägypten|Kroatien": [
+   0.2605,
+   0.2748,
+   0.4647
+  ],
+  "Ägypten|Ghana": [
+   0.5853,
+   0.2609,
+   0.1538
+  ],
+  "Ägypten|Panama": [
+   0.43,
+   0.2575,
+   0.3125
+  ],
+  "Iran|Mexiko": [
+   0.3611,
+   0.2821,
+   0.3568
+  ],
+  "Iran|Südafrika": [
+   0.711,
+   0.1911,
+   0.0978
+  ],
+  "Iran|Südkorea": [
+   0.4384,
+   0.278,
+   0.2836
+  ],
+  "Iran|Tschechien": [
+   0.5211,
+   0.2793,
+   0.1996
+  ],
+  "Iran|Kanada": [
+   0.4269,
+   0.2851,
+   0.288
+  ],
+  "Iran|Bosnien-H.": [
+   0.7072,
+   0.1871,
+   0.1057
+  ],
+  "Iran|Katar": [
+   0.762,
+   0.162,
+   0.076
+  ],
+  "Iran|Schweiz": [
+   0.3588,
+   0.2764,
+   0.3648
+  ],
+  "Iran|Brasilien": [
+   0.1706,
+   0.2481,
+   0.5813
+  ],
+  "Iran|Marokko": [
+   0.3236,
+   0.2711,
+   0.4053
+  ],
+  "Iran|Haiti": [
+   0.6944,
+   0.2056,
+   0.1
+  ],
+  "Iran|Schottland": [
+   0.516,
+   0.2817,
+   0.2023
+  ],
+  "Iran|USA": [
+   0.5193,
+   0.2456,
+   0.2351
+  ],
+  "Iran|Paraguay": [
+   0.4586,
+   0.2732,
+   0.2682
+  ],
+  "Iran|Australien": [
+   0.4354,
+   0.282,
+   0.2826
+  ],
+  "Iran|Türkei": [
+   0.3954,
+   0.2679,
+   0.3367
+  ],
+  "Iran|Deutschland": [
+   0.2697,
+   0.2847,
+   0.4455
+  ],
+  "Iran|Curaçao": [
+   0.8016,
+   0.1446,
+   0.0538
+  ],
+  "Iran|Elfenbeinküste": [
+   0.4852,
+   0.2631,
+   0.2517
+  ],
+  "Iran|Ecuador": [
+   0.3166,
+   0.2606,
+   0.4227
+  ],
+  "Iran|Niederlande": [
+   0.2788,
+   0.2782,
+   0.443
+  ],
+  "Iran|Japan": [
+   0.3119,
+   0.2737,
+   0.4144
+  ],
+  "Iran|Schweden": [
+   0.5638,
+   0.2558,
+   0.1805
+  ],
+  "Iran|Tunesien": [
+   0.6017,
+   0.2402,
+   0.1581
+  ],
+  "Iran|Belgien": [
+   0.3054,
+   0.2578,
+   0.4369
+  ],
+  "Iran|Ägypten": [
+   0.5293,
+   0.28,
+   0.1907
+  ],
+  "Iran|Neuseeland": [
+   0.7043,
+   0.1959,
+   0.0998
+  ],
+  "Iran|Spanien": [
+   0.1267,
+   0.2275,
+   0.6458
+  ],
+  "Iran|Kap Verde": [
+   0.7143,
+   0.1882,
+   0.0975
+  ],
+  "Iran|Saudi-Arabien": [
+   0.6947,
+   0.2094,
+   0.0959
+  ],
+  "Iran|Uruguay": [
+   0.3186,
+   0.2648,
+   0.4166
+  ],
+  "Iran|Frankreich": [
+   0.1715,
+   0.269,
+   0.5595
+  ],
+  "Iran|Senegal": [
+   0.4153,
+   0.2934,
+   0.2913
+  ],
+  "Iran|Irak": [
+   0.6144,
+   0.2463,
+   0.1393
+  ],
+  "Iran|Norwegen": [
+   0.3912,
+   0.2732,
+   0.3356
+  ],
+  "Iran|Argentinien": [
+   0.1208,
+   0.1986,
+   0.6806
+  ],
+  "Iran|Algerien": [
+   0.4373,
+   0.2881,
+   0.2746
+  ],
+  "Iran|Österreich": [
+   0.4041,
+   0.2916,
+   0.3042
+  ],
+  "Iran|Jordanien": [
+   0.6321,
+   0.2305,
+   0.1374
+  ],
+  "Iran|Portugal": [
+   0.2742,
+   0.2636,
+   0.4622
+  ],
+  "Iran|DR Kongo": [
+   0.6,
+   0.255,
+   0.145
+  ],
+  "Iran|Usbekistan": [
+   0.5291,
+   0.28,
+   0.1909
+  ],
+  "Iran|Kolumbien": [
+   0.2674,
+   0.2644,
+   0.4682
+  ],
+  "Iran|England": [
+   0.2693,
+   0.279,
+   0.4517
+  ],
+  "Iran|Kroatien": [
+   0.3368,
+   0.264,
+   0.3992
+  ],
+  "Iran|Ghana": [
+   0.7228,
+   0.1872,
+   0.0899
+  ],
+  "Iran|Panama": [
+   0.5741,
+   0.2532,
+   0.1727
+  ],
+  "Neuseeland|Mexiko": [
+   0.1337,
+   0.215,
+   0.6513
+  ],
+  "Neuseeland|Südafrika": [
+   0.427,
+   0.3035,
+   0.2696
+  ],
+  "Neuseeland|Südkorea": [
+   0.1893,
+   0.2911,
+   0.5196
+  ],
+  "Neuseeland|Tschechien": [
+   0.2563,
+   0.2812,
+   0.4625
+  ],
+  "Neuseeland|Kanada": [
+   0.194,
+   0.2713,
+   0.5347
+  ],
+  "Neuseeland|Bosnien-H.": [
+   0.4503,
+   0.2945,
+   0.2552
+  ],
+  "Neuseeland|Katar": [
+   0.5253,
+   0.2883,
+   0.1864
+  ],
+  "Neuseeland|Schweiz": [
+   0.1443,
+   0.2315,
+   0.6242
+  ],
+  "Neuseeland|Brasilien": [
+   0.0631,
+   0.1593,
+   0.7776
+  ],
+  "Neuseeland|Marokko": [
+   0.1468,
+   0.1879,
+   0.6653
+  ],
+  "Neuseeland|Haiti": [
+   0.4287,
+   0.295,
+   0.2763
+  ],
+  "Neuseeland|Schottland": [
+   0.2622,
+   0.3044,
+   0.4334
+  ],
+  "Neuseeland|USA": [
+   0.3166,
+   0.3167,
+   0.3667
+  ],
+  "Neuseeland|Paraguay": [
+   0.1976,
+   0.2742,
+   0.5283
+  ],
+  "Neuseeland|Australien": [
+   0.1829,
+   0.2775,
+   0.5396
+  ],
+  "Neuseeland|Türkei": [
+   0.2107,
+   0.2982,
+   0.4911
+  ],
+  "Neuseeland|Deutschland": [
+   0.1196,
+   0.2181,
+   0.6623
+  ],
+  "Neuseeland|Curaçao": [
+   0.5954,
+   0.2567,
+   0.1479
+  ],
+  "Neuseeland|Elfenbeinküste": [
+   0.2573,
+   0.3086,
+   0.4341
+  ],
+  "Neuseeland|Ecuador": [
+   0.1189,
+   0.243,
+   0.638
+  ],
+  "Neuseeland|Niederlande": [
+   0.0975,
+   0.1829,
+   0.7196
+  ],
+  "Neuseeland|Japan": [
+   0.1197,
+   0.2131,
+   0.6672
+  ],
+  "Neuseeland|Schweden": [
+   0.275,
+   0.2786,
+   0.4465
+  ],
+  "Neuseeland|Tunesien": [
+   0.3151,
+   0.2528,
+   0.4321
+  ],
+  "Neuseeland|Belgien": [
+   0.1378,
+   0.211,
+   0.6512
+  ],
+  "Neuseeland|Ägypten": [
+   0.2702,
+   0.2828,
+   0.4471
+  ],
+  "Neuseeland|Iran": [
+   0.1763,
+   0.2687,
+   0.555
+  ],
+  "Neuseeland|Spanien": [
+   0.0668,
+   0.1589,
+   0.7742
+  ],
+  "Neuseeland|Kap Verde": [
+   0.4563,
+   0.2946,
+   0.2492
+  ],
+  "Neuseeland|Saudi-Arabien": [
+   0.4045,
+   0.2913,
+   0.3043
+  ],
+  "Neuseeland|Uruguay": [
+   0.1229,
+   0.2318,
+   0.6453
+  ],
+  "Neuseeland|Frankreich": [
+   0.0895,
+   0.1779,
+   0.7326
+  ],
+  "Neuseeland|Senegal": [
+   0.189,
+   0.2834,
+   0.5276
+  ],
+  "Neuseeland|Irak": [
+   0.3557,
+   0.292,
+   0.3523
+  ],
+  "Neuseeland|Norwegen": [
+   0.1726,
+   0.2514,
+   0.576
+  ],
+  "Neuseeland|Argentinien": [
+   0.0678,
+   0.1434,
+   0.7888
+  ],
+  "Neuseeland|Algerien": [
+   0.2078,
+   0.287,
+   0.5052
+  ],
+  "Neuseeland|Österreich": [
+   0.2093,
+   0.2762,
+   0.5146
+  ],
+  "Neuseeland|Jordanien": [
+   0.3695,
+   0.3342,
+   0.2964
+  ],
+  "Neuseeland|Portugal": [
+   0.0884,
+   0.1932,
+   0.7184
+  ],
+  "Neuseeland|DR Kongo": [
+   0.3759,
+   0.2761,
+   0.3479
+  ],
+  "Neuseeland|Usbekistan": [
+   0.2604,
+   0.2935,
+   0.4462
+  ],
+  "Neuseeland|Kolumbien": [
+   0.072,
+   0.1702,
+   0.7578
+  ],
+  "Neuseeland|England": [
+   0.0881,
+   0.177,
+   0.7348
+  ],
+  "Neuseeland|Kroatien": [
+   0.1279,
+   0.2377,
+   0.6343
+  ],
+  "Neuseeland|Ghana": [
+   0.4727,
+   0.2594,
+   0.2678
+  ],
+  "Neuseeland|Panama": [
+   0.3114,
+   0.3317,
+   0.3569
+  ],
+  "Spanien|Mexiko": [
+   0.6894,
+   0.2085,
+   0.102
+  ],
+  "Spanien|Südafrika": [
+   0.8872,
+   0.0941,
+   0.0188
+  ],
+  "Spanien|Südkorea": [
+   0.7462,
+   0.1613,
+   0.0925
+  ],
+  "Spanien|Tschechien": [
+   0.7886,
+   0.1553,
+   0.0561
+  ],
+  "Spanien|Kanada": [
+   0.7457,
+   0.1634,
+   0.0909
+  ],
+  "Spanien|Bosnien-H.": [
+   0.913,
+   0.0671,
+   0.0199
+  ],
+  "Spanien|Katar": [
+   0.9373,
+   0.0312,
+   0.0314
+  ],
+  "Spanien|Schweiz": [
+   0.682,
+   0.2181,
+   0.0999
+  ],
+  "Spanien|Brasilien": [
+   0.4435,
+   0.2831,
+   0.2734
+  ],
+  "Spanien|Marokko": [
+   0.6031,
+   0.2535,
+   0.1434
+  ],
+  "Spanien|Haiti": [
+   0.8884,
+   0.093,
+   0.0185
+  ],
+  "Spanien|Schottland": [
+   0.7683,
+   0.1656,
+   0.0661
+  ],
+  "Spanien|USA": [
+   0.78,
+   0.1501,
+   0.0699
+  ],
+  "Spanien|Paraguay": [
+   0.7544,
+   0.1702,
+   0.0754
+  ],
+  "Spanien|Australien": [
+   0.7671,
+   0.1617,
+   0.0712
+  ],
+  "Spanien|Türkei": [
+   0.735,
+   0.1732,
+   0.0918
+  ],
+  "Spanien|Deutschland": [
+   0.5774,
+   0.2617,
+   0.161
+  ],
+  "Spanien|Curaçao": [
+   0.9597,
+   0.0255,
+   0.0148
+  ],
+  "Spanien|Elfenbeinküste": [
+   0.7724,
+   0.1536,
+   0.074
+  ],
+  "Spanien|Ecuador": [
+   0.63,
+   0.228,
+   0.142
+  ],
+  "Spanien|Niederlande": [
+   0.5789,
+   0.2582,
+   0.1629
+  ],
+  "Spanien|Japan": [
+   0.6187,
+   0.2354,
+   0.1459
+  ],
+  "Spanien|Schweden": [
+   0.8296,
+   0.1291,
+   0.0413
+  ],
+  "Spanien|Tunesien": [
+   0.8383,
+   0.1273,
+   0.0343
+  ],
+  "Spanien|Belgien": [
+   0.5781,
+   0.2503,
+   0.1716
+  ],
+  "Spanien|Ägypten": [
+   0.782,
+   0.1539,
+   0.0641
+  ],
+  "Spanien|Iran": [
+   0.7072,
+   0.1863,
+   0.1065
+  ],
+  "Spanien|Neuseeland": [
+   0.8659,
+   0.0907,
+   0.0433
+  ],
+  "Spanien|Kap Verde": [
+   0.9179,
+   0.0621,
+   0.02
+  ],
+  "Spanien|Saudi-Arabien": [
+   0.8875,
+   0.0923,
+   0.0202
+  ],
+  "Spanien|Uruguay": [
+   0.6554,
+   0.235,
+   0.1096
+  ],
+  "Spanien|Frankreich": [
+   0.4727,
+   0.2682,
+   0.2591
+  ],
+  "Spanien|Senegal": [
+   0.7355,
+   0.1636,
+   0.1009
+  ],
+  "Spanien|Irak": [
+   0.8532,
+   0.1255,
+   0.0214
+  ],
+  "Spanien|Norwegen": [
+   0.6945,
+   0.1914,
+   0.1141
+  ],
+  "Spanien|Argentinien": [
+   0.3622,
+   0.2795,
+   0.3582
+  ],
+  "Spanien|Algerien": [
+   0.7207,
+   0.1779,
+   0.1014
+  ],
+  "Spanien|Österreich": [
+   0.7115,
+   0.1901,
+   0.0984
+  ],
+  "Spanien|Jordanien": [
+   0.8701,
+   0.1094,
+   0.0206
+  ],
+  "Spanien|Portugal": [
+   0.5375,
+   0.2702,
+   0.1923
+  ],
+  "Spanien|DR Kongo": [
+   0.8596,
+   0.1143,
+   0.0261
+  ],
+  "Spanien|Usbekistan": [
+   0.7794,
+   0.1612,
+   0.0594
+  ],
+  "Spanien|Kolumbien": [
+   0.5312,
+   0.2787,
+   0.1901
+  ],
+  "Spanien|England": [
+   0.5337,
+   0.2756,
+   0.1907
+  ],
+  "Spanien|Kroatien": [
+   0.6535,
+   0.2355,
+   0.111
+  ],
+  "Spanien|Ghana": [
+   0.9069,
+   0.071,
+   0.0221
+  ],
+  "Spanien|Panama": [
+   0.8147,
+   0.1432,
+   0.0421
+  ],
+  "Kap Verde|Mexiko": [
+   0.0847,
+   0.1579,
+   0.7574
+  ],
+  "Kap Verde|Südafrika": [
+   0.3607,
+   0.2731,
+   0.3662
+  ],
+  "Kap Verde|Südkorea": [
+   0.1317,
+   0.2167,
+   0.6516
+  ],
+  "Kap Verde|Tschechien": [
+   0.246,
+   0.2791,
+   0.4749
+  ],
+  "Kap Verde|Kanada": [
+   0.1023,
+   0.1841,
+   0.7136
+  ],
+  "Kap Verde|Bosnien-H.": [
+   0.3823,
+   0.292,
+   0.3257
+  ],
+  "Kap Verde|Katar": [
+   0.4535,
+   0.2785,
+   0.2679
+  ],
+  "Kap Verde|Schweiz": [
+   0.0814,
+   0.1651,
+   0.7535
+  ],
+  "Kap Verde|Brasilien": [
+   0.0381,
+   0.1395,
+   0.8224
+  ],
+  "Kap Verde|Marokko": [
+   0.0782,
+   0.1548,
+   0.767
+  ],
+  "Kap Verde|Haiti": [
+   0.3512,
+   0.2772,
+   0.3717
+  ],
+  "Kap Verde|Schottland": [
+   0.2386,
+   0.2798,
+   0.4816
+  ],
+  "Kap Verde|USA": [
+   0.1664,
+   0.2632,
+   0.5703
+  ],
+  "Kap Verde|Paraguay": [
+   0.1634,
+   0.2627,
+   0.5739
+  ],
+  "Kap Verde|Australien": [
+   0.1468,
+   0.245,
+   0.6082
+  ],
+  "Kap Verde|Türkei": [
+   0.1058,
+   0.2025,
+   0.6916
+  ],
+  "Kap Verde|Deutschland": [
+   0.0685,
+   0.1628,
+   0.7687
+  ],
+  "Kap Verde|Curaçao": [
+   0.4709,
+   0.2678,
+   0.2613
+  ],
+  "Kap Verde|Elfenbeinküste": [
+   0.1753,
+   0.2518,
+   0.5729
+  ],
+  "Kap Verde|Ecuador": [
+   0.0731,
+   0.1505,
+   0.7764
+  ],
+  "Kap Verde|Niederlande": [
+   0.0707,
+   0.1623,
+   0.767
+  ],
+  "Kap Verde|Japan": [
+   0.0821,
+   0.1782,
+   0.7397
+  ],
+  "Kap Verde|Schweden": [
+   0.2346,
+   0.2773,
+   0.4881
+  ],
+  "Kap Verde|Tunesien": [
+   0.2577,
+   0.2739,
+   0.4684
+  ],
+  "Kap Verde|Belgien": [
+   0.0816,
+   0.1642,
+   0.7542
+  ],
+  "Kap Verde|Ägypten": [
+   0.2186,
+   0.2632,
+   0.5182
+  ],
+  "Kap Verde|Iran": [
+   0.0871,
+   0.1675,
+   0.7454
+  ],
+  "Kap Verde|Neuseeland": [
+   0.3125,
+   0.2944,
+   0.393
+  ],
+  "Kap Verde|Spanien": [
+   0.0292,
+   0.072,
+   0.8988
+  ],
+  "Kap Verde|Saudi-Arabien": [
+   0.343,
+   0.2852,
+   0.3717
+  ],
+  "Kap Verde|Uruguay": [
+   0.0876,
+   0.1806,
+   0.7318
+  ],
+  "Kap Verde|Frankreich": [
+   0.0434,
+   0.1537,
+   0.803
+  ],
+  "Kap Verde|Senegal": [
+   0.1194,
+   0.1985,
+   0.6821
+  ],
+  "Kap Verde|Irak": [
+   0.3165,
+   0.2657,
+   0.4179
+  ],
+  "Kap Verde|Norwegen": [
+   0.1028,
+   0.1665,
+   0.7307
+  ],
+  "Kap Verde|Argentinien": [
+   0.0257,
+   0.0659,
+   0.9084
+  ],
+  "Kap Verde|Algerien": [
+   0.1271,
+   0.2086,
+   0.6643
+  ],
+  "Kap Verde|Österreich": [
+   0.1066,
+   0.1846,
+   0.7088
+  ],
+  "Kap Verde|Jordanien": [
+   0.2848,
+   0.2656,
+   0.4495
+  ],
+  "Kap Verde|Portugal": [
+   0.0581,
+   0.1557,
+   0.7861
+  ],
+  "Kap Verde|DR Kongo": [
+   0.2764,
+   0.2517,
+   0.472
+  ],
+  "Kap Verde|Usbekistan": [
+   0.2373,
+   0.2768,
+   0.4859
+  ],
+  "Kap Verde|Kolumbien": [
+   0.0562,
+   0.1557,
+   0.7881
+  ],
+  "Kap Verde|England": [
+   0.0487,
+   0.1307,
+   0.8207
+  ],
+  "Kap Verde|Kroatien": [
+   0.095,
+   0.1827,
+   0.7223
+  ],
+  "Kap Verde|Ghana": [
+   0.4002,
+   0.2988,
+   0.301
+  ],
+  "Kap Verde|Panama": [
+   0.2368,
+   0.2811,
+   0.4821
+  ],
+  "Saudi-Arabien|Mexiko": [
+   0.1083,
+   0.1877,
+   0.704
+  ],
+  "Saudi-Arabien|Südafrika": [
+   0.429,
+   0.288,
+   0.283
+  ],
+  "Saudi-Arabien|Südkorea": [
+   0.189,
+   0.2645,
+   0.5465
+  ],
+  "Saudi-Arabien|Tschechien": [
+   0.2396,
+   0.2692,
+   0.4912
+  ],
+  "Saudi-Arabien|Kanada": [
+   0.1776,
+   0.252,
+   0.5705
+  ],
+  "Saudi-Arabien|Bosnien-H.": [
+   0.4335,
+   0.2769,
+   0.2896
+  ],
+  "Saudi-Arabien|Katar": [
+   0.5307,
+   0.2801,
+   0.1892
+  ],
+  "Saudi-Arabien|Schweiz": [
+   0.1069,
+   0.1852,
+   0.7079
+  ],
+  "Saudi-Arabien|Brasilien": [
+   0.0607,
+   0.158,
+   0.7813
+  ],
+  "Saudi-Arabien|Marokko": [
+   0.102,
+   0.1909,
+   0.7071
+  ],
+  "Saudi-Arabien|Haiti": [
+   0.3968,
+   0.2942,
+   0.309
+  ],
+  "Saudi-Arabien|Schottland": [
+   0.274,
+   0.2637,
+   0.4623
+  ],
+  "Saudi-Arabien|USA": [
+   0.2603,
+   0.2724,
+   0.4673
+  ],
+  "Saudi-Arabien|Paraguay": [
+   0.1862,
+   0.2783,
+   0.5354
+  ],
+  "Saudi-Arabien|Australien": [
+   0.1926,
+   0.2596,
+   0.5478
+  ],
+  "Saudi-Arabien|Türkei": [
+   0.151,
+   0.272,
+   0.577
+  ],
+  "Saudi-Arabien|Deutschland": [
+   0.1072,
+   0.2094,
+   0.6835
+  ],
+  "Saudi-Arabien|Curaçao": [
+   0.5647,
+   0.2491,
+   0.1862
+  ],
+  "Saudi-Arabien|Elfenbeinküste": [
+   0.2386,
+   0.2781,
+   0.4833
+  ],
+  "Saudi-Arabien|Ecuador": [
+   0.1,
+   0.1834,
+   0.7166
+  ],
+  "Saudi-Arabien|Niederlande": [
+   0.0872,
+   0.1711,
+   0.7417
+  ],
+  "Saudi-Arabien|Japan": [
+   0.0881,
+   0.1603,
+   0.7516
+  ],
+  "Saudi-Arabien|Schweden": [
+   0.2687,
+   0.2728,
+   0.4585
+  ],
+  "Saudi-Arabien|Tunesien": [
+   0.3173,
+   0.2695,
+   0.4131
+  ],
+  "Saudi-Arabien|Belgien": [
+   0.0936,
+   0.1559,
+   0.7505
+  ],
+  "Saudi-Arabien|Ägypten": [
+   0.2559,
+   0.2637,
+   0.4805
+  ],
+  "Saudi-Arabien|Iran": [
+   0.1446,
+   0.2227,
+   0.6327
+  ],
+  "Saudi-Arabien|Neuseeland": [
+   0.368,
+   0.3054,
+   0.3266
+  ],
+  "Saudi-Arabien|Spanien": [
+   0.0334,
+   0.109,
+   0.8576
+  ],
+  "Saudi-Arabien|Kap Verde": [
+   0.4567,
+   0.2727,
+   0.2706
+  ],
+  "Saudi-Arabien|Uruguay": [
+   0.1081,
+   0.1724,
+   0.7195
+  ],
+  "Saudi-Arabien|Frankreich": [
+   0.059,
+   0.1662,
+   0.7748
+  ],
+  "Saudi-Arabien|Senegal": [
+   0.1679,
+   0.2536,
+   0.5785
+  ],
+  "Saudi-Arabien|Irak": [
+   0.3587,
+   0.2838,
+   0.3575
+  ],
+  "Saudi-Arabien|Norwegen": [
+   0.1422,
+   0.2006,
+   0.6572
+  ],
+  "Saudi-Arabien|Argentinien": [
+   0.0343,
+   0.1242,
+   0.8415
+  ],
+  "Saudi-Arabien|Algerien": [
+   0.187,
+   0.2615,
+   0.5516
+  ],
+  "Saudi-Arabien|Österreich": [
+   0.1646,
+   0.2431,
+   0.5923
+  ],
+  "Saudi-Arabien|Jordanien": [
+   0.3618,
+   0.2796,
+   0.3586
+  ],
+  "Saudi-Arabien|Portugal": [
+   0.0931,
+   0.1994,
+   0.7075
+  ],
+  "Saudi-Arabien|DR Kongo": [
+   0.3478,
+   0.265,
+   0.3872
+  ],
+  "Saudi-Arabien|Usbekistan": [
+   0.252,
+   0.2706,
+   0.4774
+  ],
+  "Saudi-Arabien|Kolumbien": [
+   0.0748,
+   0.1765,
+   0.7487
+  ],
+  "Saudi-Arabien|England": [
+   0.0691,
+   0.1604,
+   0.7705
+  ],
+  "Saudi-Arabien|Kroatien": [
+   0.124,
+   0.2092,
+   0.6669
+  ],
+  "Saudi-Arabien|Ghana": [
+   0.4571,
+   0.274,
+   0.2689
+  ],
+  "Saudi-Arabien|Panama": [
+   0.2768,
+   0.2769,
+   0.4464
+  ],
+  "Uruguay|Mexiko": [
+   0.4085,
+   0.2823,
+   0.3092
+  ],
+  "Uruguay|Südafrika": [
+   0.7493,
+   0.1711,
+   0.0796
+  ],
+  "Uruguay|Südkorea": [
+   0.4613,
+   0.264,
+   0.2747
+  ],
+  "Uruguay|Tschechien": [
+   0.5831,
+   0.246,
+   0.171
+  ],
+  "Uruguay|Kanada": [
+   0.4437,
+   0.2751,
+   0.2813
+  ],
+  "Uruguay|Bosnien-H.": [
+   0.7489,
+   0.1528,
+   0.0983
+  ],
+  "Uruguay|Katar": [
+   0.7837,
+   0.1691,
+   0.0471
+  ],
+  "Uruguay|Schweiz": [
+   0.4214,
+   0.2712,
+   0.3074
+  ],
+  "Uruguay|Brasilien": [
+   0.2493,
+   0.268,
+   0.4827
+  ],
+  "Uruguay|Marokko": [
+   0.3546,
+   0.2694,
+   0.376
+  ],
+  "Uruguay|Haiti": [
+   0.7288,
+   0.1787,
+   0.0925
+  ],
+  "Uruguay|Schottland": [
+   0.5822,
+   0.2516,
+   0.1662
+  ],
+  "Uruguay|USA": [
+   0.5531,
+   0.2436,
+   0.2033
+  ],
+  "Uruguay|Paraguay": [
+   0.5133,
+   0.2906,
+   0.1962
+  ],
+  "Uruguay|Australien": [
+   0.4564,
+   0.261,
+   0.2826
+  ],
+  "Uruguay|Türkei": [
+   0.453,
+   0.2709,
+   0.2761
+  ],
+  "Uruguay|Deutschland": [
+   0.3381,
+   0.2553,
+   0.4066
+  ],
+  "Uruguay|Curaçao": [
+   0.8388,
+   0.1135,
+   0.0477
+  ],
+  "Uruguay|Elfenbeinküste": [
+   0.5978,
+   0.2344,
+   0.1678
+  ],
+  "Uruguay|Ecuador": [
+   0.345,
+   0.2776,
+   0.3774
+  ],
+  "Uruguay|Niederlande": [
+   0.3303,
+   0.2556,
+   0.414
+  ],
+  "Uruguay|Japan": [
+   0.3608,
+   0.2691,
+   0.3701
+  ],
+  "Uruguay|Schweden": [
+   0.5891,
+   0.2517,
+   0.1592
+  ],
+  "Uruguay|Tunesien": [
+   0.6218,
+   0.2499,
+   0.1282
+  ],
+  "Uruguay|Belgien": [
+   0.3712,
+   0.2599,
+   0.3689
+  ],
+  "Uruguay|Ägypten": [
+   0.5567,
+   0.277,
+   0.1662
+  ],
+  "Uruguay|Iran": [
+   0.4317,
+   0.2721,
+   0.2962
+  ],
+  "Uruguay|Neuseeland": [
+   0.6873,
+   0.2222,
+   0.0905
+  ],
+  "Uruguay|Spanien": [
+   0.1783,
+   0.238,
+   0.5837
+  ],
+  "Uruguay|Kap Verde": [
+   0.7542,
+   0.1666,
+   0.0792
+  ],
+  "Uruguay|Saudi-Arabien": [
+   0.7176,
+   0.1927,
+   0.0897
+  ],
+  "Uruguay|Frankreich": [
+   0.2596,
+   0.2868,
+   0.4536
+  ],
+  "Uruguay|Senegal": [
+   0.4505,
+   0.2686,
+   0.2809
+  ],
+  "Uruguay|Irak": [
+   0.6898,
+   0.2104,
+   0.0998
+  ],
+  "Uruguay|Norwegen": [
+   0.4895,
+   0.2372,
+   0.2734
+  ],
+  "Uruguay|Argentinien": [
+   0.1664,
+   0.2585,
+   0.5751
+  ],
+  "Uruguay|Algerien": [
+   0.469,
+   0.2504,
+   0.2806
+  ],
+  "Uruguay|Österreich": [
+   0.4638,
+   0.2464,
+   0.2898
+  ],
+  "Uruguay|Jordanien": [
+   0.6812,
+   0.2103,
+   0.1086
+  ],
+  "Uruguay|Portugal": [
+   0.3157,
+   0.238,
+   0.4464
+  ],
+  "Uruguay|DR Kongo": [
+   0.6757,
+   0.2218,
+   0.1025
+  ],
+  "Uruguay|Usbekistan": [
+   0.5666,
+   0.2621,
+   0.1713
+  ],
+  "Uruguay|Kolumbien": [
+   0.2893,
+   0.2656,
+   0.4451
+  ],
+  "Uruguay|England": [
+   0.2868,
+   0.2457,
+   0.4675
+  ],
+  "Uruguay|Kroatien": [
+   0.4119,
+   0.2828,
+   0.3053
+  ],
+  "Uruguay|Ghana": [
+   0.7443,
+   0.1786,
+   0.0772
+  ],
+  "Uruguay|Panama": [
+   0.5911,
+   0.2436,
+   0.1652
+  ],
+  "Frankreich|Mexiko": [
+   0.5517,
+   0.2572,
+   0.191
+  ],
+  "Frankreich|Südafrika": [
+   0.8621,
+   0.1175,
+   0.0204
+  ],
+  "Frankreich|Südkorea": [
+   0.6748,
+   0.2127,
+   0.1125
+  ],
+  "Frankreich|Tschechien": [
+   0.7351,
+   0.1803,
+   0.0846
+  ],
+  "Frankreich|Kanada": [
+   0.6407,
+   0.2286,
+   0.1307
+  ],
+  "Frankreich|Bosnien-H.": [
+   0.8498,
+   0.1296,
+   0.0205
+  ],
+  "Frankreich|Katar": [
+   0.9014,
+   0.0762,
+   0.0224
+  ],
+  "Frankreich|Schweiz": [
+   0.565,
+   0.2657,
+   0.1693
+  ],
+  "Frankreich|Brasilien": [
+   0.3973,
+   0.3004,
+   0.3023
+  ],
+  "Frankreich|Marokko": [
+   0.5053,
+   0.2836,
+   0.2111
+  ],
+  "Frankreich|Haiti": [
+   0.8365,
+   0.127,
+   0.0365
+  ],
+  "Frankreich|Schottland": [
+   0.7425,
+   0.1798,
+   0.0777
+  ],
+  "Frankreich|USA": [
+   0.6973,
+   0.1976,
+   0.105
+  ],
+  "Frankreich|Paraguay": [
+   0.6873,
+   0.2087,
+   0.104
+  ],
+  "Frankreich|Australien": [
+   0.6784,
+   0.2155,
+   0.1061
+  ],
+  "Frankreich|Türkei": [
+   0.6055,
+   0.2494,
+   0.1451
+  ],
+  "Frankreich|Deutschland": [
+   0.4602,
+   0.2744,
+   0.2654
+  ],
+  "Frankreich|Curaçao": [
+   0.8903,
+   0.0901,
+   0.0196
+  ],
+  "Frankreich|Elfenbeinküste": [
+   0.711,
+   0.1982,
+   0.0908
+  ],
+  "Frankreich|Ecuador": [
+   0.5076,
+   0.259,
+   0.2334
+  ],
+  "Frankreich|Niederlande": [
+   0.4638,
+   0.2697,
+   0.2665
+  ],
+  "Frankreich|Japan": [
+   0.5095,
+   0.2947,
+   0.1958
+  ],
+  "Frankreich|Schweden": [
+   0.7599,
+   0.167,
+   0.0732
+  ],
+  "Frankreich|Tunesien": [
+   0.7529,
+   0.1708,
+   0.0762
+  ],
+  "Frankreich|Belgien": [
+   0.4995,
+   0.2795,
+   0.221
+  ],
+  "Frankreich|Ägypten": [
+   0.7399,
+   0.1757,
+   0.0845
+  ],
+  "Frankreich|Iran": [
+   0.5772,
+   0.2708,
+   0.152
+  ],
+  "Frankreich|Neuseeland": [
+   0.8057,
+   0.1489,
+   0.0454
+  ],
+  "Frankreich|Spanien": [
+   0.2838,
+   0.2536,
+   0.4625
+  ],
+  "Frankreich|Kap Verde": [
+   0.8583,
+   0.1214,
+   0.0203
+  ],
+  "Frankreich|Saudi-Arabien": [
+   0.8342,
+   0.1296,
+   0.0362
+  ],
+  "Frankreich|Uruguay": [
+   0.5603,
+   0.2592,
+   0.1805
+  ],
+  "Frankreich|Senegal": [
+   0.6192,
+   0.2391,
+   0.1417
+  ],
+  "Frankreich|Irak": [
+   0.7882,
+   0.1634,
+   0.0484
+  ],
+  "Frankreich|Norwegen": [
+   0.5491,
+   0.2407,
+   0.2102
+  ],
+  "Frankreich|Argentinien": [
+   0.2752,
+   0.2546,
+   0.4703
+  ],
+  "Frankreich|Algerien": [
+   0.6214,
+   0.2646,
+   0.114
+  ],
+  "Frankreich|Österreich": [
+   0.5839,
+   0.2612,
+   0.1549
+  ],
+  "Frankreich|Jordanien": [
+   0.7778,
+   0.1629,
+   0.0593
+  ],
+  "Frankreich|Portugal": [
+   0.4571,
+   0.274,
+   0.2689
+  ],
+  "Frankreich|DR Kongo": [
+   0.7623,
+   0.1705,
+   0.0673
+  ],
+  "Frankreich|Usbekistan": [
+   0.7494,
+   0.1736,
+   0.077
+  ],
+  "Frankreich|Kolumbien": [
+   0.4534,
+   0.2759,
+   0.2707
+  ],
+  "Frankreich|England": [
+   0.4386,
+   0.2696,
+   0.2918
+  ],
+  "Frankreich|Kroatien": [
+   0.5539,
+   0.269,
+   0.1771
+  ],
+  "Frankreich|Ghana": [
+   0.8848,
+   0.0968,
+   0.0184
+  ],
+  "Frankreich|Panama": [
+   0.7451,
+   0.1785,
+   0.0764
+  ],
+  "Senegal|Mexiko": [
+   0.3144,
+   0.2768,
+   0.4088
+  ],
+  "Senegal|Südafrika": [
+   0.6933,
+   0.2063,
+   0.1004
+  ],
+  "Senegal|Südkorea": [
+   0.4345,
+   0.2777,
+   0.2878
+  ],
+  "Senegal|Tschechien": [
+   0.4544,
+   0.2598,
+   0.2857
+  ],
+  "Senegal|Kanada": [
+   0.4055,
+   0.2794,
+   0.3151
+  ],
+  "Senegal|Bosnien-H.": [
+   0.6982,
+   0.1846,
+   0.1171
+  ],
+  "Senegal|Katar": [
+   0.7485,
+   0.1757,
+   0.0758
+  ],
+  "Senegal|Schweiz": [
+   0.3258,
+   0.2821,
+   0.3922
+  ],
+  "Senegal|Brasilien": [
+   0.1635,
+   0.2467,
+   0.5898
+  ],
+  "Senegal|Marokko": [
+   0.3037,
+   0.2558,
+   0.4405
+  ],
+  "Senegal|Haiti": [
+   0.6825,
+   0.2158,
+   0.1017
+  ],
+  "Senegal|Schottland": [
+   0.5103,
+   0.2784,
+   0.2113
+  ],
+  "Senegal|USA": [
+   0.4903,
+   0.2568,
+   0.253
+  ],
+  "Senegal|Paraguay": [
+   0.4297,
+   0.2877,
+   0.2826
+  ],
+  "Senegal|Australien": [
+   0.4326,
+   0.2834,
+   0.284
+  ],
+  "Senegal|Türkei": [
+   0.3744,
+   0.2638,
+   0.3618
+  ],
+  "Senegal|Deutschland": [
+   0.278,
+   0.2646,
+   0.4574
+  ],
+  "Senegal|Curaçao": [
+   0.7857,
+   0.156,
+   0.0583
+  ],
+  "Senegal|Elfenbeinküste": [
+   0.4573,
+   0.2789,
+   0.2638
+  ],
+  "Senegal|Ecuador": [
+   0.2724,
+   0.2604,
+   0.4672
+  ],
+  "Senegal|Niederlande": [
+   0.2527,
+   0.2781,
+   0.4692
+  ],
+  "Senegal|Japan": [
+   0.2984,
+   0.2707,
+   0.4308
+  ],
+  "Senegal|Schweden": [
+   0.4868,
+   0.3243,
+   0.1889
+  ],
+  "Senegal|Tunesien": [
+   0.5349,
+   0.2863,
+   0.1788
+  ],
+  "Senegal|Belgien": [
+   0.3218,
+   0.2384,
+   0.4398
+  ],
+  "Senegal|Ägypten": [
+   0.5095,
+   0.2916,
+   0.1989
+  ],
+  "Senegal|Iran": [
+   0.3608,
+   0.2902,
+   0.349
+  ],
+  "Senegal|Neuseeland": [
+   0.6472,
+   0.2445,
+   0.1082
+  ],
+  "Senegal|Spanien": [
+   0.0997,
+   0.1626,
+   0.7377
+  ],
+  "Senegal|Kap Verde": [
+   0.7126,
+   0.1894,
+   0.0981
+  ],
+  "Senegal|Saudi-Arabien": [
+   0.6551,
+   0.2417,
+   0.1032
+  ],
+  "Senegal|Uruguay": [
+   0.316,
+   0.2685,
+   0.4155
+  ],
+  "Senegal|Frankreich": [
+   0.1852,
+   0.2506,
+   0.5643
+  ],
+  "Senegal|Irak": [
+   0.608,
+   0.2478,
+   0.1442
+  ],
+  "Senegal|Norwegen": [
+   0.3572,
+   0.2637,
+   0.379
+  ],
+  "Senegal|Argentinien": [
+   0.101,
+   0.1619,
+   0.7371
+  ],
+  "Senegal|Algerien": [
+   0.393,
+   0.2956,
+   0.3114
+  ],
+  "Senegal|Österreich": [
+   0.3524,
+   0.2596,
+   0.388
+  ],
+  "Senegal|Jordanien": [
+   0.6075,
+   0.2481,
+   0.1443
+  ],
+  "Senegal|Portugal": [
+   0.2441,
+   0.266,
+   0.4899
+  ],
+  "Senegal|DR Kongo": [
+   0.5901,
+   0.2587,
+   0.1512
+  ],
+  "Senegal|Usbekistan": [
+   0.5286,
+   0.2797,
+   0.1918
+  ],
+  "Senegal|Kolumbien": [
+   0.2454,
+   0.2633,
+   0.4913
+  ],
+  "Senegal|England": [
+   0.2227,
+   0.2717,
+   0.5056
+  ],
+  "Senegal|Kroatien": [
+   0.3144,
+   0.2711,
+   0.4145
+  ],
+  "Senegal|Ghana": [
+   0.7057,
+   0.2031,
+   0.0912
+  ],
+  "Senegal|Panama": [
+   0.5326,
+   0.279,
+   0.1884
+  ],
+  "Irak|Mexiko": [
+   0.1526,
+   0.234,
+   0.6134
+  ],
+  "Irak|Südafrika": [
+   0.4387,
+   0.2669,
+   0.2944
+  ],
+  "Irak|Südkorea": [
+   0.2424,
+   0.2784,
+   0.4792
+  ],
+  "Irak|Tschechien": [
+   0.2751,
+   0.2607,
+   0.4642
+  ],
+  "Irak|Kanada": [
+   0.2176,
+   0.2666,
+   0.5158
+  ],
+  "Irak|Bosnien-H.": [
+   0.4606,
+   0.2536,
+   0.2858
+  ],
+  "Irak|Katar": [
+   0.5521,
+   0.2767,
+   0.1711
+  ],
+  "Irak|Schweiz": [
+   0.1541,
+   0.237,
+   0.6089
+  ],
+  "Irak|Brasilien": [
+   0.059,
+   0.1564,
+   0.7846
+  ],
+  "Irak|Marokko": [
+   0.1241,
+   0.2071,
+   0.6688
+  ],
+  "Irak|Haiti": [
+   0.435,
+   0.2687,
+   0.2964
+  ],
+  "Irak|Schottland": [
+   0.2861,
+   0.2537,
+   0.4602
+  ],
+  "Irak|USA": [
+   0.2537,
+   0.2731,
+   0.4732
+  ],
+  "Irak|Paraguay": [
+   0.2434,
+   0.2805,
+   0.4761
+  ],
+  "Irak|Australien": [
+   0.2381,
+   0.2806,
+   0.4813
+  ],
+  "Irak|Türkei": [
+   0.1701,
+   0.2713,
+   0.5586
+  ],
+  "Irak|Deutschland": [
+   0.1094,
+   0.1854,
+   0.7052
+  ],
+  "Irak|Curaçao": [
+   0.5683,
+   0.2631,
+   0.1686
+  ],
+  "Irak|Elfenbeinküste": [
+   0.2754,
+   0.2771,
+   0.4474
+  ],
+  "Irak|Ecuador": [
+   0.1022,
+   0.1758,
+   0.7219
+  ],
+  "Irak|Niederlande": [
+   0.1089,
+   0.1847,
+   0.7064
+  ],
+  "Irak|Japan": [
+   0.1086,
+   0.1856,
+   0.7058
+  ],
+  "Irak|Schweden": [
+   0.3111,
+   0.2736,
+   0.4153
+  ],
+  "Irak|Tunesien": [
+   0.3316,
+   0.2903,
+   0.3781
+  ],
+  "Irak|Belgien": [
+   0.1191,
+   0.1741,
+   0.7068
+  ],
+  "Irak|Ägypten": [
+   0.2736,
+   0.2633,
+   0.4631
+  ],
+  "Irak|Iran": [
+   0.1539,
+   0.2455,
+   0.6006
+  ],
+  "Irak|Neuseeland": [
+   0.4007,
+   0.3016,
+   0.2977
+  ],
+  "Irak|Spanien": [
+   0.0375,
+   0.1297,
+   0.8328
+  ],
+  "Irak|Kap Verde": [
+   0.4531,
+   0.2636,
+   0.2833
+  ],
+  "Irak|Saudi-Arabien": [
+   0.4327,
+   0.2848,
+   0.2825
+  ],
+  "Irak|Uruguay": [
+   0.1301,
+   0.213,
+   0.6569
+  ],
+  "Irak|Frankreich": [
+   0.0587,
+   0.1675,
+   0.7737
+  ],
+  "Irak|Senegal": [
+   0.1813,
+   0.26,
+   0.5588
+  ],
+  "Irak|Norwegen": [
+   0.2,
+   0.2359,
+   0.5641
+  ],
+  "Irak|Argentinien": [
+   0.0364,
+   0.134,
+   0.8297
+  ],
+  "Irak|Algerien": [
+   0.1814,
+   0.2609,
+   0.5576
+  ],
+  "Irak|Österreich": [
+   0.1757,
+   0.2344,
+   0.5899
+  ],
+  "Irak|Jordanien": [
+   0.3509,
+   0.2767,
+   0.3724
+  ],
+  "Irak|Portugal": [
+   0.0924,
+   0.1759,
+   0.7317
+  ],
+  "Irak|DR Kongo": [
+   0.3804,
+   0.2953,
+   0.3243
+  ],
+  "Irak|Usbekistan": [
+   0.2894,
+   0.2644,
+   0.4463
+  ],
+  "Irak|Kolumbien": [
+   0.0847,
+   0.1737,
+   0.7417
+  ],
+  "Irak|England": [
+   0.0786,
+   0.1455,
+   0.7759
+  ],
+  "Irak|Kroatien": [
+   0.1421,
+   0.2212,
+   0.6366
+  ],
+  "Irak|Ghana": [
+   0.4941,
+   0.302,
+   0.2039
+  ],
+  "Irak|Panama": [
+   0.2921,
+   0.2616,
+   0.4463
+  ],
+  "Norwegen|Mexiko": [
+   0.352,
+   0.2745,
+   0.3735
+  ],
+  "Norwegen|Südafrika": [
+   0.7472,
+   0.1561,
+   0.0966
+  ],
+  "Norwegen|Südkorea": [
+   0.4584,
+   0.2395,
+   0.3021
+  ],
+  "Norwegen|Tschechien": [
+   0.5394,
+   0.2678,
+   0.1927
+  ],
+  "Norwegen|Kanada": [
+   0.427,
+   0.2404,
+   0.3325
+  ],
+  "Norwegen|Bosnien-H.": [
+   0.7368,
+   0.1702,
+   0.093
+  ],
+  "Norwegen|Katar": [
+   0.7659,
+   0.1474,
+   0.0867
+  ],
+  "Norwegen|Schweiz": [
+   0.3682,
+   0.2653,
+   0.3666
+  ],
+  "Norwegen|Brasilien": [
+   0.2102,
+   0.2722,
+   0.5176
+  ],
+  "Norwegen|Marokko": [
+   0.3146,
+   0.2505,
+   0.4348
+  ],
+  "Norwegen|Haiti": [
+   0.7169,
+   0.1806,
+   0.1024
+  ],
+  "Norwegen|Schottland": [
+   0.5534,
+   0.2499,
+   0.1967
+  ],
+  "Norwegen|USA": [
+   0.4781,
+   0.2464,
+   0.2755
+  ],
+  "Norwegen|Paraguay": [
+   0.46,
+   0.2449,
+   0.2951
+  ],
+  "Norwegen|Australien": [
+   0.4595,
+   0.2412,
+   0.2993
+  ],
+  "Norwegen|Türkei": [
+   0.4113,
+   0.2955,
+   0.2932
+  ],
+  "Norwegen|Deutschland": [
+   0.3073,
+   0.2651,
+   0.4276
+  ],
+  "Norwegen|Curaçao": [
+   0.7779,
+   0.1553,
+   0.0669
+  ],
+  "Norwegen|Elfenbeinküste": [
+   0.4955,
+   0.2418,
+   0.2627
+  ],
+  "Norwegen|Ecuador": [
+   0.3219,
+   0.2237,
+   0.4544
+  ],
+  "Norwegen|Niederlande": [
+   0.2933,
+   0.2553,
+   0.4513
+  ],
+  "Norwegen|Japan": [
+   0.275,
+   0.2809,
+   0.444
+  ],
+  "Norwegen|Schweden": [
+   0.5865,
+   0.2405,
+   0.1729
+  ],
+  "Norwegen|Tunesien": [
+   0.5901,
+   0.254,
+   0.1559
+  ],
+  "Norwegen|Belgien": [
+   0.2651,
+   0.2764,
+   0.4585
+  ],
+  "Norwegen|Ägypten": [
+   0.5006,
+   0.2754,
+   0.224
+  ],
+  "Norwegen|Iran": [
+   0.3824,
+   0.2998,
+   0.3178
+  ],
+  "Norwegen|Neuseeland": [
+   0.7052,
+   0.1877,
+   0.1071
+  ],
+  "Norwegen|Spanien": [
+   0.1285,
+   0.1951,
+   0.6764
+  ],
+  "Norwegen|Kap Verde": [
+   0.7445,
+   0.169,
+   0.0865
+  ],
+  "Norwegen|Saudi-Arabien": [
+   0.7156,
+   0.1822,
+   0.1022
+  ],
+  "Norwegen|Uruguay": [
+   0.2945,
+   0.2172,
+   0.4883
+  ],
+  "Norwegen|Frankreich": [
+   0.1978,
+   0.2741,
+   0.528
+  ],
+  "Norwegen|Senegal": [
+   0.4451,
+   0.2654,
+   0.2895
+  ],
+  "Norwegen|Irak": [
+   0.6835,
+   0.2068,
+   0.1097
+  ],
+  "Norwegen|Argentinien": [
+   0.1024,
+   0.1756,
+   0.722
+  ],
+  "Norwegen|Algerien": [
+   0.4374,
+   0.2685,
+   0.2941
+  ],
+  "Norwegen|Österreich": [
+   0.4228,
+   0.2856,
+   0.2916
+  ],
+  "Norwegen|Jordanien": [
+   0.6358,
+   0.2269,
+   0.1373
+  ],
+  "Norwegen|Portugal": [
+   0.2531,
+   0.2755,
+   0.4714
+  ],
+  "Norwegen|DR Kongo": [
+   0.6653,
+   0.2196,
+   0.1151
+  ],
+  "Norwegen|Usbekistan": [
+   0.5563,
+   0.2434,
+   0.2003
+  ],
+  "Norwegen|Kolumbien": [
+   0.2588,
+   0.2592,
+   0.482
+  ],
+  "Norwegen|England": [
+   0.2467,
+   0.263,
+   0.4903
+  ],
+  "Norwegen|Kroatien": [
+   0.3529,
+   0.2735,
+   0.3736
+  ],
+  "Norwegen|Ghana": [
+   0.7669,
+   0.1612,
+   0.0719
+  ],
+  "Norwegen|Panama": [
+   0.5798,
+   0.2323,
+   0.1879
+  ],
+  "Argentinien|Mexiko": [
+   0.6992,
+   0.1979,
+   0.1029
+  ],
+  "Argentinien|Südafrika": [
+   0.9158,
+   0.0642,
+   0.02
+  ],
+  "Argentinien|Südkorea": [
+   0.7681,
+   0.1514,
+   0.0804
+  ],
+  "Argentinien|Tschechien": [
+   0.7892,
+   0.1545,
+   0.0564
+  ],
+  "Argentinien|Kanada": [
+   0.757,
+   0.1648,
+   0.0782
+  ],
+  "Argentinien|Bosnien-H.": [
+   0.8879,
+   0.0923,
+   0.0198
+  ],
+  "Argentinien|Katar": [
+   0.9558,
+   0.0308,
+   0.0134
+  ],
+  "Argentinien|Schweiz": [
+   0.6917,
+   0.2087,
+   0.0996
+  ],
+  "Argentinien|Brasilien": [
+   0.4542,
+   0.27,
+   0.2759
+  ],
+  "Argentinien|Marokko": [
+   0.6695,
+   0.2307,
+   0.0998
+  ],
+  "Argentinien|Haiti": [
+   0.8892,
+   0.0922,
+   0.0186
+  ],
+  "Argentinien|Schottland": [
+   0.7786,
+   0.1687,
+   0.0527
+  ],
+  "Argentinien|USA": [
+   0.7855,
+   0.1494,
+   0.0651
+  ],
+  "Argentinien|Paraguay": [
+   0.7502,
+   0.1731,
+   0.0767
+  ],
+  "Argentinien|Australien": [
+   0.7521,
+   0.1709,
+   0.0771
+  ],
+  "Argentinien|Türkei": [
+   0.7553,
+   0.1596,
+   0.0852
+  ],
+  "Argentinien|Deutschland": [
+   0.5803,
+   0.2686,
+   0.151
+  ],
+  "Argentinien|Curaçao": [
+   0.9533,
+   0.0327,
+   0.0139
+  ],
+  "Argentinien|Elfenbeinküste": [
+   0.7872,
+   0.157,
+   0.0558
+  ],
+  "Argentinien|Ecuador": [
+   0.6338,
+   0.2253,
+   0.1409
+  ],
+  "Argentinien|Niederlande": [
+   0.6071,
+   0.2475,
+   0.1454
+  ],
+  "Argentinien|Japan": [
+   0.6093,
+   0.251,
+   0.1397
+  ],
+  "Argentinien|Schweden": [
+   0.8629,
+   0.1031,
+   0.0341
+  ],
+  "Argentinien|Tunesien": [
+   0.8418,
+   0.1258,
+   0.0324
+  ],
+  "Argentinien|Belgien": [
+   0.5979,
+   0.2398,
+   0.1623
+  ],
+  "Argentinien|Ägypten": [
+   0.7882,
+   0.1573,
+   0.0545
+  ],
+  "Argentinien|Iran": [
+   0.699,
+   0.1957,
+   0.1053
+  ],
+  "Argentinien|Neuseeland": [
+   0.8853,
+   0.0893,
+   0.0254
+  ],
+  "Argentinien|Spanien": [
+   0.4212,
+   0.2888,
+   0.29
+  ],
+  "Argentinien|Kap Verde": [
+   0.9114,
+   0.0664,
+   0.0222
+  ],
+  "Argentinien|Saudi-Arabien": [
+   0.8902,
+   0.0911,
+   0.0187
+  ],
+  "Argentinien|Uruguay": [
+   0.6916,
+   0.2067,
+   0.1017
+  ],
+  "Argentinien|Frankreich": [
+   0.4764,
+   0.2647,
+   0.2589
+  ],
+  "Argentinien|Senegal": [
+   0.7281,
+   0.1808,
+   0.0911
+  ],
+  "Argentinien|Irak": [
+   0.8872,
+   0.0941,
+   0.0188
+  ],
+  "Argentinien|Norwegen": [
+   0.6986,
+   0.1849,
+   0.1165
+  ],
+  "Argentinien|Algerien": [
+   0.7347,
+   0.1821,
+   0.0832
+  ],
+  "Argentinien|Österreich": [
+   0.7129,
+   0.1885,
+   0.0985
+  ],
+  "Argentinien|Jordanien": [
+   0.8707,
+   0.1142,
+   0.0151
+  ],
+  "Argentinien|Portugal": [
+   0.5675,
+   0.2592,
+   0.1733
+  ],
+  "Argentinien|DR Kongo": [
+   0.859,
+   0.1158,
+   0.0252
+  ],
+  "Argentinien|Usbekistan": [
+   0.7942,
+   0.1571,
+   0.0487
+  ],
+  "Argentinien|Kolumbien": [
+   0.545,
+   0.269,
+   0.186
+  ],
+  "Argentinien|England": [
+   0.5553,
+   0.2654,
+   0.1793
+  ],
+  "Argentinien|Kroatien": [
+   0.6823,
+   0.2235,
+   0.0942
+  ],
+  "Argentinien|Ghana": [
+   0.9158,
+   0.0644,
+   0.0198
+  ],
+  "Argentinien|Panama": [
+   0.8107,
+   0.1474,
+   0.0419
+  ],
+  "Algerien|Mexiko": [
+   0.3148,
+   0.2648,
+   0.4204
+  ],
+  "Algerien|Südafrika": [
+   0.6765,
+   0.219,
+   0.1045
+  ],
+  "Algerien|Südkorea": [
+   0.4589,
+   0.2638,
+   0.2772
+  ],
+  "Algerien|Tschechien": [
+   0.4447,
+   0.2545,
+   0.3008
+  ],
+  "Algerien|Kanada": [
+   0.4216,
+   0.2675,
+   0.3109
+  ],
+  "Algerien|Bosnien-H.": [
+   0.6923,
+   0.2055,
+   0.1022
+  ],
+  "Algerien|Katar": [
+   0.7625,
+   0.1647,
+   0.0728
+  ],
+  "Algerien|Schweiz": [
+   0.2904,
+   0.2506,
+   0.459
+  ],
+  "Algerien|Brasilien": [
+   0.165,
+   0.2434,
+   0.5915
+  ],
+  "Algerien|Marokko": [
+   0.2854,
+   0.2586,
+   0.456
+  ],
+  "Algerien|Haiti": [
+   0.6515,
+   0.2449,
+   0.1036
+  ],
+  "Algerien|Schottland": [
+   0.5157,
+   0.2838,
+   0.2005
+  ],
+  "Algerien|USA": [
+   0.5002,
+   0.2598,
+   0.24
+  ],
+  "Algerien|Paraguay": [
+   0.4112,
+   0.2978,
+   0.291
+  ],
+  "Algerien|Australien": [
+   0.4086,
+   0.2979,
+   0.2935
+  ],
+  "Algerien|Türkei": [
+   0.3838,
+   0.2542,
+   0.362
+  ],
+  "Algerien|Deutschland": [
+   0.2713,
+   0.258,
+   0.4707
+  ],
+  "Algerien|Curaçao": [
+   0.7624,
+   0.1668,
+   0.0708
+  ],
+  "Algerien|Elfenbeinküste": [
+   0.4715,
+   0.2702,
+   0.2584
+  ],
+  "Algerien|Ecuador": [
+   0.2889,
+   0.2665,
+   0.4446
+  ],
+  "Algerien|Niederlande": [
+   0.2361,
+   0.2589,
+   0.505
+  ],
+  "Algerien|Japan": [
+   0.2648,
+   0.2757,
+   0.4594
+  ],
+  "Algerien|Schweden": [
+   0.5086,
+   0.286,
+   0.2053
+  ],
+  "Algerien|Tunesien": [
+   0.5314,
+   0.2814,
+   0.1872
+  ],
+  "Algerien|Belgien": [
+   0.2633,
+   0.2402,
+   0.4964
+  ],
+  "Algerien|Ägypten": [
+   0.5266,
+   0.2825,
+   0.1909
+  ],
+  "Algerien|Iran": [
+   0.3451,
+   0.284,
+   0.3709
+  ],
+  "Algerien|Neuseeland": [
+   0.7135,
+   0.1942,
+   0.0923
+  ],
+  "Algerien|Spanien": [
+   0.0938,
+   0.1827,
+   0.7234
+  ],
+  "Algerien|Kap Verde": [
+   0.6984,
+   0.1985,
+   0.1031
+  ],
+  "Algerien|Saudi-Arabien": [
+   0.6327,
+   0.2667,
+   0.1006
+  ],
+  "Algerien|Uruguay": [
+   0.3028,
+   0.2673,
+   0.4299
+  ],
+  "Algerien|Frankreich": [
+   0.1648,
+   0.2569,
+   0.5783
+  ],
+  "Algerien|Senegal": [
+   0.3856,
+   0.2946,
+   0.3198
+  ],
+  "Algerien|Irak": [
+   0.6074,
+   0.2357,
+   0.1569
+  ],
+  "Algerien|Norwegen": [
+   0.3401,
+   0.2556,
+   0.4043
+  ],
+  "Algerien|Argentinien": [
+   0.0945,
+   0.1915,
+   0.714
+  ],
+  "Algerien|Österreich": [
+   0.3579,
+   0.2654,
+   0.3768
+  ],
+  "Algerien|Jordanien": [
+   0.5817,
+   0.2648,
+   0.1535
+  ],
+  "Algerien|Portugal": [
+   0.2271,
+   0.2636,
+   0.5093
+  ],
+  "Algerien|DR Kongo": [
+   0.6294,
+   0.2208,
+   0.1498
+  ],
+  "Algerien|Usbekistan": [
+   0.5001,
+   0.301,
+   0.1989
+  ],
+  "Algerien|Kolumbien": [
+   0.2278,
+   0.2611,
+   0.5111
+  ],
+  "Algerien|England": [
+   0.2237,
+   0.2616,
+   0.5147
+  ],
+  "Algerien|Kroatien": [
+   0.317,
+   0.2656,
+   0.4174
+  ],
+  "Algerien|Ghana": [
+   0.7198,
+   0.1761,
+   0.1041
+  ],
+  "Algerien|Panama": [
+   0.5606,
+   0.2553,
+   0.1841
+  ],
+  "Österreich|Mexiko": [
+   0.351,
+   0.2665,
+   0.3825
+  ],
+  "Österreich|Südafrika": [
+   0.7049,
+   0.1925,
+   0.1025
+  ],
+  "Österreich|Südkorea": [
+   0.4426,
+   0.2586,
+   0.2987
+  ],
+  "Österreich|Tschechien": [
+   0.4774,
+   0.2641,
+   0.2585
+  ],
+  "Österreich|Kanada": [
+   0.4312,
+   0.2503,
+   0.3185
+  ],
+  "Österreich|Bosnien-H.": [
+   0.7132,
+   0.1795,
+   0.1074
+  ],
+  "Österreich|Katar": [
+   0.7506,
+   0.1759,
+   0.0735
+  ],
+  "Österreich|Schweiz": [
+   0.3533,
+   0.2808,
+   0.3659
+  ],
+  "Österreich|Brasilien": [
+   0.161,
+   0.2608,
+   0.5782
+  ],
+  "Österreich|Marokko": [
+   0.3165,
+   0.2657,
+   0.4179
+  ],
+  "Österreich|Haiti": [
+   0.6883,
+   0.2067,
+   0.105
+  ],
+  "Österreich|Schottland": [
+   0.5002,
+   0.3002,
+   0.1995
+  ],
+  "Österreich|USA": [
+   0.5119,
+   0.2549,
+   0.2332
+  ],
+  "Österreich|Paraguay": [
+   0.4411,
+   0.2656,
+   0.2932
+  ],
+  "Österreich|Australien": [
+   0.4304,
+   0.2808,
+   0.2888
+  ],
+  "Österreich|Türkei": [
+   0.4005,
+   0.2645,
+   0.335
+  ],
+  "Österreich|Deutschland": [
+   0.2609,
+   0.2801,
+   0.459
+  ],
+  "Österreich|Curaçao": [
+   0.7875,
+   0.1565,
+   0.056
+  ],
+  "Österreich|Elfenbeinküste": [
+   0.4861,
+   0.2516,
+   0.2623
+  ],
+  "Österreich|Ecuador": [
+   0.3047,
+   0.2571,
+   0.4382
+  ],
+  "Österreich|Niederlande": [
+   0.2543,
+   0.2781,
+   0.4676
+  ],
+  "Österreich|Japan": [
+   0.2924,
+   0.2531,
+   0.4545
+  ],
+  "Österreich|Schweden": [
+   0.5794,
+   0.2129,
+   0.2077
+  ],
+  "Österreich|Tunesien": [
+   0.5764,
+   0.2549,
+   0.1687
+  ],
+  "Österreich|Belgien": [
+   0.2845,
+   0.251,
+   0.4645
+  ],
+  "Österreich|Ägypten": [
+   0.5371,
+   0.2687,
+   0.1942
+  ],
+  "Österreich|Iran": [
+   0.3969,
+   0.2821,
+   0.3209
+  ],
+  "Österreich|Neuseeland": [
+   0.7337,
+   0.1652,
+   0.1011
+  ],
+  "Österreich|Spanien": [
+   0.1163,
+   0.22,
+   0.6638
+  ],
+  "Österreich|Kap Verde": [
+   0.7092,
+   0.1841,
+   0.1068
+  ],
+  "Österreich|Saudi-Arabien": [
+   0.6952,
+   0.2048,
+   0.1
+  ],
+  "Österreich|Uruguay": [
+   0.3022,
+   0.2613,
+   0.4365
+  ],
+  "Österreich|Frankreich": [
+   0.1725,
+   0.2572,
+   0.5703
+  ],
+  "Österreich|Senegal": [
+   0.4307,
+   0.2534,
+   0.3159
+  ],
+  "Österreich|Irak": [
+   0.6268,
+   0.2338,
+   0.1394
+  ],
+  "Österreich|Norwegen": [
+   0.3448,
+   0.2719,
+   0.3834
+  ],
+  "Österreich|Argentinien": [
+   0.1013,
+   0.1933,
+   0.7054
+  ],
+  "Österreich|Algerien": [
+   0.4354,
+   0.273,
+   0.2916
+  ],
+  "Österreich|Jordanien": [
+   0.6283,
+   0.2222,
+   0.1494
+  ],
+  "Österreich|Portugal": [
+   0.2538,
+   0.2703,
+   0.4759
+  ],
+  "Österreich|DR Kongo": [
+   0.6339,
+   0.2189,
+   0.1472
+  ],
+  "Österreich|Usbekistan": [
+   0.5236,
+   0.2797,
+   0.1967
+  ],
+  "Österreich|Kolumbien": [
+   0.2464,
+   0.2735,
+   0.4801
+  ],
+  "Österreich|England": [
+   0.2521,
+   0.2758,
+   0.4721
+  ],
+  "Österreich|Kroatien": [
+   0.3253,
+   0.2529,
+   0.4218
+  ],
+  "Österreich|Ghana": [
+   0.747,
+   0.1706,
+   0.0824
+  ],
+  "Österreich|Panama": [
+   0.5587,
+   0.2595,
+   0.1818
+  ],
+  "Jordanien|Mexiko": [
+   0.1736,
+   0.2183,
+   0.6081
+  ],
+  "Jordanien|Südafrika": [
+   0.4443,
+   0.2676,
+   0.2881
+  ],
+  "Jordanien|Südkorea": [
+   0.2429,
+   0.2776,
+   0.4795
+  ],
+  "Jordanien|Tschechien": [
+   0.2767,
+   0.2569,
+   0.4664
+  ],
+  "Jordanien|Kanada": [
+   0.2187,
+   0.2478,
+   0.5334
+  ],
+  "Jordanien|Bosnien-H.": [
+   0.4272,
+   0.2628,
+   0.31
+  ],
+  "Jordanien|Katar": [
+   0.5722,
+   0.2659,
+   0.1619
+  ],
+  "Jordanien|Schweiz": [
+   0.1615,
+   0.2423,
+   0.5962
+  ],
+  "Jordanien|Brasilien": [
+   0.0626,
+   0.1517,
+   0.7858
+  ],
+  "Jordanien|Marokko": [
+   0.1376,
+   0.1948,
+   0.6676
+  ],
+  "Jordanien|Haiti": [
+   0.4405,
+   0.2658,
+   0.2937
+  ],
+  "Jordanien|Schottland": [
+   0.2818,
+   0.2518,
+   0.4664
+  ],
+  "Jordanien|USA": [
+   0.257,
+   0.2759,
+   0.4671
+  ],
+  "Jordanien|Paraguay": [
+   0.2188,
+   0.2528,
+   0.5284
+  ],
+  "Jordanien|Australien": [
+   0.2213,
+   0.2629,
+   0.5158
+  ],
+  "Jordanien|Türkei": [
+   0.1783,
+   0.2657,
+   0.556
+  ],
+  "Jordanien|Deutschland": [
+   0.1082,
+   0.1874,
+   0.7044
+  ],
+  "Jordanien|Curaçao": [
+   0.5856,
+   0.262,
+   0.1524
+  ],
+  "Jordanien|Elfenbeinküste": [
+   0.277,
+   0.2598,
+   0.4633
+  ],
+  "Jordanien|Ecuador": [
+   0.1152,
+   0.1873,
+   0.6975
+  ],
+  "Jordanien|Niederlande": [
+   0.0981,
+   0.1682,
+   0.7336
+  ],
+  "Jordanien|Japan": [
+   0.1111,
+   0.1976,
+   0.6913
+  ],
+  "Jordanien|Schweden": [
+   0.2967,
+   0.2755,
+   0.4278
+  ],
+  "Jordanien|Tunesien": [
+   0.3602,
+   0.2763,
+   0.3635
+  ],
+  "Jordanien|Belgien": [
+   0.1089,
+   0.1698,
+   0.7213
+  ],
+  "Jordanien|Ägypten": [
+   0.2857,
+   0.2522,
+   0.4621
+  ],
+  "Jordanien|Iran": [
+   0.1622,
+   0.2535,
+   0.5842
+  ],
+  "Jordanien|Neuseeland": [
+   0.4268,
+   0.2811,
+   0.2921
+  ],
+  "Jordanien|Spanien": [
+   0.0459,
+   0.1108,
+   0.8433
+  ],
+  "Jordanien|Kap Verde": [
+   0.4548,
+   0.2756,
+   0.2696
+  ],
+  "Jordanien|Saudi-Arabien": [
+   0.4562,
+   0.2744,
+   0.2694
+  ],
+  "Jordanien|Uruguay": [
+   0.136,
+   0.2212,
+   0.6428
+  ],
+  "Jordanien|Frankreich": [
+   0.0759,
+   0.1731,
+   0.7511
+  ],
+  "Jordanien|Senegal": [
+   0.2361,
+   0.2709,
+   0.493
+  ],
+  "Jordanien|Irak": [
+   0.4055,
+   0.2794,
+   0.3151
+  ],
+  "Jordanien|Norwegen": [
+   0.1684,
+   0.2311,
+   0.6005
+  ],
+  "Jordanien|Argentinien": [
+   0.0331,
+   0.115,
+   0.8519
+  ],
+  "Jordanien|Algerien": [
+   0.2459,
+   0.2511,
+   0.5029
+  ],
+  "Jordanien|Österreich": [
+   0.1823,
+   0.2418,
+   0.576
+  ],
+  "Jordanien|Portugal": [
+   0.0797,
+   0.1448,
+   0.7756
+  ],
+  "Jordanien|DR Kongo": [
+   0.4085,
+   0.2761,
+   0.3154
+  ],
+  "Jordanien|Usbekistan": [
+   0.2894,
+   0.2522,
+   0.4585
+  ],
+  "Jordanien|Kolumbien": [
+   0.0788,
+   0.1433,
+   0.7779
+  ],
+  "Jordanien|England": [
+   0.0771,
+   0.1443,
+   0.7786
+  ],
+  "Jordanien|Kroatien": [
+   0.1533,
+   0.24,
+   0.6067
+  ],
+  "Jordanien|Ghana": [
+   0.4919,
+   0.3033,
+   0.2049
+  ],
+  "Jordanien|Panama": [
+   0.3152,
+   0.2663,
+   0.4185
+  ],
+  "Portugal|Mexiko": [
+   0.5037,
+   0.2829,
+   0.2134
+  ],
+  "Portugal|Südafrika": [
+   0.8021,
+   0.1499,
+   0.048
+  ],
+  "Portugal|Südkorea": [
+   0.6104,
+   0.2311,
+   0.1584
+  ],
+  "Portugal|Tschechien": [
+   0.6828,
+   0.2147,
+   0.1024
+  ],
+  "Portugal|Kanada": [
+   0.5625,
+   0.2531,
+   0.1844
+  ],
+  "Portugal|Bosnien-H.": [
+   0.831,
+   0.1293,
+   0.0396
+  ],
+  "Portugal|Katar": [
+   0.8844,
+   0.0929,
+   0.0228
+  ],
+  "Portugal|Schweiz": [
+   0.5188,
+   0.2861,
+   0.1951
+  ],
+  "Portugal|Brasilien": [
+   0.3176,
+   0.2606,
+   0.4217
+  ],
+  "Portugal|Marokko": [
+   0.4509,
+   0.2732,
+   0.2759
+  ],
+  "Portugal|Haiti": [
+   0.7753,
+   0.1578,
+   0.0668
+  ],
+  "Portugal|Schottland": [
+   0.6931,
+   0.2081,
+   0.0988
+  ],
+  "Portugal|USA": [
+   0.6256,
+   0.2559,
+   0.1186
+  ],
+  "Portugal|Paraguay": [
+   0.6122,
+   0.2415,
+   0.1463
+  ],
+  "Portugal|Australien": [
+   0.583,
+   0.2537,
+   0.1633
+  ],
+  "Portugal|Türkei": [
+   0.5671,
+   0.2543,
+   0.1786
+  ],
+  "Portugal|Deutschland": [
+   0.444,
+   0.2822,
+   0.2738
+  ],
+  "Portugal|Curaçao": [
+   0.8839,
+   0.0928,
+   0.0232
+  ],
+  "Portugal|Elfenbeinküste": [
+   0.683,
+   0.2092,
+   0.1079
+  ],
+  "Portugal|Ecuador": [
+   0.4451,
+   0.2497,
+   0.3052
+  ],
+  "Portugal|Niederlande": [
+   0.4344,
+   0.2841,
+   0.2816
+  ],
+  "Portugal|Japan": [
+   0.4697,
+   0.2487,
+   0.2816
+  ],
+  "Portugal|Schweden": [
+   0.7241,
+   0.1785,
+   0.0974
+  ],
+  "Portugal|Tunesien": [
+   0.7553,
+   0.1699,
+   0.0748
+  ],
+  "Portugal|Belgien": [
+   0.4396,
+   0.2583,
+   0.302
+  ],
+  "Portugal|Ägypten": [
+   0.6977,
+   0.1894,
+   0.1129
+  ],
+  "Portugal|Iran": [
+   0.521,
+   0.2597,
+   0.2194
+  ],
+  "Portugal|Neuseeland": [
+   0.7666,
+   0.165,
+   0.0684
+  ],
+  "Portugal|Spanien": [
+   0.2453,
+   0.2717,
+   0.4831
+  ],
+  "Portugal|Kap Verde": [
+   0.843,
+   0.116,
+   0.041
+  ],
+  "Portugal|Saudi-Arabien": [
+   0.7832,
+   0.1584,
+   0.0584
+  ],
+  "Portugal|Uruguay": [
+   0.485,
+   0.2296,
+   0.2854
+  ],
+  "Portugal|Frankreich": [
+   0.3352,
+   0.2587,
+   0.4061
+  ],
+  "Portugal|Senegal": [
+   0.5718,
+   0.2528,
+   0.1754
+  ],
+  "Portugal|Irak": [
+   0.7686,
+   0.1569,
+   0.0744
+  ],
+  "Portugal|Norwegen": [
+   0.5033,
+   0.2795,
+   0.2172
+  ],
+  "Portugal|Argentinien": [
+   0.243,
+   0.2607,
+   0.4963
+  ],
+  "Portugal|Algerien": [
+   0.5687,
+   0.2535,
+   0.1777
+  ],
+  "Portugal|Österreich": [
+   0.5617,
+   0.2641,
+   0.1743
+  ],
+  "Portugal|Jordanien": [
+   0.7657,
+   0.1601,
+   0.0743
+  ],
+  "Portugal|DR Kongo": [
+   0.7441,
+   0.1692,
+   0.0867
+  ],
+  "Portugal|Usbekistan": [
+   0.7001,
+   0.1916,
+   0.1084
+  ],
+  "Portugal|Kolumbien": [
+   0.3651,
+   0.2753,
+   0.3596
+  ],
+  "Portugal|England": [
+   0.3801,
+   0.2904,
+   0.3295
+  ],
+  "Portugal|Kroatien": [
+   0.5004,
+   0.2281,
+   0.2715
+  ],
+  "Portugal|Ghana": [
+   0.8373,
+   0.1272,
+   0.0355
+  ],
+  "Portugal|Panama": [
+   0.7154,
+   0.185,
+   0.0996
+  ],
+  "DR Kongo|Mexiko": [
+   0.1582,
+   0.2481,
+   0.5937
+  ],
+  "DR Kongo|Südafrika": [
+   0.4269,
+   0.26,
+   0.3131
+  ],
+  "DR Kongo|Südkorea": [
+   0.2496,
+   0.2728,
+   0.4776
+  ],
+  "DR Kongo|Tschechien": [
+   0.283,
+   0.255,
+   0.462
+  ],
+  "DR Kongo|Kanada": [
+   0.2418,
+   0.2793,
+   0.479
+  ],
+  "DR Kongo|Bosnien-H.": [
+   0.4486,
+   0.2472,
+   0.3042
+  ],
+  "DR Kongo|Katar": [
+   0.5387,
+   0.2969,
+   0.1644
+  ],
+  "DR Kongo|Schweiz": [
+   0.1382,
+   0.2384,
+   0.6233
+  ],
+  "DR Kongo|Brasilien": [
+   0.0621,
+   0.1547,
+   0.7832
+  ],
+  "DR Kongo|Marokko": [
+   0.1389,
+   0.2123,
+   0.6487
+  ],
+  "DR Kongo|Haiti": [
+   0.4232,
+   0.2616,
+   0.3151
+  ],
+  "DR Kongo|Schottland": [
+   0.2934,
+   0.2489,
+   0.4577
+  ],
+  "DR Kongo|USA": [
+   0.2749,
+   0.2549,
+   0.4702
+  ],
+  "DR Kongo|Paraguay": [
+   0.2467,
+   0.2793,
+   0.4741
+  ],
+  "DR Kongo|Australien": [
+   0.2391,
+   0.2803,
+   0.4807
+  ],
+  "DR Kongo|Türkei": [
+   0.2049,
+   0.2345,
+   0.5606
+  ],
+  "DR Kongo|Deutschland": [
+   0.104,
+   0.1853,
+   0.7107
+  ],
+  "DR Kongo|Curaçao": [
+   0.588,
+   0.2393,
+   0.1727
+  ],
+  "DR Kongo|Elfenbeinküste": [
+   0.269,
+   0.2752,
+   0.4559
+  ],
+  "DR Kongo|Ecuador": [
+   0.1003,
+   0.197,
+   0.7026
+  ],
+  "DR Kongo|Niederlande": [
+   0.0995,
+   0.1814,
+   0.7192
+  ],
+  "DR Kongo|Japan": [
+   0.1159,
+   0.2009,
+   0.6832
+  ],
+  "DR Kongo|Schweden": [
+   0.3284,
+   0.2476,
+   0.424
+  ],
+  "DR Kongo|Tunesien": [
+   0.3719,
+   0.2661,
+   0.362
+  ],
+  "DR Kongo|Belgien": [
+   0.1251,
+   0.1829,
+   0.692
+  ],
+  "DR Kongo|Ägypten": [
+   0.29,
+   0.2672,
+   0.4428
+  ],
+  "DR Kongo|Iran": [
+   0.1538,
+   0.2425,
+   0.6037
+  ],
+  "DR Kongo|Neuseeland": [
+   0.4287,
+   0.2717,
+   0.2996
+  ],
+  "DR Kongo|Spanien": [
+   0.0484,
+   0.1353,
+   0.8163
+  ],
+  "DR Kongo|Kap Verde": [
+   0.4561,
+   0.2526,
+   0.2913
+  ],
+  "DR Kongo|Saudi-Arabien": [
+   0.4246,
+   0.2842,
+   0.2913
+  ],
+  "DR Kongo|Uruguay": [
+   0.1316,
+   0.2127,
+   0.6558
+  ],
+  "DR Kongo|Frankreich": [
+   0.072,
+   0.1622,
+   0.7657
+  ],
+  "DR Kongo|Senegal": [
+   0.1682,
+   0.2559,
+   0.576
+  ],
+  "DR Kongo|Irak": [
+   0.4008,
+   0.2986,
+   0.3006
+  ],
+  "DR Kongo|Norwegen": [
+   0.1768,
+   0.2346,
+   0.5886
+  ],
+  "DR Kongo|Argentinien": [
+   0.0495,
+   0.1443,
+   0.8062
+  ],
+  "DR Kongo|Algerien": [
+   0.2023,
+   0.2762,
+   0.5215
+  ],
+  "DR Kongo|Österreich": [
+   0.1946,
+   0.2353,
+   0.57
+  ],
+  "DR Kongo|Jordanien": [
+   0.4001,
+   0.2494,
+   0.3505
+  ],
+  "DR Kongo|Portugal": [
+   0.0888,
+   0.1715,
+   0.7397
+  ],
+  "DR Kongo|Usbekistan": [
+   0.2897,
+   0.2617,
+   0.4486
+  ],
+  "DR Kongo|Kolumbien": [
+   0.0871,
+   0.1682,
+   0.7447
+  ],
+  "DR Kongo|England": [
+   0.0838,
+   0.169,
+   0.7472
+  ],
+  "DR Kongo|Kroatien": [
+   0.1366,
+   0.2197,
+   0.6438
+  ],
+  "DR Kongo|Ghana": [
+   0.5039,
+   0.2963,
+   0.1998
+  ],
+  "DR Kongo|Panama": [
+   0.3465,
+   0.2415,
+   0.412
+  ],
+  "Usbekistan|Mexiko": [
+   0.2329,
+   0.2654,
+   0.5017
+  ],
+  "Usbekistan|Südafrika": [
+   0.5524,
+   0.2682,
+   0.1794
+  ],
+  "Usbekistan|Südkorea": [
+   0.3173,
+   0.2595,
+   0.4232
+  ],
+  "Usbekistan|Tschechien": [
+   0.3694,
+   0.264,
+   0.3666
+  ],
+  "Usbekistan|Kanada": [
+   0.2856,
+   0.2585,
+   0.4558
+  ],
+  "Usbekistan|Bosnien-H.": [
+   0.5585,
+   0.2583,
+   0.1832
+  ],
+  "Usbekistan|Katar": [
+   0.6724,
+   0.2213,
+   0.1062
+  ],
+  "Usbekistan|Schweiz": [
+   0.2629,
+   0.2648,
+   0.4723
+  ],
+  "Usbekistan|Brasilien": [
+   0.0995,
+   0.1814,
+   0.7192
+  ],
+  "Usbekistan|Marokko": [
+   0.1963,
+   0.2811,
+   0.5227
+  ],
+  "Usbekistan|Haiti": [
+   0.5298,
+   0.278,
+   0.1922
+  ],
+  "Usbekistan|Schottland": [
+   0.3947,
+   0.2942,
+   0.311
+  ],
+  "Usbekistan|USA": [
+   0.3606,
+   0.2659,
+   0.3735
+  ],
+  "Usbekistan|Paraguay": [
+   0.3164,
+   0.2612,
+   0.4224
+  ],
+  "Usbekistan|Australien": [
+   0.2974,
+   0.2644,
+   0.4382
+  ],
+  "Usbekistan|Türkei": [
+   0.2594,
+   0.287,
+   0.4536
+  ],
+  "Usbekistan|Deutschland": [
+   0.2166,
+   0.2509,
+   0.5325
+  ],
+  "Usbekistan|Curaçao": [
+   0.6845,
+   0.2068,
+   0.1087
+  ],
+  "Usbekistan|Elfenbeinküste": [
+   0.3689,
+   0.2765,
+   0.3547
+  ],
+  "Usbekistan|Ecuador": [
+   0.18,
+   0.2457,
+   0.5742
+  ],
+  "Usbekistan|Niederlande": [
+   0.1848,
+   0.2507,
+   0.5645
+  ],
+  "Usbekistan|Japan": [
+   0.1906,
+   0.2686,
+   0.5409
+  ],
+  "Usbekistan|Schweden": [
+   0.4289,
+   0.2845,
+   0.2867
+  ],
+  "Usbekistan|Tunesien": [
+   0.4547,
+   0.2752,
+   0.2701
+  ],
+  "Usbekistan|Belgien": [
+   0.2,
+   0.2535,
+   0.5464
+  ],
+  "Usbekistan|Ägypten": [
+   0.4012,
+   0.3036,
+   0.2953
+  ],
+  "Usbekistan|Iran": [
+   0.2415,
+   0.2722,
+   0.4863
+  ],
+  "Usbekistan|Neuseeland": [
+   0.4819,
+   0.3247,
+   0.1934
+  ],
+  "Usbekistan|Spanien": [
+   0.0795,
+   0.1762,
+   0.7443
+  ],
+  "Usbekistan|Kap Verde": [
+   0.5695,
+   0.2637,
+   0.1668
+  ],
+  "Usbekistan|Saudi-Arabien": [
+   0.5319,
+   0.2762,
+   0.1919
+  ],
+  "Usbekistan|Uruguay": [
+   0.2469,
+   0.2743,
+   0.4788
+  ],
+  "Usbekistan|Frankreich": [
+   0.0922,
+   0.2,
+   0.7078
+  ],
+  "Usbekistan|Senegal": [
+   0.2716,
+   0.2717,
+   0.4568
+  ],
+  "Usbekistan|Irak": [
+   0.4742,
+   0.2645,
+   0.2613
+  ],
+  "Usbekistan|Norwegen": [
+   0.2875,
+   0.2494,
+   0.4631
+  ],
+  "Usbekistan|Argentinien": [
+   0.0587,
+   0.1527,
+   0.7886
+  ],
+  "Usbekistan|Algerien": [
+   0.2615,
+   0.271,
+   0.4675
+  ],
+  "Usbekistan|Österreich": [
+   0.2493,
+   0.2728,
+   0.4778
+  ],
+  "Usbekistan|Jordanien": [
+   0.4564,
+   0.265,
+   0.2786
+  ],
+  "Usbekistan|Portugal": [
+   0.1385,
+   0.2147,
+   0.6469
+  ],
+  "Usbekistan|DR Kongo": [
+   0.4587,
+   0.2767,
+   0.2646
+  ],
+  "Usbekistan|Kolumbien": [
+   0.1137,
+   0.1923,
+   0.6941
+  ],
+  "Usbekistan|England": [
+   0.1322,
+   0.1903,
+   0.6775
+  ],
+  "Usbekistan|Kroatien": [
+   0.2674,
+   0.278,
+   0.4546
+  ],
+  "Usbekistan|Ghana": [
+   0.6071,
+   0.2475,
+   0.1454
+  ],
+  "Usbekistan|Panama": [
+   0.4019,
+   0.2863,
+   0.3118
+  ],
+  "Kolumbien|Mexiko": [
+   0.51,
+   0.2804,
+   0.2096
+  ],
+  "Kolumbien|Südafrika": [
+   0.8414,
+   0.1172,
+   0.0414
+  ],
+  "Kolumbien|Südkorea": [
+   0.628,
+   0.2238,
+   0.1482
+  ],
+  "Kolumbien|Tschechien": [
+   0.6822,
+   0.2148,
+   0.103
+  ],
+  "Kolumbien|Kanada": [
+   0.5678,
+   0.2551,
+   0.1771
+  ],
+  "Kolumbien|Bosnien-H.": [
+   0.8395,
+   0.1245,
+   0.036
+  ],
+  "Kolumbien|Katar": [
+   0.8749,
+   0.1026,
+   0.0225
+  ],
+  "Kolumbien|Schweiz": [
+   0.5173,
+   0.287,
+   0.1957
+  ],
+  "Kolumbien|Brasilien": [
+   0.3505,
+   0.2821,
+   0.3674
+  ],
+  "Kolumbien|Marokko": [
+   0.4537,
+   0.2687,
+   0.2776
+  ],
+  "Kolumbien|Haiti": [
+   0.7894,
+   0.1559,
+   0.0547
+  ],
+  "Kolumbien|Schottland": [
+   0.714,
+   0.1878,
+   0.0982
+  ],
+  "Kolumbien|USA": [
+   0.6486,
+   0.2433,
+   0.1081
+  ],
+  "Kolumbien|Paraguay": [
+   0.6105,
+   0.2451,
+   0.1443
+  ],
+  "Kolumbien|Australien": [
+   0.606,
+   0.2397,
+   0.1543
+  ],
+  "Kolumbien|Türkei": [
+   0.5867,
+   0.2506,
+   0.1627
+  ],
+  "Kolumbien|Deutschland": [
+   0.4627,
+   0.2745,
+   0.2628
+  ],
+  "Kolumbien|Curaçao": [
+   0.8728,
+   0.1038,
+   0.0234
+  ],
+  "Kolumbien|Elfenbeinküste": [
+   0.6811,
+   0.2177,
+   0.1012
+  ],
+  "Kolumbien|Ecuador": [
+   0.4512,
+   0.246,
+   0.3028
+  ],
+  "Kolumbien|Niederlande": [
+   0.4536,
+   0.2744,
+   0.272
+  ],
+  "Kolumbien|Japan": [
+   0.4538,
+   0.2815,
+   0.2647
+  ],
+  "Kolumbien|Schweden": [
+   0.7241,
+   0.1785,
+   0.0974
+  ],
+  "Kolumbien|Tunesien": [
+   0.7584,
+   0.1665,
+   0.0751
+  ],
+  "Kolumbien|Belgien": [
+   0.4421,
+   0.2627,
+   0.2952
+  ],
+  "Kolumbien|Ägypten": [
+   0.703,
+   0.1833,
+   0.1137
+  ],
+  "Kolumbien|Iran": [
+   0.5435,
+   0.2539,
+   0.2026
+  ],
+  "Kolumbien|Neuseeland": [
+   0.7622,
+   0.1831,
+   0.0547
+  ],
+  "Kolumbien|Spanien": [
+   0.2475,
+   0.2681,
+   0.4844
+  ],
+  "Kolumbien|Kap Verde": [
+   0.8445,
+   0.1193,
+   0.0362
+  ],
+  "Kolumbien|Saudi-Arabien": [
+   0.7885,
+   0.1631,
+   0.0483
+  ],
+  "Kolumbien|Uruguay": [
+   0.5383,
+   0.268,
+   0.1937
+  ],
+  "Kolumbien|Frankreich": [
+   0.3561,
+   0.283,
+   0.3609
+  ],
+  "Kolumbien|Senegal": [
+   0.5767,
+   0.2531,
+   0.1702
+  ],
+  "Kolumbien|Irak": [
+   0.7698,
+   0.1545,
+   0.0757
+  ],
+  "Kolumbien|Norwegen": [
+   0.5263,
+   0.2704,
+   0.2033
+  ],
+  "Kolumbien|Argentinien": [
+   0.2407,
+   0.2678,
+   0.4915
+  ],
+  "Kolumbien|Algerien": [
+   0.5622,
+   0.2757,
+   0.162
+  ],
+  "Kolumbien|Österreich": [
+   0.5806,
+   0.2557,
+   0.1638
+  ],
+  "Kolumbien|Jordanien": [
+   0.7682,
+   0.1579,
+   0.0739
+  ],
+  "Kolumbien|Portugal": [
+   0.4245,
+   0.2868,
+   0.2887
+  ],
+  "Kolumbien|DR Kongo": [
+   0.7452,
+   0.1666,
+   0.0883
+  ],
+  "Kolumbien|Usbekistan": [
+   0.694,
+   0.1948,
+   0.1112
+  ],
+  "Kolumbien|England": [
+   0.4033,
+   0.2795,
+   0.3172
+  ],
+  "Kolumbien|Kroatien": [
+   0.5236,
+   0.2862,
+   0.1902
+  ],
+  "Kolumbien|Ghana": [
+   0.8613,
+   0.1187,
+   0.02
+  ],
+  "Kolumbien|Panama": [
+   0.7153,
+   0.1852,
+   0.0996
+  ],
+  "England|Mexiko": [
+   0.5132,
+   0.2924,
+   0.1944
+  ],
+  "England|Südafrika": [
+   0.805,
+   0.1474,
+   0.0476
+  ],
+  "England|Südkorea": [
+   0.6112,
+   0.2387,
+   0.1501
+  ],
+  "England|Tschechien": [
+   0.6903,
+   0.2104,
+   0.0994
+  ],
+  "England|Kanada": [
+   0.5801,
+   0.2487,
+   0.1712
+  ],
+  "England|Bosnien-H.": [
+   0.8344,
+   0.1258,
+   0.0398
+  ],
+  "England|Katar": [
+   0.8902,
+   0.0916,
+   0.0181
+  ],
+  "England|Schweiz": [
+   0.5235,
+   0.2844,
+   0.192
+  ],
+  "England|Brasilien": [
+   0.308,
+   0.2635,
+   0.4285
+  ],
+  "England|Marokko": [
+   0.4142,
+   0.3014,
+   0.2843
+  ],
+  "England|Haiti": [
+   0.7767,
+   0.1565,
+   0.0668
+  ],
+  "England|Schottland": [
+   0.6951,
+   0.2048,
+   0.1001
+  ],
+  "England|USA": [
+   0.6549,
+   0.2421,
+   0.103
+  ],
+  "England|Paraguay": [
+   0.6163,
+   0.2245,
+   0.1592
+  ],
+  "England|Australien": [
+   0.5653,
+   0.2701,
+   0.1647
+  ],
+  "England|Türkei": [
+   0.5889,
+   0.2405,
+   0.1706
+  ],
+  "England|Deutschland": [
+   0.4434,
+   0.2787,
+   0.2779
+  ],
+  "England|Curaçao": [
+   0.8535,
+   0.1201,
+   0.0264
+  ],
+  "England|Elfenbeinküste": [
+   0.6707,
+   0.2298,
+   0.0994
+  ],
+  "England|Ecuador": [
+   0.4804,
+   0.2414,
+   0.2782
+  ],
+  "England|Niederlande": [
+   0.4327,
+   0.2848,
+   0.2825
+  ],
+  "England|Japan": [
+   0.4547,
+   0.274,
+   0.2713
+  ],
+  "England|Schweden": [
+   0.7481,
+   0.1625,
+   0.0895
+  ],
+  "England|Tunesien": [
+   0.7255,
+   0.1866,
+   0.0878
+  ],
+  "England|Belgien": [
+   0.4555,
+   0.2573,
+   0.2872
+  ],
+  "England|Ägypten": [
+   0.6998,
+   0.1972,
+   0.103
+  ],
+  "England|Iran": [
+   0.5555,
+   0.2663,
+   0.1782
+  ],
+  "England|Neuseeland": [
+   0.8117,
+   0.1376,
+   0.0507
+  ],
+  "England|Spanien": [
+   0.2604,
+   0.2755,
+   0.4641
+  ],
+  "England|Kap Verde": [
+   0.8403,
+   0.1222,
+   0.0375
+  ],
+  "England|Saudi-Arabien": [
+   0.7897,
+   0.1501,
+   0.0602
+  ],
+  "England|Uruguay": [
+   0.4956,
+   0.2422,
+   0.2622
+  ],
+  "England|Frankreich": [
+   0.3346,
+   0.2649,
+   0.4005
+  ],
+  "England|Senegal": [
+   0.5553,
+   0.2682,
+   0.1766
+  ],
+  "England|Irak": [
+   0.7791,
+   0.146,
+   0.0749
+  ],
+  "England|Norwegen": [
+   0.5241,
+   0.2629,
+   0.2129
+  ],
+  "England|Argentinien": [
+   0.2327,
+   0.2892,
+   0.4781
+  ],
+  "England|Algerien": [
+   0.5668,
+   0.2662,
+   0.167
+  ],
+  "England|Österreich": [
+   0.5603,
+   0.2585,
+   0.1812
+  ],
+  "England|Jordanien": [
+   0.8018,
+   0.1379,
+   0.0604
+  ],
+  "England|Portugal": [
+   0.3744,
+   0.2866,
+   0.339
+  ],
+  "England|DR Kongo": [
+   0.7723,
+   0.1528,
+   0.0749
+  ],
+  "England|Usbekistan": [
+   0.6769,
+   0.2135,
+   0.1096
+  ],
+  "England|Kolumbien": [
+   0.3563,
+   0.281,
+   0.3627
+  ],
+  "England|Kroatien": [
+   0.4756,
+   0.2638,
+   0.2606
+  ],
+  "England|Ghana": [
+   0.8395,
+   0.1247,
+   0.0357
+  ],
+  "England|Panama": [
+   0.7513,
+   0.1649,
+   0.0837
+  ],
+  "Kroatien|Mexiko": [
+   0.4033,
+   0.2795,
+   0.3172
+  ],
+  "Kroatien|Südafrika": [
+   0.7585,
+   0.1686,
+   0.0729
+  ],
+  "Kroatien|Südkorea": [
+   0.4771,
+   0.263,
+   0.2599
+  ],
+  "Kroatien|Tschechien": [
+   0.5115,
+   0.2463,
+   0.2422
+  ],
+  "Kroatien|Kanada": [
+   0.4518,
+   0.2377,
+   0.3104
+  ],
+  "Kroatien|Bosnien-H.": [
+   0.7571,
+   0.17,
+   0.0729
+  ],
+  "Kroatien|Katar": [
+   0.8212,
+   0.1364,
+   0.0424
+  ],
+  "Kroatien|Schweiz": [
+   0.3634,
+   0.2502,
+   0.3864
+  ],
+  "Kroatien|Brasilien": [
+   0.2306,
+   0.2608,
+   0.5086
+  ],
+  "Kroatien|Marokko": [
+   0.3411,
+   0.2701,
+   0.3889
+  ],
+  "Kroatien|Haiti": [
+   0.7186,
+   0.1915,
+   0.0898
+  ],
+  "Kroatien|Schottland": [
+   0.5704,
+   0.2638,
+   0.1658
+  ],
+  "Kroatien|USA": [
+   0.5017,
+   0.2946,
+   0.2037
+  ],
+  "Kroatien|Paraguay": [
+   0.5076,
+   0.2959,
+   0.1966
+  ],
+  "Kroatien|Australien": [
+   0.4491,
+   0.2784,
+   0.2725
+  ],
+  "Kroatien|Türkei": [
+   0.4476,
+   0.2709,
+   0.2815
+  ],
+  "Kroatien|Deutschland": [
+   0.3344,
+   0.2491,
+   0.4165
+  ],
+  "Kroatien|Curaçao": [
+   0.8242,
+   0.1345,
+   0.0413
+  ],
+  "Kroatien|Elfenbeinküste": [
+   0.5421,
+   0.2744,
+   0.1835
+  ],
+  "Kroatien|Ecuador": [
+   0.3266,
+   0.2583,
+   0.4151
+  ],
+  "Kroatien|Niederlande": [
+   0.3014,
+   0.261,
+   0.4377
+  ],
+  "Kroatien|Japan": [
+   0.3352,
+   0.281,
+   0.3838
+  ],
+  "Kroatien|Schweden": [
+   0.569,
+   0.2855,
+   0.1455
+  ],
+  "Kroatien|Tunesien": [
+   0.6225,
+   0.266,
+   0.1115
+  ],
+  "Kroatien|Belgien": [
+   0.3582,
+   0.2368,
+   0.405
+  ],
+  "Kroatien|Ägypten": [
+   0.559,
+   0.2697,
+   0.1713
+  ],
+  "Kroatien|Iran": [
+   0.4261,
+   0.2571,
+   0.3168
+  ],
+  "Kroatien|Neuseeland": [
+   0.7085,
+   0.2016,
+   0.0899
+  ],
+  "Kroatien|Spanien": [
+   0.1654,
+   0.2315,
+   0.6031
+  ],
+  "Kroatien|Kap Verde": [
+   0.7606,
+   0.167,
+   0.0724
+  ],
+  "Kroatien|Saudi-Arabien": [
+   0.7044,
+   0.2017,
+   0.0939
+  ],
+  "Kroatien|Uruguay": [
+   0.4064,
+   0.2895,
+   0.3041
+  ],
+  "Kroatien|Frankreich": [
+   0.2589,
+   0.2761,
+   0.465
+  ],
+  "Kroatien|Senegal": [
+   0.4574,
+   0.2725,
+   0.2701
+  ],
+  "Kroatien|Irak": [
+   0.7112,
+   0.1837,
+   0.105
+  ],
+  "Kroatien|Norwegen": [
+   0.4403,
+   0.2604,
+   0.2993
+  ],
+  "Kroatien|Argentinien": [
+   0.1558,
+   0.244,
+   0.6002
+  ],
+  "Kroatien|Algerien": [
+   0.4437,
+   0.2751,
+   0.2813
+  ],
+  "Kroatien|Österreich": [
+   0.441,
+   0.2571,
+   0.3018
+  ],
+  "Kroatien|Jordanien": [
+   0.6944,
+   0.2056,
+   0.1
+  ],
+  "Kroatien|Portugal": [
+   0.2875,
+   0.2615,
+   0.451
+  ],
+  "Kroatien|DR Kongo": [
+   0.6896,
+   0.191,
+   0.1194
+  ],
+  "Kroatien|Usbekistan": [
+   0.5473,
+   0.2861,
+   0.1665
+  ],
+  "Kroatien|Kolumbien": [
+   0.2551,
+   0.2711,
+   0.4738
+  ],
+  "Kroatien|England": [
+   0.264,
+   0.2469,
+   0.4891
+  ],
+  "Kroatien|Ghana": [
+   0.7535,
+   0.1702,
+   0.0764
+  ],
+  "Kroatien|Panama": [
+   0.5845,
+   0.2627,
+   0.1528
+  ],
+  "Ghana|Mexiko": [
+   0.0811,
+   0.1498,
+   0.7691
+  ],
+  "Ghana|Südafrika": [
+   0.3306,
+   0.2751,
+   0.3943
+  ],
+  "Ghana|Südkorea": [
+   0.1346,
+   0.2294,
+   0.6359
+  ],
+  "Ghana|Tschechien": [
+   0.1736,
+   0.2531,
+   0.5733
+  ],
+  "Ghana|Kanada": [
+   0.119,
+   0.1945,
+   0.6865
+  ],
+  "Ghana|Bosnien-H.": [
+   0.3448,
+   0.2558,
+   0.3994
+  ],
+  "Ghana|Katar": [
+   0.4624,
+   0.2713,
+   0.2664
+  ],
+  "Ghana|Schweiz": [
+   0.0872,
+   0.1711,
+   0.7417
+  ],
+  "Ghana|Brasilien": [
+   0.0434,
+   0.1535,
+   0.8031
+  ],
+  "Ghana|Marokko": [
+   0.0868,
+   0.1875,
+   0.7257
+  ],
+  "Ghana|Haiti": [
+   0.3069,
+   0.2554,
+   0.4377
+  ],
+  "Ghana|Schottland": [
+   0.1833,
+   0.2633,
+   0.5534
+  ],
+  "Ghana|USA": [
+   0.1794,
+   0.2688,
+   0.5518
+  ],
+  "Ghana|Paraguay": [
+   0.1319,
+   0.2039,
+   0.6642
+  ],
+  "Ghana|Australien": [
+   0.1204,
+   0.2022,
+   0.6774
+  ],
+  "Ghana|Türkei": [
+   0.165,
+   0.27,
+   0.565
+  ],
+  "Ghana|Deutschland": [
+   0.0722,
+   0.1824,
+   0.7454
+  ],
+  "Ghana|Curaçao": [
+   0.4764,
+   0.2662,
+   0.2574
+  ],
+  "Ghana|Elfenbeinküste": [
+   0.1777,
+   0.2485,
+   0.5738
+  ],
+  "Ghana|Ecuador": [
+   0.0836,
+   0.1734,
+   0.743
+  ],
+  "Ghana|Niederlande": [
+   0.0599,
+   0.1432,
+   0.797
+  ],
+  "Ghana|Japan": [
+   0.0611,
+   0.1572,
+   0.7817
+  ],
+  "Ghana|Schweden": [
+   0.2406,
+   0.2797,
+   0.4797
+  ],
+  "Ghana|Tunesien": [
+   0.2607,
+   0.2805,
+   0.4588
+  ],
+  "Ghana|Belgien": [
+   0.0799,
+   0.172,
+   0.7481
+  ],
+  "Ghana|Ägypten": [
+   0.1951,
+   0.2905,
+   0.5143
+  ],
+  "Ghana|Iran": [
+   0.1043,
+   0.1789,
+   0.7168
+  ],
+  "Ghana|Neuseeland": [
+   0.2979,
+   0.2766,
+   0.4255
+  ],
+  "Ghana|Spanien": [
+   0.0296,
+   0.0514,
+   0.919
+  ],
+  "Ghana|Kap Verde": [
+   0.3689,
+   0.2765,
+   0.3547
+  ],
+  "Ghana|Saudi-Arabien": [
+   0.3164,
+   0.2699,
+   0.4137
+  ],
+  "Ghana|Uruguay": [
+   0.0956,
+   0.167,
+   0.7374
+  ],
+  "Ghana|Frankreich": [
+   0.0452,
+   0.1573,
+   0.7976
+  ],
+  "Ghana|Senegal": [
+   0.1124,
+   0.1948,
+   0.6928
+  ],
+  "Ghana|Irak": [
+   0.2957,
+   0.2617,
+   0.4426
+  ],
+  "Ghana|Norwegen": [
+   0.1107,
+   0.1632,
+   0.7261
+  ],
+  "Ghana|Argentinien": [
+   0.0311,
+   0.0478,
+   0.9211
+  ],
+  "Ghana|Algerien": [
+   0.1093,
+   0.2037,
+   0.687
+  ],
+  "Ghana|Österreich": [
+   0.122,
+   0.207,
+   0.671
+  ],
+  "Ghana|Jordanien": [
+   0.2845,
+   0.2749,
+   0.4406
+  ],
+  "Ghana|Portugal": [
+   0.0605,
+   0.1465,
+   0.793
+  ],
+  "Ghana|DR Kongo": [
+   0.2961,
+   0.2636,
+   0.4404
+  ],
+  "Ghana|Usbekistan": [
+   0.1966,
+   0.2825,
+   0.5209
+  ],
+  "Ghana|Kolumbien": [
+   0.0553,
+   0.1313,
+   0.8135
+  ],
+  "Ghana|England": [
+   0.0506,
+   0.1268,
+   0.8225
+  ],
+  "Ghana|Kroatien": [
+   0.0919,
+   0.1672,
+   0.7409
+  ],
+  "Ghana|Panama": [
+   0.2667,
+   0.2793,
+   0.454
+  ],
+  "Panama|Mexiko": [
+   0.2369,
+   0.2512,
+   0.5119
+  ],
+  "Panama|Südafrika": [
+   0.5293,
+   0.2749,
+   0.1958
+  ],
+  "Panama|Südkorea": [
+   0.2724,
+   0.262,
+   0.4655
+  ],
+  "Panama|Tschechien": [
+   0.3306,
+   0.2618,
+   0.4076
+  ],
+  "Panama|Kanada": [
+   0.2589,
+   0.261,
+   0.4801
+  ],
+  "Panama|Bosnien-H.": [
+   0.542,
+   0.2761,
+   0.1818
+  ],
+  "Panama|Katar": [
+   0.6568,
+   0.2323,
+   0.1109
+  ],
+  "Panama|Schweiz": [
+   0.2231,
+   0.2592,
+   0.5177
+  ],
+  "Panama|Brasilien": [
+   0.0795,
+   0.1586,
+   0.7619
+  ],
+  "Panama|Marokko": [
+   0.1831,
+   0.2429,
+   0.574
+  ],
+  "Panama|Haiti": [
+   0.5053,
+   0.2836,
+   0.2111
+  ],
+  "Panama|Schottland": [
+   0.3318,
+   0.272,
+   0.3962
+  ],
+  "Panama|USA": [
+   0.3371,
+   0.2864,
+   0.3765
+  ],
+  "Panama|Paraguay": [
+   0.2825,
+   0.2499,
+   0.4676
+  ],
+  "Panama|Australien": [
+   0.2735,
+   0.251,
+   0.4755
+  ],
+  "Panama|Türkei": [
+   0.2615,
+   0.2865,
+   0.452
+  ],
+  "Panama|Deutschland": [
+   0.1639,
+   0.2504,
+   0.5857
+  ],
+  "Panama|Curaçao": [
+   0.6853,
+   0.2137,
+   0.101
+  ],
+  "Panama|Elfenbeinküste": [
+   0.3425,
+   0.2644,
+   0.3931
+  ],
+  "Panama|Ecuador": [
+   0.1685,
+   0.2339,
+   0.5976
+  ],
+  "Panama|Niederlande": [
+   0.1673,
+   0.2414,
+   0.5914
+  ],
+  "Panama|Japan": [
+   0.1885,
+   0.2521,
+   0.5594
+  ],
+  "Panama|Schweden": [
+   0.4036,
+   0.3004,
+   0.296
+  ],
+  "Panama|Tunesien": [
+   0.4415,
+   0.2818,
+   0.2767
+  ],
+  "Panama|Belgien": [
+   0.1738,
+   0.2297,
+   0.5965
+  ],
+  "Panama|Ägypten": [
+   0.3676,
+   0.2771,
+   0.3552
+  ],
+  "Panama|Iran": [
+   0.2296,
+   0.2518,
+   0.5186
+  ],
+  "Panama|Neuseeland": [
+   0.5091,
+   0.2807,
+   0.2102
+  ],
+  "Panama|Spanien": [
+   0.0586,
+   0.1295,
+   0.8119
+  ],
+  "Panama|Kap Verde": [
+   0.5599,
+   0.2663,
+   0.1738
+  ],
+  "Panama|Saudi-Arabien": [
+   0.5095,
+   0.2947,
+   0.1958
+  ],
+  "Panama|Uruguay": [
+   0.2172,
+   0.2415,
+   0.5413
+  ],
+  "Panama|Frankreich": [
+   0.0863,
+   0.1709,
+   0.7427
+  ],
+  "Panama|Senegal": [
+   0.2467,
+   0.257,
+   0.4963
+  ],
+  "Panama|Irak": [
+   0.4438,
+   0.2705,
+   0.2856
+  ],
+  "Panama|Norwegen": [
+   0.2357,
+   0.2548,
+   0.5095
+  ],
+  "Panama|Argentinien": [
+   0.051,
+   0.1267,
+   0.8222
+  ],
+  "Panama|Algerien": [
+   0.271,
+   0.2502,
+   0.4787
+  ],
+  "Panama|Österreich": [
+   0.252,
+   0.244,
+   0.504
+  ],
+  "Panama|Jordanien": [
+   0.4634,
+   0.2704,
+   0.2662
+  ],
+  "Panama|Portugal": [
+   0.1177,
+   0.1818,
+   0.7005
+  ],
+  "Panama|DR Kongo": [
+   0.4575,
+   0.2565,
+   0.286
+  ],
+  "Panama|Usbekistan": [
+   0.3539,
+   0.2814,
+   0.3647
+  ],
+  "Panama|Kolumbien": [
+   0.1009,
+   0.1743,
+   0.7248
+  ],
+  "Panama|England": [
+   0.1242,
+   0.166,
+   0.7098
+  ],
+  "Panama|Kroatien": [
+   0.2407,
+   0.2733,
+   0.4859
+  ],
+  "Panama|Ghana": [
+   0.5581,
+   0.2788,
+   0.1631
+  ]
+ },
  "source": "HistGradientBoosting ML (10 Features), Monte-Carlo 5000"
 }

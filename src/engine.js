@@ -5,6 +5,15 @@ const BASE = 1.35; // mittlere Tore pro Team bei Gleichstand
 const DIV = 900; // Elo-Spreizung auf erwartete Tore (höher = weniger extreme Kantersiege)
 const CAP = 3.3; // realistische Obergrenze für erwartete Tore eines Teams
 
+// ── ML-Modus: gesetzte Paarungstabelle treibt die GANZE Engine (Gruppen/Spiel/Durchlauf/MC) ──
+let ML = null;
+export function setMl(pairs) { ML = pairs || null; }
+export function mlActive() { return ML !== null; }
+function mlWDL(a, b) {
+  if (!ML) return null;
+  return ML[a.name + '|' + b.name] || null; // [win, draw, loss] aus Sicht a
+}
+
 export function expectedGoals(eloA, eloB) {
   const d = (eloA - eloB) / DIV;
   return [Math.min(CAP, BASE * Math.pow(10, d)), Math.min(CAP, BASE * Math.pow(10, -d))];
@@ -32,7 +41,9 @@ export function matchProbabilities(a, b) {
       if (i > j) win += p; else if (i === j) draw += p; else loss += p;
       if (p > best.p) best = { ga: i, gb: j, p };
     }
-  // Erwartetes Ergebnis = gerundete erwartete Tore (informativ; der MODUS ist bei Fußball fast immer 1:1).
+  // ML-Modus: W/U/N kommen aus dem trainierten Modell; erwartetes Ergebnis (Elo-Tore) bleibt illustrativ.
+  const ml = mlWDL(a, b);
+  if (ml) { win = ml[0]; draw = ml[1]; loss = ml[2]; }
   return { win, draw, loss, la, lb, likely: `${Math.round(la)}:${Math.round(lb)}` };
 }
 
@@ -43,10 +54,27 @@ function samplePoisson(lambda) {
   return k - 1;
 }
 
-// Ein Spiel auslosen. knockout=true → bei Remis Elfmeter (leicht Elo-gewichtet).
+// Ein Spiel auslosen. knockout=true → bei Remis Elfmeter (leicht favoriten-gewichtet).
 function simMatch(a, b, knockout) {
   const [la, lb] = expectedGoals(a.elo, b.elo);
   let ga = samplePoisson(la), gb = samplePoisson(lb);
+  const ml = mlWDL(a, b);
+  if (ml) {
+    // Ausgang aus dem ML-Modell ziehen; Tore (für GD/Anzeige) aus Elo-Erwartung an den Ausgang angepasst.
+    const [w, d] = ml;
+    const r = Math.random();
+    const outcome = r < w ? 0 : r < w + d ? 1 : 2; // 0 Heim, 1 Remis, 2 Auswärts
+    if (outcome === 0 && ga <= gb) ga = gb + 1;
+    else if (outcome === 2 && gb <= ga) gb = ga + 1;
+    else if (outcome === 1) gb = ga;
+    if (knockout && outcome === 1) {
+      const pen = w + (1 - w - d) > 0 ? w / (w + ml[2]) : 0.5; // Elfmeter nach ML-Sieg-Anteil
+      return Math.random() < pen ? { w: a, l: b, ga, gb, pens: true } : { w: b, l: a, ga, gb, pens: true };
+    }
+    if (outcome === 0) return { w: a, l: b, ga, gb };
+    if (outcome === 2) return { w: b, l: a, ga, gb };
+    return { w: null, ga, gb };
+  }
   if (knockout && ga === gb) {
     const pen = 0.5 + (a.elo - b.elo) / 4000; // kleiner Favoriten-Edge im Elfmeterschießen
     return Math.random() < pen ? { w: a, l: b, ga, gb, pens: true } : { w: b, l: a, ga, gb, pens: true };
