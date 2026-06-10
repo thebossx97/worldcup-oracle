@@ -172,9 +172,14 @@ function MatchTab() {
 // ── Gruppen ─────────────────────────────────────────────────────────
 function GroupsTab() {
   const [open, setOpen] = useState('A');
+  const [gs, setGs] = useState(null);
+  useEffect(() => {
+    fetch('./src/ml.json').then((r) => r.json()).then((d) => setGs(d.groupstats)).catch(() => {});
+  }, []);
   return html`<div>
     <p class="text-[11px] text-slate-400 mb-3 leading-snug">
-      Prognose je Gruppenspiel — Sieg/Remis/Niederlage-Wahrscheinlichkeit + erwartetes Ergebnis. Tippe eine Gruppe an.
+      Pro Gruppe: <b class="text-amber-600">Gruppensieg</b> + <b class="text-emerald-600">Weiterkommen</b> je Team,
+      dazu jedes Spiel (Sieg/Remis/Niederlage + erwartete Tore). Tippe eine Gruppe an.
     </p>
     <div class="space-y-2">
       ${GROUPS.map((g) => {
@@ -189,12 +194,25 @@ function GroupsTab() {
             <span class=${'text-slate-400 text-xs transition-transform ' + (isO ? 'rotate-180' : '')}>▾</span>
           </button>
           ${isO && html`<div class="px-3 pb-3 space-y-2.5 border-t border-slate-50 pt-2.5">
+            ${gs && html`<div class="bg-slate-50 rounded-lg px-2.5 py-2 mb-1">
+              <div class="grid grid-cols-[1fr_3rem_3rem] gap-x-2 text-[9px] font-bold uppercase tracking-wide text-slate-400 pb-1">
+                <span>Team</span><span class="text-right">Sieg</span><span class="text-right">Weiter</span>
+              </div>
+              ${[...teams].sort((x, y) => (gs[y.name]?.[1] || 0) - (gs[x.name]?.[1] || 0)).map((t) => {
+                const s = gs[t.name];
+                return html`<div class="grid grid-cols-[1fr_3rem_3rem] gap-x-2 items-center text-xs py-0.5">
+                  <span class="truncate text-slate-700">${t.flag} ${t.name}</span>
+                  <span class="text-right tabular-nums font-bold text-amber-600">${s ? pct(s[0]) : '–'}</span>
+                  <span class="text-right tabular-nums font-bold text-emerald-600">${s ? pct(s[1]) : '–'}</span>
+                </div>`;
+              })}
+            </div>`}
             ${fx.map(([a, b]) => {
               const p = matchProbabilities(a, b);
               return html`<div>
                 <div class="flex items-center justify-between text-xs mb-1">
                   <span class="font-bold text-slate-700 truncate">${a.flag} ${a.name}</span>
-                  <span class="text-slate-500 font-bold px-1 whitespace-nowrap">${p.likely}</span>
+                  <span class="text-slate-500 font-bold px-1 whitespace-nowrap" title="erwartete Tore">${p.la.toFixed(1)}:${p.lb.toFixed(1)}</span>
                   <span class="font-bold text-slate-700 truncate text-right">${b.name} ${b.flag}</span>
                 </div>
                 <div class="flex h-4 rounded overflow-hidden text-[9px] font-bold text-white">
