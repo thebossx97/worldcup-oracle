@@ -32,7 +32,8 @@ export function matchProbabilities(a, b) {
       if (i > j) win += p; else if (i === j) draw += p; else loss += p;
       if (p > best.p) best = { ga: i, gb: j, p };
     }
-  return { win, draw, loss, la, lb, likely: `${best.ga}:${best.gb}` };
+  // Erwartetes Ergebnis = gerundete erwartete Tore (informativ; der MODUS ist bei Fußball fast immer 1:1).
+  return { win, draw, loss, la, lb, likely: `${Math.round(la)}:${Math.round(lb)}` };
 }
 
 function samplePoisson(lambda) {

@@ -144,7 +144,7 @@ function MatchTab() {
 
     <div class="grid grid-cols-2 gap-2">
       <div class="bg-white rounded-xl border border-slate-100 p-4 text-center">
-        <div class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Wahrscheinlichstes Ergebnis</div>
+        <div class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Erwartetes Ergebnis</div>
         <div class="text-2xl font-extrabold text-slate-800 mt-1">${p.likely}</div>
       </div>
       <div class="bg-white rounded-xl border border-slate-100 p-4 text-center">
