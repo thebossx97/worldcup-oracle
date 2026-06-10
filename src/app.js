@@ -61,7 +61,26 @@ function TournamentTab() {
   // Dark Horse: bestes Verhältnis Titelchance zu Elo (Überperformer)
   const dark = [...rows].filter((r) => byName[r.name].elo < 1850 && r.advance > 0.4).sort((a, b) => b.semi - a.semi)[0];
 
+  // Beste Schätzung = Ensemble aus Modell + Markt — markt-gewichtet (Markt ist nachweislich kalibriert,
+  // unser Elo-Modell überkonfident). Das ist die zuverlässigste Antwort auf "wer gewinnt + wie sicher".
+  let ensRows = null, champ = null;
+  if (market) {
+    const raw = rows.map((r) => 0.3 * r.title + 0.7 * (mkTitle(r.name) ?? r.title));
+    const sum = raw.reduce((a, b) => a + b, 0) || 1;
+    ensRows = rows.map((r, i) => ({ name: r.name, ens: raw[i] / sum })).sort((a, b) => b.ens - a.ens);
+    champ = ensRows[0];
+  }
+
   return html`<div>
+    ${champ && html`<div class="bg-gradient-to-br from-slate-900 to-slate-700 text-white rounded-2xl p-5 mb-4 text-center">
+      <div class="text-[10px] font-bold uppercase tracking-widest text-emerald-300">Wahrscheinlichster Weltmeister</div>
+      <div class="text-3xl font-extrabold mt-1">${byName[champ.name].flag} ${champ.name}</div>
+      <div class="text-sm text-white/75 mt-0.5">${pct(champ.ens)} — beste Schätzung (Modell + Markt)</div>
+      <div class="flex justify-center flex-wrap gap-x-3 gap-y-1 mt-3 text-xs">
+        ${ensRows.slice(1, 5).map((r) => html`<span class="text-white/60">${byName[r.name].flag} ${r.name} ${pct(r.ens)}</span>`)}
+      </div>
+      <div class="text-[10px] text-white/40 mt-2.5">48-Team-Turnier — weit offen, kein dominanter Favorit. Markt-gewichtet (kalibriert).</div>
+    </div>`}
     <div class="grid grid-cols-2 gap-2 mb-4">
       <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-3">
         <div class="text-[10px] font-bold uppercase tracking-wider text-emerald-600">Favorit</div>
