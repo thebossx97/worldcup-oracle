@@ -129,14 +129,48 @@ function MatchTab() {
 
 // ── Gruppen ─────────────────────────────────────────────────────────
 function GroupsTab() {
-  return html`<div class="grid grid-cols-2 gap-2">
-    ${GROUPS.map((g) => html`<div class="bg-white rounded-xl border border-slate-100 p-3">
-      <div class="text-xs font-bold text-slate-400 mb-1.5">Gruppe ${g.name}</div>
-      ${[...g.teams].sort((x, y) => y.elo - x.elo).map((t) => html`<div class="flex items-center justify-between text-sm py-0.5">
-        <span class="text-slate-700"><span class="mr-1">${t.flag}</span>${t.name}</span>
-        <span class="text-[10px] text-slate-400 tabular-nums">${t.elo}</span>
-      </div>`)}
-    </div>`)}
+  const [open, setOpen] = useState('A');
+  return html`<div>
+    <p class="text-[11px] text-slate-400 mb-3 leading-snug">
+      Prognose je Gruppenspiel — Sieg/Remis/Niederlage-Wahrscheinlichkeit + erwartetes Ergebnis. Tippe eine Gruppe an.
+    </p>
+    <div class="space-y-2">
+      ${GROUPS.map((g) => {
+        const isO = open === g.name;
+        const teams = g.teams;
+        const fx = [];
+        for (let i = 0; i < teams.length; i++) for (let j = i + 1; j < teams.length; j++) fx.push([teams[i], teams[j]]);
+        return html`<div class="bg-white rounded-xl border border-slate-100 overflow-hidden">
+          <button onClick=${() => setOpen(isO ? null : g.name)} class="w-full flex items-center gap-2 p-3 text-left">
+            <span class="font-bold text-sm text-slate-700 whitespace-nowrap">Gruppe ${g.name}</span>
+            <span class="flex-1 text-sm text-slate-400 truncate text-right">${[...teams].sort((a, b) => b.elo - a.elo).map((t) => t.flag).join(' ')}</span>
+            <span class=${'text-slate-400 text-xs transition-transform ' + (isO ? 'rotate-180' : '')}>▾</span>
+          </button>
+          ${isO && html`<div class="px-3 pb-3 space-y-2.5 border-t border-slate-50 pt-2.5">
+            ${fx.map(([a, b]) => {
+              const p = matchProbabilities(a, b);
+              return html`<div>
+                <div class="flex items-center justify-between text-xs mb-1">
+                  <span class="font-bold text-slate-700 truncate">${a.flag} ${a.name}</span>
+                  <span class="text-slate-500 font-bold px-1 whitespace-nowrap">${p.likely}</span>
+                  <span class="font-bold text-slate-700 truncate text-right">${b.name} ${b.flag}</span>
+                </div>
+                <div class="flex h-4 rounded overflow-hidden text-[9px] font-bold text-white">
+                  <div class="bg-emerald-500 grid place-items-center" style=${{ width: `${p.win * 100}%` }}>${Math.round(p.win * 100)}</div>
+                  <div class="bg-slate-300 grid place-items-center text-slate-600" style=${{ width: `${p.draw * 100}%` }}>${Math.round(p.draw * 100)}</div>
+                  <div class="bg-sky-500 grid place-items-center" style=${{ width: `${p.loss * 100}%` }}>${Math.round(p.loss * 100)}</div>
+                </div>
+              </div>`;
+            })}
+          </div>`}
+        </div>`;
+      })}
+    </div>
+    <p class="text-[11px] text-slate-400 mt-4 leading-snug">
+      <b>Methodik:</b> Modell = Elo-Ratings (ergebnis-basierte Mannschaftsstärke) → erwartete Tore (Poisson) →
+      Spielausgang. Elo bildet die Teamstärke aus realen Ergebnissen ab — aber kein Modell kennt Verletzungen,
+      Aufstellung oder Tagesform. Wahrscheinlichkeiten, keine Garantie.
+    </p>
   </div>`;
 }
 
