@@ -123,7 +123,7 @@ function TournamentTab() {
       })}
     </div>
     <p class="text-[11px] text-slate-400 mt-3 leading-snug">
-      <b class="text-violet-600">ML</b> = HistGradientBoosting auf 10 Features (Elo, Form, Tor-Raten, Ruhe …),
+      <b class="text-violet-600">ML</b> = HistGradientBoosting auf 12 Features (Elo, Form, Tor-Raten, Ruhe, Spielplan-Stärke, Streak …),
       schlägt die alte Elo-Heuristik im Backtest → besser kalibriert. Treibt jetzt <i>alle</i> Prognosen
       (Turnier, Durchlauf, Einzelspiel, Gruppen). <b class="text-sky-600">Markt</b> = echte Buchmacher-Quoten
       (entviggt), die schärfste Referenz. „Wahrscheinlichster Weltmeister" oben = ML + Markt. Keine Garantie.
@@ -173,7 +173,7 @@ function MatchTab() {
         <div class="text-2xl font-extrabold text-slate-800 mt-1">${p.la.toFixed(1)} : ${p.lb.toFixed(1)}</div>
       </div>
     </div>
-    <p class="text-[11px] text-slate-400 mt-3">ML-Prognose (HistGradientBoosting). Elo ${a.elo} vs ${b.elo} ist nur eines von 10 Features. Keine Garantie.</p>
+    <p class="text-[11px] text-slate-400 mt-3">ML-Prognose (HistGradientBoosting). Elo ${a.elo} vs ${b.elo} ist nur eines von 12 Features. Keine Garantie.</p>
   </div>`;
 }
 
@@ -217,7 +217,7 @@ function GroupsTab() {
       })}
     </div>
     <p class="text-[11px] text-slate-400 mt-4 leading-snug">
-      <b>Methodik:</b> ML-Modell (HistGradientBoosting) auf 10 Features — Elo-Stärke, Form, Tor-Raten, Ruhe,
+      <b>Methodik:</b> ML-Modell (HistGradientBoosting) auf 12 Features — Elo-Stärke, Form, Tor-Raten, Ruhe, Spielplan-Stärke, Streak,
       Wettbewerb u.a. Trainiert auf 49k Länderspielen, schlägt die alte Elo-Heuristik im Backtest. Aber kein
       Modell kennt Verletzungen, Aufstellung oder Tagesform. Wahrscheinlichkeiten, keine Garantie.
     </p>
