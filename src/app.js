@@ -61,28 +61,20 @@ function TournamentTab() {
   // Dark Horse: bestes Verhältnis Titelchance zu Elo (Überperformer)
   const dark = [...rows].filter((r) => byName[r.name].elo < 1850 && r.advance > 0.4).sort((a, b) => b.semi - a.semi)[0];
 
-  // Beste Schätzung = Ensemble aus ML-Modell (Live-MC) + Markt — beide kalibriert, markt-gewichtet.
-  // Zuverlässigste Antwort auf "wer gewinnt + wie sicher".
-  let ensRows = null, champ = null;
-  if (market) {
-    const raw = rows.map((r) => {
-      const mk = mkTitle(r.name) ?? r.title;
-      return 0.45 * r.title + 0.55 * mk; // beste Schätzung = ML + Markt
-    });
-    const sum = raw.reduce((a, b) => a + b, 0) || 1;
-    ensRows = rows.map((r, i) => ({ name: r.name, ens: raw[i] / sum })).sort((a, b) => b.ens - a.ens);
-    champ = ensRows[0];
-  }
+  // "Wahrscheinlichster Weltmeister" = reines ML-Modell (kein Markt im Ensemble, Nutzer-Wunsch).
+  // rows ist bereits nach ML-Titelchance sortiert → Hero = Favorit, voll konsistent.
+  const ensRows = rows.map((r) => ({ name: r.name, ens: r.title }));
+  const champ = ensRows[0];
 
   return html`<div>
     ${champ && html`<div class="bg-gradient-to-br from-slate-900 to-slate-700 text-white rounded-2xl p-5 mb-4 text-center">
       <div class="text-[10px] font-bold uppercase tracking-widest text-emerald-300">Wahrscheinlichster Weltmeister</div>
       <div class="text-3xl font-extrabold mt-1">${byName[champ.name].flag} ${champ.name}</div>
-      <div class="text-sm text-white/75 mt-0.5">${pct(champ.ens)} — beste Schätzung (ML + Markt)</div>
+      <div class="text-sm text-white/75 mt-0.5">${pct(champ.ens)} Titelchance — reines ML-Modell</div>
       <div class="flex justify-center flex-wrap gap-x-3 gap-y-1 mt-3 text-xs">
         ${ensRows.slice(1, 5).map((r) => html`<span class="text-white/60">${byName[r.name].flag} ${r.name} ${pct(r.ens)}</span>`)}
       </div>
-      <div class="text-[10px] text-white/40 mt-2.5">48-Team-Turnier — weit offen, kein dominanter Favorit. Markt-gewichtet (kalibriert).</div>
+      <div class="text-[10px] text-white/40 mt-2.5">48-Team-Turnier — weit offen, kein dominanter Favorit. ML-Modell (Markt nur als Vergleich rechts).</div>
     </div>`}
     <div class="grid grid-cols-2 gap-2 mb-4">
       <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-3">
@@ -126,7 +118,7 @@ function TournamentTab() {
       <b class="text-violet-600">ML</b> = HistGradientBoosting auf 12 Features (Elo, Form, Tor-Raten, Ruhe, Spielplan-Stärke, Streak …),
       schlägt die alte Elo-Heuristik im Backtest → besser kalibriert. Treibt jetzt <i>alle</i> Prognosen
       (Turnier, Durchlauf, Einzelspiel, Gruppen). <b class="text-sky-600">Markt</b> = echte Buchmacher-Quoten
-      (entviggt), die schärfste Referenz. „Wahrscheinlichster Weltmeister" oben = ML + Markt. Keine Garantie.
+      (entviggt), nur als <i>Vergleich</i>. „Wahrscheinlichster Weltmeister" oben = reines ML-Modell. Keine Garantie.
     </p>
   </div>`;
 }
