@@ -43,10 +43,13 @@ function TournamentTab() {
   useEffect(() => { run(); }, []);
 
   const [market, setMarket] = useState(null);
+  const [ml, setMl] = useState(null);
   useEffect(() => {
     fetch('./src/market.json').then((r) => r.json()).then(setMarket).catch(() => {});
+    fetch('./src/ml.json').then((r) => r.json()).then(setMl).catch(() => {});
   }, []);
   const mkTitle = (name) => market?.title?.[EN[name]];
+  const mlTitle = (name) => ml?.title?.[name];
 
   if (state.kind !== 'done')
     return html`<div class="text-center py-20">
@@ -65,7 +68,11 @@ function TournamentTab() {
   // unser Elo-Modell überkonfident). Das ist die zuverlässigste Antwort auf "wer gewinnt + wie sicher".
   let ensRows = null, champ = null;
   if (market) {
-    const raw = rows.map((r) => 0.3 * r.title + 0.7 * (mkTitle(r.name) ?? r.title));
+    const raw = rows.map((r) => {
+      const model = mlTitle(r.name) ?? r.title; // ML-Modell wenn geladen, sonst Elo-MC
+      const mk = mkTitle(r.name) ?? model;
+      return 0.45 * model + 0.55 * mk; // beste Schätzung = ML + Markt (beide kalibriert)
+    });
     const sum = raw.reduce((a, b) => a + b, 0) || 1;
     ensRows = rows.map((r, i) => ({ name: r.name, ens: raw[i] / sum })).sort((a, b) => b.ens - a.ens);
     champ = ensRows[0];
@@ -95,8 +102,8 @@ function TournamentTab() {
     </div>
 
     <div class="flex items-center justify-between mb-2">
-      <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Titelchancen · <span class="text-slate-600">Modell</span> vs <span class="text-sky-600">Markt</span></div>
-      <button onClick=${run} class="text-xs font-bold text-emerald-600 hover:underline">↻ neu simulieren</button>
+      <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Titel · <span class="text-slate-500">Elo</span> · <span class="text-violet-600">ML</span> · <span class="text-sky-600">Markt</span></div>
+      <button onClick=${run} class="text-xs font-bold text-emerald-600 hover:underline">↻</button>
     </div>
     <div class="bg-white rounded-2xl border border-slate-100 divide-y divide-slate-100">
       ${rows.slice(0, 20).map((r, i) => {
@@ -108,11 +115,15 @@ function TournamentTab() {
             <span class="font-bold text-sm text-slate-800 truncate">${r.name}</span>
             <${Bar} value=${r.title} color="#10b981" />
           </span>
-          <span class="text-right w-11">
-            <span class="block font-extrabold text-sm tabular-nums text-slate-800">${pct(r.title)}</span>
-            <span class="block text-[9px] text-slate-400 uppercase tracking-wide">Modell</span>
+          <span class="text-right w-10">
+            <span class="block font-bold text-sm tabular-nums text-slate-500">${pct(r.title)}</span>
+            <span class="block text-[9px] text-slate-400 uppercase tracking-wide">Elo</span>
           </span>
-          ${market && html`<span class="text-right w-11">
+          ${ml && html`<span class="text-right w-10">
+            <span class="block font-extrabold text-sm tabular-nums text-violet-600">${mlTitle(r.name) != null ? pct(mlTitle(r.name)) : '–'}</span>
+            <span class="block text-[9px] text-slate-400 uppercase tracking-wide">ML</span>
+          </span>`}
+          ${market && html`<span class="text-right w-10">
             <span class="block font-bold text-sm tabular-nums text-sky-600">${mkTitle(r.name) != null ? pct(mkTitle(r.name)) : '–'}</span>
             <span class="block text-[9px] text-slate-400 uppercase tracking-wide">Markt</span>
           </span>`}
@@ -120,11 +131,10 @@ function TournamentTab() {
       })}
     </div>
     <p class="text-[11px] text-slate-400 mt-3 leading-snug">
-      <b class="text-slate-600">Modell</b> = ${N_SIMS.toLocaleString('de-DE')} Monte-Carlo-Sims (Elo→Poisson).
-      <b class="text-sky-600">Markt</b> = echte Buchmacher-Quoten (the-odds-api, entviggt) — die kalibrierte
-      Referenz. Wo das Modell deutlich höher liegt (z.B. Spanien/Argentinien), ist es <i>überkonfident</i>:
-      der Markt verteilt breiter, weil im 48-Team-K.o. selbst der Favorit weit von sicher ist. Wahrscheinlichkeiten,
-      keine Garantie.
+      <b class="text-slate-500">Elo</b> = Heuristik (überkonfident). <b class="text-violet-600">ML</b> =
+      HistGradientBoosting auf 10 Features (Elo, Form, Tor-Raten, Ruhe …), schlägt Elo im Backtest →
+      besser kalibriert. <b class="text-sky-600">Markt</b> = echte Buchmacher-Quoten (entviggt), die schärfste
+      Referenz. „Wahrscheinlichster Weltmeister" oben = beste Schätzung (ML + Markt). Keine Garantie.
     </p>
   </div>`;
 }
@@ -277,7 +287,7 @@ function App() {
       <div class="max-w-2xl mx-auto px-5 py-4 flex items-center gap-2.5">
         <div class="w-7 h-7 rounded-lg bg-emerald-400 text-slate-900 grid place-items-center font-black">O</div>
         <div class="font-bold tracking-tight">WorldCup Oracle</div>
-        <span class="text-xs text-slate-400 ml-1">WM 2026 · Elo-Prognose</span>
+        <span class="text-xs text-slate-400 ml-1">WM 2026 · ML-Prognose</span>
       </div>
     </header>
     <main class="max-w-2xl mx-auto px-5 py-6">
