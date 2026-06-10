@@ -7,11 +7,15 @@ const CAP = 3.3; // realistische Obergrenze für erwartete Tore eines Teams
 
 // ── ML-Modus: gesetzte Paarungstabelle treibt die GANZE Engine (Gruppen/Spiel/Durchlauf/MC) ──
 let ML = null;
-export function setMl(pairs) { ML = pairs || null; }
+export function setMl(data) { ML = data || null; } // { pairs, goals }
 export function mlActive() { return ML !== null; }
 function mlWDL(a, b) {
-  if (!ML) return null;
-  return ML[a.name + '|' + b.name] || null; // [win, draw, loss] aus Sicht a
+  if (!ML || !ML.pairs) return null;
+  return ML.pairs[a.name + '|' + b.name] || null; // [win, draw, loss] aus Sicht a
+}
+function mlGoals(a, b) {
+  if (!ML || !ML.goals) return null;
+  return ML.goals[a.name + '|' + b.name] || null; // [erwartete Tore a, erwartete Tore b]
 }
 
 export function expectedGoals(eloA, eloB) {
@@ -27,7 +31,9 @@ function poissonPMF(lambda, k) {
 
 // Analytische W/D/L-Wahrscheinlichkeiten + wahrscheinlichstes Ergebnis (für Einzelspiel-Prognose).
 export function matchProbabilities(a, b) {
-  const [la, lb] = expectedGoals(a.elo, b.elo);
+  let [la, lb] = expectedGoals(a.elo, b.elo);
+  const mg = mlGoals(a, b);
+  if (mg) { la = mg[0]; lb = mg[1]; } // ML-Tor-Regressoren statt Elo-Schätzer
   const MAX = 9;
   const pa = [], pb = [];
   for (let k = 0; k < MAX; k++) {
@@ -56,11 +62,12 @@ function samplePoisson(lambda) {
 
 // Ein Spiel auslosen. knockout=true → bei Remis Elfmeter (leicht favoriten-gewichtet).
 function simMatch(a, b, knockout) {
-  const [la, lb] = expectedGoals(a.elo, b.elo);
+  const mg = mlGoals(a, b);
+  const [la, lb] = mg ? mg : expectedGoals(a.elo, b.elo); // ML-Tore wenn da, sonst Elo
   let ga = samplePoisson(la), gb = samplePoisson(lb);
   const ml = mlWDL(a, b);
   if (ml) {
-    // Ausgang aus dem ML-Modell ziehen; Tore (für GD/Anzeige) aus Elo-Erwartung an den Ausgang angepasst.
+    // Ausgang aus dem ML-Modell ziehen; Tore aus ML-Tor-Erwartung an den Ausgang angepasst.
     const [w, d] = ml;
     const r = Math.random();
     const outcome = r < w ? 0 : r < w + d ? 1 : 2; // 0 Heim, 1 Remis, 2 Auswärts

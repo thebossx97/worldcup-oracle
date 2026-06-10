@@ -277,7 +277,7 @@ function App() {
   // ML-Paarungstabelle zuerst laden → in die Engine setzen → DANN erst Tabs rendern (alle Sims laufen auf ML).
   useEffect(() => {
     fetch('./src/ml.json').then((r) => r.json())
-      .then((d) => { setMl(d.pairs); setReady(true); })
+      .then((d) => { setMl(d); setReady(true); }) // ganzes ML-Objekt (pairs + goals) in die Engine
       .catch(() => setReady(true)); // Fallback: Engine läuft auf Elo, falls ML nicht lädt
   }, []);
   const tabs = [['tournament', '🏆 Turnier'], ['play', '🎬 Durchlauf'], ['match', '⚔️ Spiel'], ['groups', '📋 Gruppen']];
