@@ -2,7 +2,7 @@ import { h, render } from 'https://esm.sh/preact@10.23.2';
 import { useState, useMemo, useEffect } from 'https://esm.sh/preact@10.23.2/hooks';
 import htm from 'https://esm.sh/htm@3.1.1';
 import { TEAMS, GROUPS } from './data.js';
-import { matchProbabilities, runMonteCarlo } from './engine.js';
+import { matchProbabilities, runMonteCarlo, playFullTournament } from './engine.js';
 
 const html = htm.bind(h);
 const pct = (x) => (x >= 0.1 ? Math.round(x * 100) : (x * 100).toFixed(1)) + '%';
@@ -140,9 +140,56 @@ function GroupsTab() {
   </div>`;
 }
 
+// ── Turnier-Durchlauf (ein konkreter Verlauf, alle Spiele in Reihenfolge) ──
+function PlaythroughTab() {
+  const [r, setR] = useState(null);
+  const roll = () => setR(playFullTournament());
+  useEffect(() => { roll(); }, []);
+  if (!r) return html`<div class="py-10 text-center text-slate-400">…</div>`;
+  const champ = byName[r.champion.name];
+  const Score = ({ m, ko }) => {
+    const winA = ko ? m.w === m.a : m.ga > m.gb;
+    const winB = ko ? m.w === m.b : m.gb > m.ga;
+    return html`<div class="flex items-center gap-2 text-sm py-1">
+      <span class=${'flex-1 text-right truncate ' + (winA ? 'font-bold text-slate-800' : 'text-slate-500')}>${m.a.name} ${m.a.flag}</span>
+      <span class="font-extrabold tabular-nums text-slate-800 px-1 whitespace-nowrap">${m.ga}:${m.gb}${m.pens ? ' i.E.' : ''}</span>
+      <span class=${'flex-1 truncate ' + (winB ? 'font-bold text-slate-800' : 'text-slate-500')}>${m.b.flag} ${m.b.name}</span>
+    </div>`;
+  };
+  return html`<div>
+    <div class="bg-gradient-to-br from-emerald-500 to-emerald-700 text-white rounded-2xl p-5 mb-2 text-center">
+      <div class="text-xs font-bold uppercase tracking-widest text-white/70">Simulierter Weltmeister</div>
+      <div class="text-3xl font-extrabold mt-1">${champ.flag} ${r.champion.name}</div>
+      <button onClick=${roll} class="mt-3 bg-white/20 hover:bg-white/30 rounded-lg px-4 py-1.5 text-sm font-bold">↻ neu auslosen</button>
+    </div>
+    <p class="text-[11px] text-slate-400 mb-4 leading-snug">
+      Eine <b>mögliche</b> Simulation (zufällig nach den Wahrscheinlichkeiten) — nicht „die" Vorhersage.
+      Die belastbare Prognose sind die Titelchancen im Turnier-Tab.
+    </p>
+
+    <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">K.o.-Phase</div>
+    ${r.knockout.map((rd) => html`<div class="bg-white rounded-xl border border-slate-100 p-3 mb-2">
+      <div class="text-[11px] font-bold text-emerald-600 mb-1">${rd.round}</div>
+      ${rd.matches.map((m) => html`<${Score} m=${m} ko=${true} />`)}
+    </div>`)}
+
+    <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2 mt-4">Gruppen-Endstände</div>
+    <div class="grid grid-cols-2 gap-2">
+      ${r.groups.map((g) => html`<div class="bg-white rounded-xl border border-slate-100 p-2.5">
+        <div class="text-[11px] font-bold text-slate-400 mb-1">Gruppe ${g.name}</div>
+        ${g.table.map((row, i) => html`<div class=${'flex items-center justify-between text-xs py-0.5 ' + (i < 2 ? 'font-bold text-slate-800' : i === 2 ? 'text-slate-600' : 'text-slate-400')}>
+          <span class="truncate min-w-0"><span class="text-slate-300 mr-1">${i + 1}</span>${row.t.flag} ${row.t.name}</span>
+          <span class="tabular-nums ml-1">${row.P}</span>
+        </div>`)}
+      </div>`)}
+    </div>
+    <p class="text-[11px] text-slate-400 mt-2">Top 2 (fett) + 8 beste Dritte ziehen in die Runde der 32 ein.</p>
+  </div>`;
+}
+
 function App() {
   const [tab, setTab] = useState('tournament');
-  const tabs = [['tournament', '🏆 Turnier'], ['match', '⚔️ Einzelspiel'], ['groups', '📋 Gruppen']];
+  const tabs = [['tournament', '🏆 Turnier'], ['play', '🎬 Durchlauf'], ['match', '⚔️ Spiel'], ['groups', '📋 Gruppen']];
   return html`<div class="min-h-screen bg-slate-50 text-slate-900 pb-20">
     <header class="bg-slate-900 text-white">
       <div class="max-w-2xl mx-auto px-5 py-4 flex items-center gap-2.5">
@@ -153,11 +200,12 @@ function App() {
     </header>
     <main class="max-w-2xl mx-auto px-5 py-6">
       ${tab === 'tournament' && html`<${TournamentTab} />`}
+      ${tab === 'play' && html`<${PlaythroughTab} />`}
       ${tab === 'match' && html`<${MatchTab} />`}
       ${tab === 'groups' && html`<${GroupsTab} />`}
     </main>
     <nav class="fixed bottom-0 inset-x-0 bg-white border-t border-slate-200">
-      <div class="max-w-2xl mx-auto grid grid-cols-3">
+      <div class="max-w-2xl mx-auto grid grid-cols-4">
         ${tabs.map(([id, l]) => html`<button onClick=${() => setTab(id)}
           class=${'py-3 text-sm font-bold ' + (tab === id ? 'text-slate-900 border-t-2 border-emerald-400 -mt-px' : 'text-slate-400')}>${l}</button>`)}
       </div>

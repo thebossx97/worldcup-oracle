@@ -2,11 +2,12 @@
 import { GROUPS, groupFixtures } from './data.js';
 
 const BASE = 1.35; // mittlere Tore pro Team bei Gleichstand
-const DIV = 750; // Elo-Spreizung auf erwartete Tore
+const DIV = 900; // Elo-Spreizung auf erwartete Tore (höher = weniger extreme Kantersiege)
+const CAP = 3.3; // realistische Obergrenze für erwartete Tore eines Teams
 
 export function expectedGoals(eloA, eloB) {
   const d = (eloA - eloB) / DIV;
-  return [BASE * Math.pow(10, d), BASE * Math.pow(10, -d)];
+  return [Math.min(CAP, BASE * Math.pow(10, d)), Math.min(CAP, BASE * Math.pow(10, -d))];
 }
 
 function poissonPMF(lambda, k) {
@@ -112,6 +113,53 @@ export function simulateTournament() {
   const seeds = qualifiers.map((q) => q.t);
   const { champion, reached } = knockout(seeds);
   return { champion, reached, groupWinners, qualifiers: seeds };
+}
+
+// Ein KONKRETER Turnier-Durchlauf in echter Reihenfolge — alle Spiele mit Ergebnis.
+const MD = [[0, 1], [2, 3], [0, 2], [1, 3], [0, 3], [1, 2]]; // Spieltag-Reihenfolge 4er-Gruppe
+
+export function playFullTournament() {
+  const groupResults = [];
+  const firsts = [], seconds = [], thirds = [];
+  for (const g of GROUPS) {
+    const teams = g.teams;
+    const tab = teams.map((t) => ({ t, P: 0, GF: 0, GA: 0 }));
+    const idx = (t) => tab.find((x) => x.t === t);
+    const matches = [];
+    for (const [i, j] of MD) {
+      const a = teams[i], b = teams[j];
+      const r = simMatch(a, b, false);
+      matches.push({ a, b, ga: r.ga, gb: r.gb });
+      idx(a).GF += r.ga; idx(a).GA += r.gb; idx(b).GF += r.gb; idx(b).GA += r.ga;
+      if (r.w === a) idx(a).P += 3; else if (r.w === b) idx(b).P += 3; else { idx(a).P++; idx(b).P++; }
+    }
+    tab.forEach((x) => (x.GD = x.GF - x.GA));
+    tab.sort((x, y) => y.P - x.P || y.GD - x.GD || y.GF - x.GF || y.t.elo - x.t.elo);
+    groupResults.push({ name: g.name, matches, table: tab });
+    firsts.push({ ...tab[0], rankTier: 0 });
+    seconds.push({ ...tab[1], rankTier: 1 });
+    thirds.push({ ...tab[2], rankTier: 2 });
+  }
+  thirds.sort((x, y) => y.P - x.P || y.GD - x.GD || y.GF - x.GF || y.t.elo - x.t.elo);
+  const bestThirds = thirds.slice(0, 8);
+  const qual = [...firsts, ...seconds, ...bestThirds].sort(
+    (x, y) => x.rankTier - y.rankTier || y.P - x.P || y.GD - x.GD || y.t.elo - x.t.elo,
+  );
+  let round = SEED_ORDER.map((s) => qual[s - 1].t);
+  const rounds = [];
+  const labels = ['Runde der 32', 'Achtelfinale', 'Viertelfinale', 'Halbfinale', 'Finale'];
+  let li = 0;
+  while (round.length > 1) {
+    const matches = [], next = [];
+    for (let i = 0; i < round.length; i += 2) {
+      const r = simMatch(round[i], round[i + 1], true);
+      matches.push({ a: round[i], b: round[i + 1], ga: r.ga, gb: r.gb, pens: r.pens, w: r.w });
+      next.push(r.w);
+    }
+    rounds.push({ round: labels[li] || 'Runde', matches });
+    round = next; li++;
+  }
+  return { groups: groupResults, knockout: rounds, champion: round[0], bestThirds: bestThirds.map((x) => x.t.name) };
 }
 
 // Monte-Carlo: N Turniere → Aggregat je Team.
